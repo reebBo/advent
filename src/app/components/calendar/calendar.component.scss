@@ -1,0 +1,39 @@
+#card {
+    /* The image used */
+    background-image: url("../../../assets/images/vecteezy.jpg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 0.2em;
+}
+
+.col-12 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+#day {
+    font-family: "Puppies Play", cursive;
+    text-align: center;
+    color: rgb(28, 102, 73);
+    opacity: 0.9;
+    box-shadow: 1px 3px 11px rgba(153, 38, 38, 0.7);
+    background: #fff;
+    width: 100%;
+    border: white solid 1px;
+    border-radius: 50%;
+    margin: 0.3em 0.2em;
+
+    cursor: pointer;
+}
+.text {
+    font: size 1em !important;
+}
+.number {
+    font-size: 3.3em !important;
+    line-height: 0.4em;
+}
+// style=" opacity: 0.7;   "
