@@ -1,54 +1,60 @@
-<div class="row">
-    <div class="col-12 col-sm-12 p-4">
-        <img id="parent" class="img-fluid img-thumbnail" src="../../../assets/images/handsToClick.jpeg" alt="candles">
+<div class="row" *ngFor="let element of content">
+    <span *ngIf="comingId==element.day">
+        ID: {{comingId}}
 
-        <!-- story button -->
-        <div id="first" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
-            aria-controls="collapseBasic" (click)="getStory(content)">
-        </div>
+        <div class="col-12 col-sm-12 p-4">
+            <img id="parent" class="img-fluid img-thumbnail" src="../../../assets/images/handsToClick.jpeg"
+                alt="candles">
 
-        <!-- else button -->
-        <div id="second" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
-            aria-controls="collapseBasic" (click)="getSomethingElse(content)">
-        </div>
+            <!-- story button -->
+            <div id="first" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+                aria-controls="collapseBasic" (click)="getStory(content)">
+                <!-- CONTENT ON CLICK -->
+                <ng-template #content>
+                    <div class="wrapper">
+                        <div class="modal-header">
+                            <h6 class="modal-title pull-left"></h6>
+                            <button type="button" class="btn-close close pull-right" aria-label="Close"
+                                (click)="modalRef?.hide()">
+                                <span aria-hidden="true" class="visually-hidden">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <span id="myDiv">
 
-        <!-- craft button -->
-        <div id="third" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
-        aria-controls="collapseBasic" (click)="getActivity(content)">
-        </div>
-
-        <!--song button -->
-        <div id="fourth" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
-        aria-controls="collapseBasic" (click)="getMusic(content)">
-        </div>
-
-        <!-- collapse -->
-        <!-- <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
-            <div class="well well-lg card card-block card-header">
-                We love music
+                            </span>
+                            <audio controls>
+                                <!-- <source src="assets/stories/episode1.mp3" type="audio/mpeg"> -->
+                                <source src="{{element.story}}" type="audio/mpeg">
+                            </audio>
+                            <div class="well well-lg card card-block card-header">
+                                We love stories. The good ones.
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
             </div>
-        </div> -->
 
-        <!-- CONTENT ON CLICK -->
-        <ng-template #content>
-            <div class="modal-header">
-                <h6 class="modal-title pull-left"></h6>
-                <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
-                    <span aria-hidden="true" class="visually-hidden">&times;</span>
-                </button>
+            <!-- else button -->
+            <div id="second" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+                aria-controls="collapseBasic" (click)="getSomethingElse(content)">
             </div>
-            <div class="modal-body">
-                <audio controls>
-                    <source src="assets/stories/tobymac.mp3" type="audio/mpeg">
-                </audio>
-                <div class="well well-lg card card-block card-header">
-                    We love stories. The good ones.
-                </div>
+
+            <!-- craft button -->
+            <div id="third" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+                aria-controls="collapseBasic" (click)="getActivity(content)">
             </div>
-        </ng-template>
-    </div>
-    <!-- END CONTENT ON CLICK -->
+
+            <!--song button -->
+            <div id="fourth" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+                aria-controls="collapseBasic" (click)="getMusic(content)">
+            </div>
 
 
+
+        </div>
+        <!-- END CONTENT ON CLICK -->
+
+    </span>
 
 </div>

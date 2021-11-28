@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { SharedService } from 'src/app/services/shared.service';
 
 @Component({
   selector: 'app-calendar',
@@ -8,14 +9,15 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class CalendarComponent implements OnInit {
 
-  constructor(  private route: ActivatedRoute,
-    private router: Router,) { }
+  constructor(private router: Router, private sharedS:SharedService) { }
 
   ngOnInit(): void { 
   }
 
-  goToContent(){
+  goToContent(id: any){
+    this.sharedS.updateId(id);
     this.router.navigateByUrl('/day'); 
+    // this.router.navigate(['app-day', '0001']);
   }
 
 

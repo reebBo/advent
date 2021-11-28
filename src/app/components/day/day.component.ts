@@ -1,5 +1,7 @@
-import { Component, OnInit, TemplateRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { SharedService } from 'src/app/services/shared.service';
 
 @Component({
   selector: 'app-day',
@@ -7,6 +9,8 @@ import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
   styleUrls: ['./day.component.scss'],
 })
 export class DayComponent implements OnInit {
+  comingId: string = '';
+
   //different content in modal on clicking different buttons
   isStory: boolean = false;
   isMusic: boolean = false;
@@ -15,60 +19,93 @@ export class DayComponent implements OnInit {
 
   isCollapsed = true;
   modalRef?: BsModalRef;
-  constructor(private modalService: BsModalService) {}
 
-  ngOnInit(): void {}
+  constructor(
+    private modalService: BsModalService,
+    private route: ActivatedRoute,
+    private sharedService: SharedService
+  ) {}
 
-  myModal = document.getElementById('template');  
-
-  getStory(template: TemplateRef<any>) {
-    // alert('story');
-    // this.isStory= false;
-    // this.isMusic= false;
-    // this.isCraft = false;
-    // this.isNext = false;
-    // console.log('this.isStory');
-
-
-    this.modalRef = this.modalService.show(template); 
+  ngOnInit(): void {
+    this.sharedService.currentId.subscribe((data) => {
+      this.comingId = data;
+    });
   }
-  getSomethingElse(template: TemplateRef<any>) {
-    // alert('SomethingElse');
-    // this.isStory= false;
-    // this.isMusic= false;
-    // this.isCraft = false;
-    // this.isNext = true;
+
+  myModal = document.getElementById('template');
+
+  getStory(template: TemplateRef<any>) { 
+    this.modalRef = this.modalService.show(template);
+    // if(this.comingId ===)
+
+    
+  }
+  getSomethingElse(template: TemplateRef<any>) { 
     alert(this.isNext);
 
-    this.modalRef = this.modalService.show(template); 
+    this.modalRef = this.modalService.show(template);
   }
-  getActivity(template: TemplateRef<any>) {
-    // alert('Activity');
-    // this.isStory= false;
-    // this.isMusic= false;
-    // this.isCraft = true;
-    // this.isNext = false;
-    // alert('this.isCraft');
-
-    this.modalRef = this.modalService.show(template); 
-
+  getActivity(template: TemplateRef<any>) { 
+    this.modalRef = this.modalService.show(template);
   }
-  getMusic(template: TemplateRef<any>) {
-    // alert('Music');
-    // this.isStory= false;
-    // this.isMusic= true;
-    // this.isCraft = false;
-    // this.isNext = false;
-    // alert(this.isMusic);
-
-    this.modalRef = this.modalService.show(template); 
-
+  getMusic(template: TemplateRef<any>) { 
+    this.modalRef = this.modalService.show(template);
   }
 
-  content =[
-    { id: 'story', title:'Cele patru lumanari ~ O poveste de advent', contentAudio: '../../../assets/stories/episode1.mp3', transcript:'' },
-    { id: 'song', title:'SONG', contentAudio: '../../../assets/images/vecteezy.jpg', transcript:'../../../assets/images/vecteezy.jpg' },
-    { id: 'craft', title:'CRAFT', contentAudio: '../../../assets/images/vecteezy.jpg', transcript:'../../../assets/images/vecteezy.jpg' },
-    { id: 'next', title:'SMTH ELSE', contentAudio: '../../../assets/images/vecteezy.jpg', transcript:'../../../assets/images/vecteezy.jpg' }
+  details=[
+    { title: 'Cele patru lumanari ~ O poveste de advent'},
+    {musicForCraft:''},
   ]
+  content = [
+  {
+      day:'1',
+      story:'../../../assets/stories/episode1.mp3',
+      transcriptStory: '',
+      song:'',
+      transcriptSong: '',
+      craft:'',
+      descriptionCraft:'',
+      motherCorner:'pathToaPicture'
+    },
+    {
+      day:'2',
+      story:'../../../assets/stories/ShmaIsrael.mp3', 
+      transcriptStory: '',
+      song:'',
+      transcriptSong: '',
+      craft:'',
+      descriptionCraft:'',
+      motherCorner:'pathToaPicture'
+    },
+    {
+      day:'3',
+      story:'../../../assets/stories/Moonlight.mp3',
+      transcriptStory: '',
+      song:'',
+      transcriptSong: '',
+      craft:'',
+      descriptionCraft:'',
+      motherCorner:'pathToaPicture'
+    },
+    {
+      day:'4',
+      story:'../../../assets/stories/NonJeNeRegretteRien.mp3',
+      transcriptStory: '',
+      song:'',
+      transcriptSong: '',
+      craft:'',
+      descriptionCraft:'',
+      motherCorner:'pathToaPicture'
+    },
+    {
+      day:'5',
+      story:'../../../assets/stories/tobymac.mp3',
+      transcriptStory: '',
+      song:'',
+      transcriptSong: '',
+      craft:'',
+      descriptionCraft:'',
+      motherCorner:'pathToaPicture'
+    }
+  ];
 }
