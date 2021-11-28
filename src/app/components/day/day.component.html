@@ -1,97 +1,54 @@
 <div class="row">
     <div class="col-12 col-sm-12 p-4">
-        <img id="parent" class="img-fluid img-thumbnail" src="../../../assets/images/candles.jpg" alt="candles">
-        <div id="story">
+        <img id="parent" class="img-fluid img-thumbnail" src="../../../assets/images/handsToClick.jpeg" alt="candles">
+
+        <!-- story button -->
+        <div id="first" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+            aria-controls="collapseBasic" (click)="getStory(content)">
         </div>
-        <div id="song">
+
+        <!-- else button -->
+        <div id="second" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+            aria-controls="collapseBasic" (click)="getSomethingElse(content)">
         </div>
-        <div id="activity">
+
+        <!-- craft button -->
+        <div id="third" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+        aria-controls="collapseBasic" (click)="getActivity(content)">
         </div>
+
+        <!--song button -->
+        <div id="fourth" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"
+        aria-controls="collapseBasic" (click)="getMusic(content)">
+        </div>
+
+        <!-- collapse -->
+        <!-- <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
+            <div class="well well-lg card card-block card-header">
+                We love music
+            </div>
+        </div> -->
+
+        <!-- CONTENT ON CLICK -->
+        <ng-template #content>
+            <div class="modal-header">
+                <h6 class="modal-title pull-left"></h6>
+                <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
+                    <span aria-hidden="true" class="visually-hidden">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <audio controls>
+                    <source src="assets/stories/tobymac.mp3" type="audio/mpeg">
+                </audio>
+                <div class="well well-lg card card-block card-header">
+                    We love stories. The good ones.
+                </div>
+            </div>
+        </ng-template>
     </div>
+    <!-- END CONTENT ON CLICK -->
+
+
+
 </div>
-
-
-<style>
-    #story, #song, #activity {
-        width: 30px;
-        height: 30px;
-        border-radius: 180px;
-        position: relative;
-        left: calc(50% - 75px);
-        top: calc(50% - 25px);
-        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-        cursor: pointer;
-        line-height: 12px;
-    }
-
-    #story:before, #song:before,#activity:before {
-        content: '';
-        z-index: 1;
-        position: absolute;
-        display: block;
-        width: 80%;
-        height: 70%;
-        top: 15%;
-        left: 10%;
-        transition: 0.3s opacity ease-in-out;
-        filter: blur(15px);
-        opacity: 0;
-        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    }
-
-    #story:hover:before,#song:hover:before,#activity:hover:before {
-        opacity: 1;
-        transition: 0.3s opacity ease-in-out;
-        filter: blur(25px);
-        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    }
-
-    #story:after,#song:after, #activity:after {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 400;
-        content: "\f0a6";
-        text-align: center;
-        line-height: 30px;
-        font-size: 18px;
-        color: rgba(235, 235, 235, 1);
-        font-weight: bold;
-        z-index: 5;
-        position: absolute;
-        display: block;
-        border-radius: 180px;
-        width: 62%;
-        height: 50%;
-        top: 1%;
-        left: 16%;
-    }
-
-
-
-
-    #parent {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-
-    #story {
-        position: absolute;
-        top: 140px;
-        left: 105px;
-        border: 2px rgb(187, 157, 157) solid;
-    }
-
-    #song {
-        position: absolute;
-        top: 130px;
-        left: 155px;
-        border: 2px rgb(187, 157, 157) solid;
-    }
-
-    #activity {
-        position: absolute;
-        top: 140px;
-        left: 210px;
-        border: 2px rgb(187, 157, 157) solid;
-    }
-</style>

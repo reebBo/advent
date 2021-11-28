@@ -16,7 +16,6 @@ export class CalendarComponent implements OnInit {
 
   goToContent(){
     this.router.navigateByUrl('/day'); 
-    alert('ásasas')
   }
 
 
