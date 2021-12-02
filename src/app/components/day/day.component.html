@@ -1,3 +1,9 @@
+<div class="row px-4 text-light">
+    <p>În așteptarea Crăciunului, te invit în fiecare zi aici să ascultăm împreună istorioare cu semnificație, să
+        confecționăm lucruri frumoase, să cântăm și să petrecem un timp minunat cu cei dragi.</p>
+    <p>Descoperă mai jos POVESTEA, CÂNTECELUL și secțiunea de CRAFT pregătite special pentru tine. Iar pentru mămici,
+        zilnic va fi un gând nou și încurajator, ca o îmbrățișare caldă.</p>
+</div>
 <div class="row day" *ngFor="let element of content">
     <span *ngIf="comingId==element.day">
         <!-- ID: {{comingId}} -->
@@ -10,18 +16,14 @@
                 aria-controls="collapseBasic" (click)="getStory(storycontent)">
                 <ng-template #storycontent>
                     <div class="wrapper">
-                        <!-- <div class="modal-header">
-                            <h6 class="modal-title pull-left"></h6>
-                            <button type="button" class="btn-close close pull-right" aria-label="Close"
-                                (click)="modalRef?.hide()">
-                                <span aria-hidden="true" class="visually-hidden">&times;</span>
-                            </button>
-                        </div> -->
                         <div class="modal-body">
-                            <audio controls class="w-100">
+                            <!-- unless it is one of the listed dates, audio tag won't be displayed -->
+                            <audio
+                                *ngIf="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'"
+                                controls class="w-100">
                                 <source src="{{element.story}}" type="audio/mpeg">
                             </audio>
-                            <div class="modal-dialog modal-lg card-block  w-100">
+                            <div class="storyText modal-dialog modal-lg card-block  w-100">
                                 {{transcriptStory}}
                             </div>
                         </div>
@@ -36,19 +38,12 @@
                 <ng-template #elsecontent>
                     <div class="wrapper">
                         <div class="modal-body">
-                            <!-- <audio controls class="w-100">
-                                <source src="{{element.story}}" type="audio/mpeg">
-                            </audio> -->
-                            <iframe class="w-100"
-                                src="https://www.youtube.com/embed/1eukZVnIpUY?list=PLZzxnKWeBqU0LnWVIp-ptLp23IwFsX-DG"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                            <div class="modal-dialog modal-lg card-block  w-100">
-                                <!-- {{transcriptSong}} -->
-       Dragi copii veniti toti <br> La Isus, fetite si baieti, veniti <br>Pruncul nou nascut <br> Sa ne inchinam smerit <br>R: Aleluia din clopotei <br> Aleluia cu ingerii <br> Aleluia, colinzi pe drum, <br> Iar e Craciun <br> Noapte e, si-n iesle <br>Pastorasi in paie pe Isus l-au zarit <br> Maria lin canta <br> Dragi copii, sa veniti <br> In seara cand cade primul fulg de nea <br> Haideti la ieslea Sa <br> Sa-i dam lui Isus inima
-                                
+                            <audio controls class="w-100">
+                                <source src="{{element.song}}" type="audio/mpeg">
+                            </audio>
+
+                            <div class="songText modal-dialog modal-lg card-block  w-100">
+                                {{transcriptSong}}
                             </div>
                         </div>
                     </div>
@@ -62,13 +57,20 @@
                 <ng-template #craftcontent>
                     <div class="wrapper">
                         <div class="modal-body">
-                            <audio controls class="w-100">
-                                <source src="{{element.story}}" type="audio/mpeg">
-                            </audio>
+
                             <div class="modal-dialog modal-lg card-block  w-100">
-                                <!-- {{transcriptSong}} -->
-                                craft
+                                <h4>{{titleCraft}}</h4>
+                                <img class="img-fluid" src="{{element.craft}}" alt="craft">
+                                <img  class="img-fluid" src="{{element.craft2}}" alt=" ">
+                                <img class="img-fluid" src="{{element.craft3}}" alt=" ">
+                                <br>
+                                <h6><strong>Materiale necesare</strong></h6>
+                                <div> - {{descriptionCraft}}.</div>
+                                <br>
+                                <p>Ascultă cele mai frumoase cântece de Crăciun în timp ce confecționezi ceva minunat.
+                                </p>
                             </div>
+                            <audio class="w-100" controls src="../../../assets/music/mixSarbatoriFericite.mp3"></audio>
                         </div>
                     </div>
                 </ng-template>
@@ -79,13 +81,64 @@
                 aria-controls="collapseBasic" (click)="getMusic(mamicicontent)">
                 <ng-template #mamicicontent>
                     <div class="wrapper">
-                        <div class="modal-body">
+                        <div class="modal-body moms">
                             <audio controls class="w-100">
-                                <source src="{{element.story}}" type="audio/mpeg">
+                                <source src="{{element.momsCornerSong}}" type="audio/mpeg">
                             </audio>
-                            <div class="modal-dialog modal-lg card-block  w-100">
-                                <!-- {{transcriptStory}} -->
-                                coltul mamicilor
+                            <div class="modal-dialog modal-lg card-block w-100">
+                                <div class="alert alert-success">
+                                    <span class="lead">
+                                        Cei înțelepți vor străluci ca strălucirea cerului, și cei ce vor învăța pe mulți
+                                        să
+                                        umble în neprihănire vor străluci ca stelele, în veac și în veci de veci. <br>
+                                    </span>
+                                    <span class="small">
+                                        Daniel 12.3
+                                    </span>
+                                </div>
+
+                                <div class="d-flex my-2">
+                                    <div>
+                                        ֍ ֍ ֍ ֍ ֍
+                                    </div>
+                                </div>
+
+                                <!-- dynamic content -->
+                                <div>
+                                    Pentru a avea de unde să dăruiești, ai nevoie să primești. <br>
+                                    Pentru a putea învăța pe alții, ai nevoie să înveți. <br>
+                                    Pentru a fi în stare să iubești, ai nevoie să fii iubită.
+                                    <br>
+                                    Ești iubită, dragă mămică! Ești <em>iubibilă </em>! Ești de neînlocuit! Ești prețioasă! Ești
+                                    minunată! <br>
+                                    Ești iubită cu o iubire veșnică! <br>
+                                    Ești plătită cu preț dumnezeiesc iar valoarea ta este dată de identitatea ta: <strong>Îi
+                                        aparții! </strong>
+                                </div>
+                                <!-- dynamic content end -->
+                                <div class="d-flex my-2">
+                                    <div>
+                                        ֍ ֍ ֍ ֍ ֍
+                                    </div>
+                                    <br>
+                                </div>
+                                <div>
+                                    <h6>Ciocolată caldă pentru diminețile tale reci</h6>
+                                    <ul>
+                                        <li>250 de mililitri de lapte
+                                        </li>
+                                        <li>
+                                            o lingură de zahăr
+                                        </li>
+                                        <li>
+                                            100 de grame de ciocolată amăruie
+                                        </li>
+                                        <li>
+                                            frișcă sau bezele
+                                        </li>
+                                    </ul>
+
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -279,3 +279,21 @@ div#fourth {
     }
     
 }
+
+
+// mothers corner
+.lead, .small{
+    background: -webkit-linear-gradient(rgb(3, 70, 47), rgb(245, 5, 65));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.moms{
+    background: rgb(240, 221, 221);
+}
+
+
+// story text
+.storyText, .songText{
+    white-space: pre-wrap;
+}

@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'day', component: DayComponent }, 
 
  // otherwise redirect to calendar
- { path: '**', redirectTo: '' }
+ { path: '**', redirectTo: 'CalendarComponent' }
 ];
 
 @NgModule({

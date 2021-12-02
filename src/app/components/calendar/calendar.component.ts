@@ -15,26 +15,25 @@ export class CalendarComponent implements OnInit {
   date = new Date();
   day = this.date.getDate();
 
+  //make days clickable only on specific days, based on date.
   goToContent(id: any) {
-
-    let actualDay: number;
+    let selectedDay: number;
     if (this.day == 30) {
-      actualDay = 1;
+      selectedDay = 1;
     } else {
-      actualDay = this.day;
+      // selectedDay = this.day;
+      selectedDay = 2;
     }
-
-    // console.log(actualDay);
-    // console.log(this.day);
-
-    if (id == actualDay) {
+    // display today's day and previous
+    if (id <= selectedDay) {
+      // make id available in day component to filter content based on it
       this.sharedS.updateId(id);
       this.router.navigateByUrl('/day');
+    } else {
+      alert(
+        '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru zilele următoare, te asigur! 😁'
+      );
     }
-    else{
-      alert('😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru zilele următoare, te asigur! 😁')
-    }
-   
   }
 
   days = [
