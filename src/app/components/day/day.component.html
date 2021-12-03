@@ -26,6 +26,7 @@
                             <div class="storyText modal-dialog modal-lg card-block  w-100">
                                 {{transcriptStory}}
                             </div>
+                           <a target="_blank" class="small" href="{{storyCredit}}">Aici poți găsi mai multe info interesante</a>
                         </div>
                     </div>
                 </ng-template>
@@ -66,6 +67,9 @@
                                 <br>
                                 <h6><strong>Materiale necesare</strong></h6>
                                 <div> - {{descriptionCraft}}.</div>
+                                <p class="small">
+                                   Sursa de inspiratie: {{craftCredit}}
+                                </p>
                                 <br>
                                 <p>Ascultă cele mai frumoase cântece de Crăciun în timp ce confecționezi ceva minunat.
                                 </p>
@@ -97,6 +101,7 @@
                                     </span>
                                 </div>
 
+
                                 <div class="d-flex my-2">
                                     <div>
                                         ֍ ֍ ֍ ֍ ֍
@@ -104,7 +109,46 @@
                                 </div>
 
                                 <!-- dynamic content -->
-                                <div>
+                                <div  class="alert alert-info">
+                                  Nu ești invizibilă, chiar dacă uneori așa îți pare! E Cineva care vede <em> în ascuns </em> și te va recompensa!
+                                   
+                                </div>
+                                <!-- dynamic content end -->
+                                <div class="d-flex my-2">
+                                    <div>
+                                        ֍ ֍ ֍ ֍ ֍
+                                    </div>
+                                </div>
+
+                                <div class="alert alert-warning">
+                                    <h6>Ceai de iarnă</h6>
+                                    <ul>
+                                        <li>mere taiate felii subțiri (sau cubulețe)
+                                        </li>
+                                        <li>
+                                            o lamaie mică decojită + felii de lămâie
+                                        </li>
+                                        <li>
+                                           scorțișoară
+                                        </li>
+                                        <li>
+                                            miere de albine (dupa gust)
+                                        </li>
+                                        <li>
+                                            apă fierbinte
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="d-flex my-2">
+                                    <div>
+                                        ֍ ֍ ֍ ֍ ֍
+                                    </div>
+                                </div>
+
+                                <!-- dynamic content -->
+                                <div  class="alert alert-info">
                                     Pentru a avea de unde să dăruiești, ai nevoie să primești. <br>
                                     Pentru a putea învăța pe alții, ai nevoie să înveți. <br>
                                     Pentru a fi în stare să iubești, ai nevoie să fii iubită.
@@ -122,7 +166,7 @@
                                     </div>
                                     <br>
                                 </div>
-                                <div>
+                                <div class="alert alert-warning">
                                     <h6>Ciocolată caldă pentru diminețile tale reci</h6>
                                     <ul>
                                         <li>250 de mililitri de lapte
