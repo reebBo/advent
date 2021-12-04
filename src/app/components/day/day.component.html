@@ -16,13 +16,16 @@
                 aria-controls="collapseBasic" (click)="getStory(storycontent)">
                 <ng-template #storycontent>
                     <div class="wrapper">
-                        <div class="modal-body">
+                        <div class="modal-body"> 
                             <!-- unless it is one of the listed dates, audio tag won't be displayed -->
-                            <audio
-                                *ngIf="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'"
+                            <audio *ngIf="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'"
                                 controls class="w-100">
                                 <source src="{{element.story}}" type="audio/mpeg">
+                                    Lectura:
                             </audio>
+                            <span class="small" *ngIf="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'">
+                                Lectura: Emanuela Stoica
+                            </span>
                             <div class="storyText modal-dialog modal-lg card-block  w-100">
                                 {{transcriptStory}}
                             </div>
@@ -100,6 +103,30 @@
                                         Daniel 12.3
                                     </span>
                                 </div>
+
+                                <div class="d-flex my-2">
+                                    <div>
+                                        ֍ ֍ ֍ ֍ ֍
+                                    </div>
+                                </div>
+
+                                <!-- dynamic content -->
+                                <div  class="alert alert-info">
+                                    Ella fusese timp de cincizeci și doi de ani misionară în mijlocul pigmeilor din Africa. Îsi părăsise țara, familia și toate lucrurile cu care se obisnuise. Condițiile în care trăise acolo erau mai rău decăt primitive, în căldura arzătoare și umiditatea climei africane. Și nu avea cum să le schimbe, fiindcă electricitatea, aerul condiționat și alte avantaje de-ale tehnologiei moderne erau doar un vis. În unele zile, caldura era atât de insuportabilă, încât trebuia să aducă termometrul înăuntru fiindcă se defecta la peste 40  grade Celsius.
+
+                                    Mimi, fiica Ellei, se tot întreba cum de reușise mama ei – cum de trăise o viață de mulțumire în condiții care l-ar fi făcut chiar și pe cel mai puternic om să se plângă. Nu demult Mimi a descoperit o comoară, mult mai prețioasă decât aurul sau argintul. Într-un vechi jurnal al mamei sale a găsit rețeta mulțumirii:
+                                    
+                                        Niciodată să nu iți ingădui să te plângi de ceva – nici chiar de vremea de afară.
+                                        Niciodată să nu te imaginezi în vreo altă împrejurare sau loc.
+                                        Niciodată să nu iți compari soarta cu a altuia.
+                                        Niciodată să nu iți doresti ca ceva să fi fost altfel.
+                                        Niciodată să nu te îngândureze ziua de mâine – amintește-ți că ea Îi aparține lui Dumnezeu, nu nouă. 
+                                        <br>
+                                        <a class="small" href="https://mamicile.wordpress.com/2009/01/15/reteta-multumirii/">D-ale mămicilor</a>  
+                                </div>
+                                <!-- dynamic content end -->
+
+
 
 
                                 <div class="d-flex my-2">
