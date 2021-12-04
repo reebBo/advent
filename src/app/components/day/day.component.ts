@@ -148,16 +148,16 @@ export class DayComponent implements OnInit {
       craft: '../../../assets/images/craft4.png',
       craft2: '../../../assets/images/craft4.2.png',
       craft3: '#',
-      momsCornerSong: '../../../assets/music/noel.mp3',
+      momsCornerSong: '../../../assets/music/noel.vaw',
     },
     {
       day: '5',
-      story: '../../../assets/stories/episode2.mp3',
-      song: '../../../assets/music/songs/Dragi_copii.mp3',
-      craft: '../../../assets/images/craft5.png',
-      craft2: '../../../assets/images/craft5.2.jpg',
-      craft3: '../../../assets/images/craft5.3.png',
-      momsCornerSong: '../../../assets/music/noel.mp3',
+      story: '../../../assets/stories/episode2again.mp3',
+      song: '../../../assets/music/songs/Noi_muntii_ehei.mp3',
+      craft: '../../../assets/images/starEx.png',
+      craft2: '../../../assets/images/star.png',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/laViflaim.mp3',
     },
   ];
 }
