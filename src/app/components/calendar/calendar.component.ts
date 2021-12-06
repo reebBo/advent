@@ -28,6 +28,7 @@ export class CalendarComponent implements OnInit {
       // make id available in day component to filter content based on it
       this.sharedS.updateId(id);
       this.router.navigateByUrl('/day');
+      
     } else {
       alert(
         '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru zilele următoare, te asigur! 😁'
