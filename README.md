@@ -31,9 +31,28 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # advent
-<<<<<<< HEAD
-
-
-=======
  
->>>>>>> 1de44ac7d01b80079c3e0f993dacac1a18e3d5cb
+ ## warnings
+
+ WARNING in budgets, maximum exceeded for initial
+https://stackoverflow.com/questions/53995948/warning-in-budgets-maximum-exceeded-for-initial
+
+angular.json file and find budgets keyword. 
+
+    "budgets": [
+       {
+          "type": "initial",
+          "maximumWarning": "2mb",
+          "maximumError": "5mb"
+       }
+    ]
+
+  increase the maximumWarning value to prevent this warning, i.e.:
+
+    "budgets": [
+       {
+          "type": "initial",
+          "maximumWarning": "4mb", <===
+          "maximumError": "5mb"
+       }
+    ]
