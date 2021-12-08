@@ -110,7 +110,7 @@ export class DayComponent implements OnInit {
 
   // ======================================================
 
-  details = [{ title: 'Cele patru lumanari ~ O poveste de advent' }];
+  // details = [{ title: 'Cele patru lumanari ~ O poveste de advent' }];
 
   content = [
     {
