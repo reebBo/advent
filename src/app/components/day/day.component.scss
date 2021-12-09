@@ -305,3 +305,9 @@ div#fourth {
 
 .modal-dialog {
     pointer-events: all;}
+
+    audio {
+        filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+        width: 200px;
+        height: 25px;
+    }

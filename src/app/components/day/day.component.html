@@ -33,14 +33,17 @@
                             <div class="storyText modal-dialog modal-lg card-block  w-100">
                                 {{transcriptStory}}
                             </div>
-                            <div
-                            *ngIf="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'; else credit">
-                            
-                            </div>
-                            <ng-template #credit> 
-                                <a target="_blank" class="small" href="{{storyCredit}}">Aici poți găsi mai multe info
-                                    interesante</a>
-                            </ng-template>
+                            <div id="credit">
+                                <div
+                                    *ngIf="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'; else credit">
+
+                                </div>
+                                <ng-template #credit>
+                                    <a target="_blank" class="small" href="{{storyCredit}}">Aici poți găsi mai multe
+                                        info
+                                        interesante</a>
+                                </ng-template>
+                            </div> 
                         </div>
                     </div>
                 </ng-template>
@@ -81,6 +84,18 @@
                                 <br> <br>
                                 <h6><strong>Materiale necesare</strong></h6>
                                 <div> - {{descriptionCraft}}.</div>
+                                <div id="download">
+                                    <div *ngIf="comingId=='10'">
+                                        Descarcă de aici paginile. <br>
+                                      <span class="d-flex ">
+                                        <a target="_blank" class="small mr-3" href="../../../assets/pdf/Memory_game_free_primtable_Christmas_ornaments1.pdf">Fișier 1</a>  
+                                        <a target="_blank" class="small mr-3" href="../../../assets/pdf/Memory_game_free_primtable_Christmas_ornaments2.pdf">Fișier 2</a> 
+                                        <a target="_blank" class="small mr-3" href="../../../assets/pdf/Memory_game_free_printable_Snowman1.pdf">Fișier 3</a>  
+                                        <a target="_blank" class="small" href="../../../assets/pdf/Memory_game_free_printable_Snowman2.pdf">Fișier 4</a>
+                                      </span>
+                                    </div>
+                                     
+                                </div>
                                 <div class="small">
                                     <span *ngIf="comingId=='6'; else default">
                                         <a href="https://www.daledetalles.com/navidad/villas-navidenas-de-papel"
@@ -90,6 +105,7 @@
                                         Sursa de inspiratie: {{craftCredit}}
                                     </ng-template>
                                 </div>
+                                
 
                                 <br>
                                 <p>Ascultă <a target="_blank"
@@ -137,6 +153,30 @@
                                     </div>
                                 </div>
                                 <!-- dynamic content -->
+                                <div class="alert alert-info"> 
+                                    <h5>Portret de mamă</h5>
+                                    <strong>D</strong>edicare <br>
+                                    <strong>R</strong>esurse<br>
+                                    <strong>A</strong>linare<br>
+                                    <strong>G</strong>rijă<br>
+                                    <strong>O</strong>steneală<br>
+                                    <strong>S</strong>peranță <br>
+                                    <strong>T</strong>ărie <br>
+                                    <strong>E</strong>ternitate.  
+                                </div>
+                                <!-- dynamic content end -->
+
+
+
+
+
+
+                                <div class="d-flex my-2">
+                                    <div>
+                                        ֍ ֍ ֍ ֍ ֍
+                                    </div>
+                                </div>
+                                <!-- dynamic content -->
                                 <div class="alert alert-info">
                                     Mărețul har m-a mântuit pe mine din păcat <br>
                                     Pierdut eram, dar m-a găsit, de moarte m-a scăpat.<br>
@@ -146,7 +186,7 @@
 
                                     O cântare cu o traiectorie de 240 de ani, care, de-alungul timpului, a reușit să
                                     strângă cu sine povești, istorii, taine, dorințe, speranțe, bucurii sau dureri,
-                                    mărturii sau cereri, necaz sau fericire, prigoană sau libertate …  
+                                    mărturii sau cereri, necaz sau fericire, prigoană sau libertate …
                                     <br>
                                     <br>
                                     Citește <a target="_blank"
@@ -175,7 +215,7 @@
                                     Bate vântu-n geam, e bine. <br>
                                     Dacă cerul nu e senin, ce îmi pasă? <br>
                                     Drumul acesta mă duce spre casă. <br>
-                                    - Cătălin Lata <br>
+                                    <em>- Cătălin Lata </em> <br>
 
                                     <a
                                         href="https://soundcloud.com/user1855068/drum_spre_casa-www?in=ioana-glitia/sets/catalin-lata&si=eaca1bc52738408ea98cf908c401aa95&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
@@ -193,7 +233,8 @@
                                 <!-- dynamic content -->
                                 <div class="alert alert-info">
                                     Domnul mi Se arată de departe: „Te iubesc cu o iubire veșnică, de aceea îţi păstrez
-                                    bunătatea Mea! - Ieremia 31:3
+                                    bunătatea Mea! <br>
+                                    <em> - Ieremia 31:3</em>
                                 </div>
                                 <!-- dynamic content end -->
 
@@ -234,7 +275,8 @@
                                 <!-- dynamic content -->
                                 <div class="alert alert-info"> <strong>
                                         Iată, voi face ceva nou și-i gata să se întâmple. Să nu-l cunoașteţi voi oare?
-                                        Voi face un drum prin pustie și râuri în locuri secetoase. Isaia 43:19
+                                        Voi face un drum prin pustie și râuri în locuri secetoase. <br>
+                                        <em>Isaia 43:19</em>
                                     </strong>
                                 </div>
                                 <!-- dynamic content end -->
@@ -267,7 +309,8 @@
                                     împreună. <br>
                                     Mi-e dor de Tine, Doamne! <br>
                                     "Sufletul meu aşteaptă pe Domnul mai mult decât aşteaptă străjerii dimineaţa, da,
-                                    mai mult decât aşteaptă străjerii dimineaţa." (Ps.130)
+                                    mai mult decât aşteaptă străjerii dimineaţa."<br>
+                                    <em>  Psalm 130 </em>
 
                                 </div>
                                 <!-- dynamic content end -->
@@ -368,8 +411,7 @@
                                     minunată! <br>
                                     Ești iubită cu o iubire veșnică! <br>
                                     Ești plătită cu preț dumnezeiesc iar valoarea ta este dată de identitatea ta:
-                                    <strong>Îi
-                                        aparții! </strong>
+                                    <strong>Îi aparții! </strong>
                                 </div>
                                 <!-- dynamic content end -->
                                 <div class="d-flex my-2">
@@ -409,12 +451,4 @@
     </span>
 
 </div>
-
-
-<style>
-    audio {
-        filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
-        width: 200px;
-        height: 25px;
-    }
-</style>
+ 
