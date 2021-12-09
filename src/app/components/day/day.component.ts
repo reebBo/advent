@@ -120,8 +120,7 @@ export class DayComponent implements OnInit {
       craft: '../../../assets/images/craft1.png',
       craft2: '#',
       craft3: '#',
-      musicForCraft: '../../../assets/music/mixSarbatoriFericite.mp3',
-      momsCornerSong: '../../../assets/music/noel.wav',
+      momsCornerSong: '../../../assets/music/noel.mp3',
     },
     {
       day: '2',
@@ -139,7 +138,7 @@ export class DayComponent implements OnInit {
       craft: '../../../assets/images/craft4.png',
       craft2: '../../../assets/images/craft3.2.jpg',
       craft3: '../../../assets/images/craft3.3.png',
-      momsCornerSong: '../../../assets/music/peBoltaCeruluiSenin.wav',
+      momsCornerSong: '../../../assets/music/peBoltaCeruluiSenin.mp3',
     },
     {
       day: '4',
@@ -148,7 +147,7 @@ export class DayComponent implements OnInit {
       craft: '../../../assets/images/craft4.png',
       craft2: '../../../assets/images/craft4.2.png',
       craft3: '#',
-      momsCornerSong: '../../../assets/music/noel.wav',
+      momsCornerSong: '../../../assets/music/noel.mp3',
     },
     {
       day: '5',
@@ -157,7 +156,7 @@ export class DayComponent implements OnInit {
       craft: '../../../assets/images/starEx.png',
       craft2: '../../../assets/images/star.png',
       craft3: '#',
-      momsCornerSong: '../../../assets/music/laViflaim.mp3',
+      momsCornerSong: '../../../assets/music/laViflaim.mp3'
     },
     {
       day: '6',
@@ -175,7 +174,7 @@ export class DayComponent implements OnInit {
       craft: '../../../assets/images/decor.png',
       craft2: '../../../assets/images/collage3.png',
       craft3: '../../../assets/images/collage4.png',
-      momsCornerSong: '../../../assets/music/oHollyN.mp3',
+      momsCornerSong: '../../../assets/music/oHollyN.mp3'
     },
     {
       day: '8',
@@ -189,30 +188,146 @@ export class DayComponent implements OnInit {
     {
       day: '9',
       story: ' ',
-      song: ' ',
-      craft: '../../../assets/images/ ',
-      craft2: '../../../assets/images ',
+      song: '../../../assets/music/songs/AuziAuzi.mp3',
+      craft: '../../../assets/images/framediy.png',
+      craft2: '../../../assets/images/frameCollage.png',
       craft3: '#',
-      momsCornerSong: '../../../assets/music/ ',
+      momsCornerSong: '../../../assets/music/departeNtr1iesle.mp3 ',
     },
     {
       day: '10',
       story: ' ',
-      song: '../../../assets/music/songs/ ',
+      song: '../../../assets/music/songs/CaciUnCopil.mp3 ',
       craft: '../../../assets/images/ ',
       craft2: '../../../assets/images/ ',
       craft3: '#',
-      momsCornerSong: ' ',
+      momsCornerSong: '../../../assets/music/peBoltaCeruluiSenin.mp3' 
     },
     {
       day: '11',
       story: ' ',
-      song: '../../../assets/music/songs/ ',
+      song: '../../../assets/music/songs/DemultDemult.mp3',
       craft: '../../../assets/images/ ',
       craft2: '../../../assets/images/ ',
       craft3: '#',
-      momsCornerSong: ' ',
+      momsCornerSong: '../../../assets/music/silentN.mp3' 
     },
-
+    {
+      day: '12',
+      story: ' ',
+      song: '../../../assets/music/songs/EraPeLaNserat.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/oCome.mp3', 
+    },
+    {
+      day: '13',
+      story: ' ',
+      song: '../../../assets/music/songs/EuSuntCerul.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong:  '../../../assets/music/oHollyN.mp3'
+    },
+    {
+      day: '14',
+      story: ' ',
+      song: '../../../assets/music/songs/GlorieLuiDumnezeu.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/departeNtr1iesle.mp3 ', 
+    },
+    {
+      day: '15',
+      story: ' ',
+      song: '../../../assets/music/songs/HaiMiAuSpusEi.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/laViflaim.mp3'
+    },
+    {
+      day: '16',
+      story: ' ',
+      song: '../../../assets/music/songs/Nu va temeti.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/silentN.mp3' 
+    },
+    {
+      day: '17',
+      story: ' ',
+      song: '../../../assets/music/songs/OCeFrumoasaNoapte.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/peBoltaCeruluiSenin.mp3', 
+    },
+    {
+      day: '18',
+      story: ' ',
+      song: '../../../assets/music/songs/SeNasteAziLaBetleem.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/laViflaim.mp3'
+    },
+    {
+      day: '19',
+      story: ' ',
+      song: '../../../assets/music/songs/SeNasteAzi1Rege.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong:  '../../../assets/music/oHollyN.mp3'
+    },
+    {
+      day: '20',
+      story: ' ',
+      song: '../../../assets/music/songs/TeBucuraMaria.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/oCome.mp3' 
+    },
+    {
+      day: '21',
+      story: ' ',
+      song: '../../../assets/music/songs/3pastori.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/departeNtr1iesle.mp3 ', 
+    },
+    {
+      day: '22',
+      story: ' ',
+      song: '../../../assets/music/songs/TuEsti1steluta.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/silentN.mp3' 
+    },
+    {
+      day: '23',
+      story: ' ',
+      song: '../../../assets/music/songs/UndeEPruncul.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',
+      momsCornerSong: '../../../assets/music/peBoltaCeruluiSenin.mp3'
+    },
+    {
+      day: '24',
+      story: ' ',
+      song: '../../../assets/music/songs/CraciunulAVenit.mp3',
+      craft: '../../../assets/images/ ',
+      craft2: '../../../assets/images/ ',
+      craft3: '#',      
+      momsCornerSong: '../../../assets/music/oCome.mp3', 
+    }
   ];
 }
