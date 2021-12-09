@@ -71,6 +71,7 @@ export class DayComponent implements OnInit {
         if (element.id == selectedDay) {
           this.transcriptStory = element.text;
           this.storyCredit=element.credit;
+          console.log(this.storyCredit)
         }
       });
     });
@@ -188,6 +189,7 @@ export class DayComponent implements OnInit {
     {
       day: '9',
       story: ' ',
+      credit:"https://www.resursecrestine.ro/lectia-zilnica/47679/ce-este-credinta-lectia-54-volumul-2",
       song: '../../../assets/music/songs/AuziAuzi.mp3',
       craft: '../../../assets/images/framediy.png',
       craft2: '../../../assets/images/frameCollage.png',

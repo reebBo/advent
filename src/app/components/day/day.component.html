@@ -34,11 +34,10 @@
                                 {{transcriptStory}}
                             </div>
                             <div
-                                if="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'; else credit">
-
+                            *ngIf="comingId=='1' ||comingId=='5' ||comingId=='12' || comingId=='19' ||comingId=='24'; else credit">
+                            
                             </div>
-                            <ng-template #credit>
-
+                            <ng-template #credit> 
                                 <a target="_blank" class="small" href="{{storyCredit}}">Aici poți găsi mai multe info
                                     interesante</a>
                             </ng-template>
