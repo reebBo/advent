@@ -28,8 +28,9 @@
                                 Lectura: <a class="text-dark" target="_blank"
                                     href="https://www.facebook.com/ema.stoica.54"><strong> Emanuela Stoica <i
                                             class="fab fa-facebook-square mx-1"></i></strong></a>
-
                             </span>
+                            <img class="img-fluid" *ngIf="comingId=='11'" src="../../../assets/images/shields.png"
+                                alt="shield">
                             <div class="storyText modal-dialog modal-lg card-block  w-100">
                                 {{transcriptStory}}
                             </div>
@@ -43,7 +44,7 @@
                                         info
                                         interesante</a>
                                 </ng-template>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </ng-template>
@@ -87,15 +88,23 @@
                                 <div id="download">
                                     <div *ngIf="comingId=='10'">
                                         Descarcă de aici paginile. <br>
-                                      <span class="d-flex ">
-                                        <a target="_blank" class="small mr-3" href="../../../assets/pdf/Memory_game_free_primtable_Christmas_ornaments1.pdf">Fișier 1</a>  
-                                        <a target="_blank" class="small mr-3" href="../../../assets/pdf/Memory_game_free_primtable_Christmas_ornaments2.pdf">Fișier 2</a> 
-                                        <a target="_blank" class="small mr-3" href="../../../assets/pdf/Memory_game_free_printable_Snowman1.pdf">Fișier 3</a>  
-                                        <a target="_blank" class="small" href="../../../assets/pdf/Memory_game_free_printable_Snowman2.pdf">Fișier 4</a>
-                                      </span>
+                                        <span class="d-flex ">
+                                            <a target="_blank" class="small mr-3"
+                                                href="../../../assets/pdf/Memory_game_free_primtable_Christmas_ornaments1.pdf">Fișier
+                                                1</a>
+                                            <a target="_blank" class="small mr-3"
+                                                href="../../../assets/pdf/Memory_game_free_primtable_Christmas_ornaments2.pdf">Fișier
+                                                2</a>
+                                            <a target="_blank" class="small mr-3"
+                                                href="../../../assets/pdf/Memory_game_free_printable_Snowman1.pdf">Fișier
+                                                3</a>
+                                            <a target="_blank" class="small"
+                                                href="../../../assets/pdf/Memory_game_free_printable_Snowman2.pdf">Fișier
+                                                4</a>
+                                        </span>
                                     </div>
-                                     
                                 </div>
+
                                 <div class="small">
                                     <span *ngIf="comingId=='6'; else default">
                                         <a href="https://www.daledetalles.com/navidad/villas-navidenas-de-papel"
@@ -105,7 +114,7 @@
                                         Sursa de inspiratie: {{craftCredit}}
                                     </ng-template>
                                 </div>
-                                
+
 
                                 <br>
                                 <p>Ascultă <a target="_blank"
@@ -147,13 +156,68 @@
                                     </span>
                                 </div>
 
+
                                 <div class="d-flex my-2">
                                     <div>
                                         ֍ ֍ ֍ ֍ ֍
                                     </div>
                                 </div>
                                 <!-- dynamic content -->
-                                <div class="alert alert-info"> 
+                                <div class="alert alert-info">
+                                    Când păstorii au sosit, căutându-l pe pruncul Isus în iesle, povestind entuziasmați
+                                    despre vizitatorii lor angelici și mesajul lor minunat despre Prunc, Luca spune ca
+                                    Maria, însă, păstra toate aceste cuvinte şi cugeta la ele în inima ei. (Luca 2:19)
+                                    <br>
+                                    Câteva zile mai târziu, când Maria și Iosif L-au dus pe Isus la templu, Simeon le-a
+                                    vorbit despre misiunea mesianică a pruncului. Luca spune că Maria s-a mirat de
+                                    lucrurile care se spuneau despre prunc (Luca 2:33). <br>
+                                    Doisprezece ani mai târziu, când Maria și Iosif și-au găsit fiul „pierdut” în
+                                    templu, discutând despre Scipturi, Luca spune:
+                                    că mama lui a păstrat toate aceste lucruri în inima ei” (Luca 2:51). <br>
+                                    Și nu pot să nu mă întreb ce ar răspunde dacă aș putea să-i adresez
+                                    câteva întrebări despre Fiul ei.<br>
+                                    Cum a răspuns El când a văzut alți copii chicotind în timpul serviciului de la
+                                    sinagogă?<br>
+                                    Când a văzut un curcubeu, a pomenit vreodată de un potop?<br>
+                                    Te-ai simțit vreodată stânjenită să-L înveți cum a creat El lumea?<br>
+                                    Te-ai gândit vreodată că Dumnezeul căruia te-ai rugat este
+                                    adormi sub propriul tău acoperiș?<br>
+                                    Ai încercat vreodată să numeri stelele cu El? ... și ai reușit?<br>
+                                    A venit vreodată acasă cu un ochi învinețit?<br>
+                                    Cum s-a comportat când S-a tuns pentru prima dată?<br>
+                                    Avea El vreun prieten pe numele lui Iuda?<br>
+                                    S-a descurcat El bine la școală?<br>
+                                    L-ai certat vreodată?<br>
+                                    S-a supărat vreodată când cineva a fost nedrept cu El?<br>
+                                    S-a trezit vreodată cu frică?<br>
+                                    Cine a fost cel mai bun prieten al Lui?<br>
+                                    L-ai numit vreodată din greșeală Tată?<br>
+                                    Despre ce au vorbit El și vărul său Ioan când erau copii?<br>
+                                    Au înțeles frații și surorile Lui ce se întâmpla?<br>
+                                    Te-ai gândit vreodată că Dumnezeu îmi mănâncă supa?<br><br><br>
+                                    Ia-ți un pic de timp și gândește-te la măreția Mântuitorului vostru. Ce ai
+                                    întreba-o TU pe Maria despre El, dacă ai putea? 
+
+                                    <p class="small">
+                                        Adaptat după God Came Near, de Max Lucado
+                                    </p>
+                                </div>
+                                <!-- dynamic content end -->
+
+
+
+
+
+
+
+
+                                <div class="d-flex my-2">
+                                    <div>
+                                        ֍ ֍ ֍ ֍ ֍
+                                    </div>
+                                </div>
+                                <!-- dynamic content -->
+                                <div class="alert alert-info">
                                     <h5>Portret de mamă</h5>
                                     <strong>D</strong>edicare <br>
                                     <strong>R</strong>esurse<br>
@@ -162,7 +226,7 @@
                                     <strong>O</strong>steneală<br>
                                     <strong>S</strong>peranță <br>
                                     <strong>T</strong>ărie <br>
-                                    <strong>E</strong>ternitate.  
+                                    <strong>E</strong>ternitate.
                                 </div>
                                 <!-- dynamic content end -->
 
@@ -310,7 +374,7 @@
                                     Mi-e dor de Tine, Doamne! <br>
                                     "Sufletul meu aşteaptă pe Domnul mai mult decât aşteaptă străjerii dimineaţa, da,
                                     mai mult decât aşteaptă străjerii dimineaţa."<br>
-                                    <em>  Psalm 130 </em>
+                                    <em> Psalm 130 </em>
 
                                 </div>
                                 <!-- dynamic content end -->
@@ -451,4 +515,3 @@
     </span>
 
 </div>
- 

@@ -209,9 +209,9 @@ export class DayComponent implements OnInit {
       day: '11',
       story: ' ',
       song: '../../../assets/music/songs/DemultDemult.mp3',
-      craft: '../../../assets/images/ ',
-      craft2: '../../../assets/images/ ',
-      craft3: '#',
+      craft: '../../../assets/images/difference1.png',
+      craft2: '../../../assets/images/difference2.png',
+      craft3:'../../../assets/images/maze.png',
       momsCornerSong: '../../../assets/music/silentN.mp3' 
     },
     {

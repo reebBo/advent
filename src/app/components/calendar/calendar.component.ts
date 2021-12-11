@@ -21,7 +21,7 @@ export class CalendarComponent implements OnInit {
     if (this.day == 30) {
       selectedDay = 1;
     } else {
-      selectedDay = this.day; 
+      selectedDay = this.day+1; 
     }
     // display today's day and previous
     if (id <= selectedDay) {
