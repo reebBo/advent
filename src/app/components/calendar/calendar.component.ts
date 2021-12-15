@@ -10,10 +10,16 @@ import { SharedService } from 'src/app/services/shared.service';
 export class CalendarComponent implements OnInit {
   constructor(private router: Router, private sharedS: SharedService) {}
 
-  ngOnInit(): void {}
 
   date = new Date();
   day = this.date.getDate();
+
+
+  ngOnInit(): void {
+    // let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(today);
+    alert('Astăzi este ziua '+ this.day + ' de Advent!'); 
+  }
+
 
   //make days clickable only on specific days, based on date.
   goToContent(id: any) {
@@ -21,7 +27,7 @@ export class CalendarComponent implements OnInit {
     if (this.day == 30) {
       selectedDay = 1;
     } else {
-      selectedDay = this.day; 
+      selectedDay = this.day;  
     }
     // display today's day and previous
     if (id <= selectedDay) {
