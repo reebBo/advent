@@ -1,39 +1,57 @@
 #card {
-    /* The image used */
-    background-image: url("../../../assets/images/vecteezy4.jpg");
+  /* The image used */
+  background-image: url("../../../assets/images/vecteezy4.jpg");
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-    border-radius: 0.2em;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  border-radius: 0.2em;
 }
 
 .col-12 {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 #day {
-    font-family: "Puppies Play", cursive;
-    text-align: center;
-    color: rgb(28, 102, 73);
-    opacity: 0.9;
-    box-shadow: 1px 3px 11px rgba(153, 38, 38, 0.7);
-    background: #fff;
-    width: 100%;
-    border: white solid 1px;
-    border-radius: 50%;
-    margin: 0.3em 0.2em;
-    box-shadow: 1.0px 4.0px 8.0px hsl(60deg 70% 0% / 10.78);
-    cursor: pointer;
+  font-family: "Puppies Play", cursive;
+  text-align: center;
+  color: rgb(28, 102, 73);
+  opacity: 0.9;
+  box-shadow: 1px 3px 11px rgba(153, 38, 38, 0.7);
+  background: #fff;
+  width: 100%;
+  border: white solid 1px;
+  border-radius: 50%;
+  margin: 0.3em 0.2em;
+  box-shadow: 1px 4px 8px hsl(60deg 70% 0% / 10.78);
+  cursor: pointer;
 }
 .text {
-    font: size 1em !important;
+  font: size 1em !important;
 }
 .number {
-    font-size: 3.3em !important;
-    line-height: 0.4em;
+  font-size: 3.3em !important;
+  line-height: 0.4em;
 }
 // style=" opacity: 0.7;   "
+
+.active { 
+  color: red !important;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-weight: 700;
+}
+
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 80px #fff, 0 0 20px #fff, 0 0 780px #e60073, 0 0 990px #e60073, 0 0 850px #e60073, 0 0 660px #201a1d, 0 0 790px #18020d;
+    }
+    to {
+      text-shadow: 444 370 420px rgb(184, 22, 130), 0 0 830px #ff4da6, 0 0 940px #0f6142, 0 600 950px #ff4da6, 0 550 760px #ff4da6, 0 0 760px #ff4da6, 0 990 880px #ff4da6;
+    }
+  }
