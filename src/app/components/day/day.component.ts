@@ -13,6 +13,7 @@ export class DayComponent implements OnInit {
 
   isCollapsed = true;
   modalRef?: BsModalRef;
+ 
 
   constructor(
     private modalService: BsModalService,
@@ -31,11 +32,13 @@ export class DayComponent implements OnInit {
     this.getTranscriptSong();
     this.getCraftDetails();
   }
-
-  // myModal = document.getElementById('template');
+ 
 
   getStory(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template);
+  }
+  closeModal(){
+    this.modalService.hide();
   }
 
   getSomethingElse(template: TemplateRef<any>) {
@@ -108,7 +111,7 @@ export class DayComponent implements OnInit {
 
     return this.transcriptSong;
   }
-
+ 
   // ======================================================
 
   // details = [{ title: 'Cele patru lumanari ~ O poveste de advent' }];
