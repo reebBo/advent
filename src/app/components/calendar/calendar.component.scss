@@ -16,6 +16,7 @@
 }
 
 #day {
+
   font-family: "Puppies Play", cursive;
   text-align: center;
   color: rgb(28, 102, 73);
@@ -36,22 +37,35 @@
   font-size: 3.3em !important;
   line-height: 0.4em;
 }
-// style=" opacity: 0.7;   "
 
 .active { 
-  color: red !important;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
-  font-weight: 700;
+  background:  #0fa723 !important;
+  color: rgb(109, 12, 12) !important; 
+  border-radius: 50%; 
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  // animation:glow  2s ease-in-out infinite alternate;
+  font-weight: 700;   
+	box-shadow: 1px 1px 0 #9ac9b3, 0 0 20px 5px #49ad82, inset 12px 12px 0 #528d73;
+  animation: glow 2s infinite ease;
+   
 }
-
-
+  
 @keyframes glow {
-    from {
-      text-shadow: 0 0 80px #fff, 0 0 20px #fff, 0 0 780px #e60073, 0 0 990px #e60073, 0 0 850px #e60073, 0 0 660px #201a1d, 0 0 790px #18020d;
-    }
-    to {
-      text-shadow: 444 370 420px rgb(184, 22, 130), 0 0 830px #ff4da6, 0 0 940px #0f6142, 0 600 950px #ff4da6, 0 550 760px #ff4da6, 0 0 760px #ff4da6, 0 990 880px #ff4da6;
-    }
+	0%,100% {
+		box-shadow: 1px 1px #1D8758, 0 0 5px 5px #3e8a69, inset 0px 0px 20px 20px #2b9139;
+    text-shadow: 0 0 80px rgb(129, 34, 34), 0 0 420px rgb(153, 60, 60), 0 0 780px #e60073, 0 0 990px #e60073, 0 0 850px #e60073, 0 0 660px #460c29, 0 0 790px #802450;
+
   }
+	50% {
+		box-shadow: 1px 1px #1D8758, 0 0 16px 8px #19412f, inset 0px 0px #196946;
+    text-shadow: 444 370 420px green, 0 0 830px #88144e, 0 0 940px #610f0f, 0 600 950px #ff4da6, 0 550 760px #ff4da6, 0 0 760px #ff4da6, 0 990 880px #ff4da6;
+}
+}
+ 
+
+
+@keyframes pulse {
+  from { box-shadow:0px 0px 10px 3px #ebb849; }
+  to { box-shadow:0px 0px 20px 5px #af1d83; }
+}
