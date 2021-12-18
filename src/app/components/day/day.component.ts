@@ -282,19 +282,19 @@ export class DayComponent implements OnInit {
     },
     {
       day: '19',
-      story: ' ',
+      story: '../../../assets/stories/episode4Final.mp3',
       song: '../../../assets/music/songs/SeNasteAzi1Rege.mp3',
-      craft: '../../../assets/images/ ',
-      craft2: '../../../assets/images/ ',
+      craft: '../../../assets/images/maze_dificult.png',
+      craft2: '../../../assets/images/maze_easy.jpg',
       craft3: '#',
-      momsCornerSong:  '../../../assets/music/oHollyN.mp3'
+      momsCornerSong:  '../../../assets/music/christmas_bells_are_ringing.mp3'
     },
     {
       day: '20',
       story: ' ',
       song: '../../../assets/music/songs/TeBucuraMaria.mp3',
-      craft: '../../../assets/images/ ',
-      craft2: '../../../assets/images/ ',
+      craft: '../../../assets/images/inima.png',
+      craft2: '../../../assets/images/inima1.png',
       craft3: '#',
       momsCornerSong: '../../../assets/music/oCome.mp3' 
     },
@@ -314,7 +314,7 @@ export class DayComponent implements OnInit {
       craft: '../../../assets/images/ ',
       craft2: '../../../assets/images/ ',
       craft3: '#',
-      momsCornerSong: '../../../assets/music/silentN.mp3' 
+      momsCornerSong: '../../../assets/music/god_rest_ye_merry.mp3' 
     },
     {
       day: '23',
