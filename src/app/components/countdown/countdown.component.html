@@ -3,8 +3,9 @@
     <div class="wrap col-12 col-sm-12 p-2">
         <div id="card"  class=" d-flex">
             <div class="alert alert-danger px-1 w-100 text-center" role="alert">
-                <span *ngIf="daysToDecember >1; else rest">Mai sunt <span id="count">  {{daysToDecember}}</span> zile până la Crăciun!!!</span>
-                <ng-template #rest>
+                <ng-template [ngIf]="daysToDecember >1">Mai sunt <span id="count">  {{daysToDecember}}</span> zile până la Crăciun!!!
+                </ng-template>
+                <ng-template  [ngIf]="daysToDecember ==1">
                     Mai este DOAR o zi până la Crăciun!!!
                 </ng-template>
               </div>
