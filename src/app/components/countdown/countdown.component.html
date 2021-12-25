@@ -6,8 +6,11 @@
                 <ng-template [ngIf]="daysToDecember >1">Mai sunt <span id="count">  {{daysToDecember}}</span> zile până la Crăciun!!!
                 </ng-template>
                 <ng-template  [ngIf]="daysToDecember ==1">
-                    Mai este DOAR o zi până la Crăciun!!!
+                    Mai este DOAR o zi până la Crăciun!!! <br> Nu uita de concursul nostru!
                 </ng-template>
+                <ng-template  [ngIf]="daysToDecember ==0">
+                    Astăzi este Crăciunul!!! 
+                </ng-template> 
               </div>
         </div>
     </div>

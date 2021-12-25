@@ -13,6 +13,7 @@ import { CountdownComponent } from './components/countdown/countdown.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { ChristmasDayComponent } from './components/christmas-day/christmas-day.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     StoryComponent,
     ActivityComponent,
     CountdownComponent,
+    ChristmasDayComponent,
   ],
   imports: [
     BrowserModule,

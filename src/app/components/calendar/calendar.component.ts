@@ -17,6 +17,9 @@ export class CalendarComponent implements OnInit {
   ngOnInit(): void {
     // let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(today);
     // alert('Astăzi este ziua ' + this.day + ' de Advent!');
+    if(this.day==25){
+      this.router.navigateByUrl('/christmas-day');
+    }
   }
 
   //make days clickable only on specific days, based on date.
@@ -24,8 +27,9 @@ export class CalendarComponent implements OnInit {
     let selectedDay: number;
     if (this.day == 30) {
       selectedDay = 1;
-    } else {
-      selectedDay = this.day; 
+    }  
+    else {
+      selectedDay = this.day;    
     }
     // display today's day and previous
     if (id <= selectedDay) {
@@ -34,7 +38,7 @@ export class CalendarComponent implements OnInit {
       this.router.navigateByUrl('/day');
     } else {
       alert(
-        '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru zilele următoare, te asigur! 😁'
+        '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru ziua următoare, te asigur! 😁'
       );
     }
   }
