@@ -7,41 +7,52 @@ import { SharedService } from 'src/app/services/shared.service';
   templateUrl: './calendar.component.html',
   styleUrls: ['./calendar.component.scss'],
 })
+
 export class CalendarComponent implements OnInit {
   // active: boolean = false;
-  constructor(private router: Router, private sharedS: SharedService) {}
+  constructor(private router: Router, private sharedS: SharedService) { }
 
-  date = new Date();
-  day = this.date.getDate();
+  today = new Date();
+  day = this.today.getDate();
+  month = this.today.getMonth() + 1;// +1 because getMonth() returns position starting from 0
 
   ngOnInit(): void {
-    // let da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(today);
-    // alert('Astăzi este ziua ' + this.day + ' de Advent!');
-    if(this.day==25){
+    // alert('  day ' + this.day + '  month ' + this.month);
+    if (this.day == 25 && this.month == 12) {
       this.router.navigateByUrl('/christmas-day');
     }
   }
 
   //make days clickable only on specific days, based on date.
   goToContent(id: any) {
+
     let selectedDay: number;
-    if (this.day == 30) {
+
+    //this.day == 30 needed for testing before launching
+    if (this.day == 30 && this.month == 11) {
       selectedDay = 1;
-    }  
+    }
     else {
-      selectedDay = this.day;    
+      selectedDay = this.day;
     }
     // display today's day and previous
-    // if (id <= selectedDay) {
+    if (id <= selectedDay && this.month == 12) {
       // make id available in day component to filter content based on it
       this.sharedS.updateId(id);
       this.router.navigateByUrl('/day');
-    // } else {
-    //   alert(
-    //     '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru ziua următoare, te asigur! 😁'
-    //   );
-    // }
+    }
+    else if (this.month != 12) {
+      alert(
+        '😁 Ești curios să vezi despre ce e vorba, nu-i așa? 😁 Merită să revii pe data de 1 DECEMBRIE, te asigur! 😁'
+      );
+    }
+    else {
+      alert(
+        '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru ziua următoare, te asigur! 😁'
+      );
+    }
   }
+ 
 
   days = [
     { id: 1 },
