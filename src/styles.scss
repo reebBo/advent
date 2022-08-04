@@ -8,12 +8,16 @@ html, body{
 
     // overflow:hidden;
     // margin: 0;
-    // height: 100%;
-
-
+    // height: 100%; 
     background: rgb(158, 123, 126);
     background: linear-gradient(90deg, rgb(35, 68, 51) 0%, rgb(99, 172, 91) 35%, rgb(25, 88, 48) 100%); 
 }
+
+.clickable{
+    cursor: pointer;
+}
+
+///whaaaat????
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 
