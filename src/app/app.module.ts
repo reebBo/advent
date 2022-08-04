@@ -8,12 +8,15 @@ import { AppComponent } from './app.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { DayComponent } from './components/day/day.component';
 import { StoryComponent } from './components/story/story.component';
-import { ActivityComponent } from './components/activity/activity.component';
 import { CountdownComponent } from './components/countdown/countdown.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { ChristmasDayComponent } from './components/christmas-day/christmas-day.component';
+import { CraftComponent } from './components/craft/craft.component';
+import { SongComponent } from './components/song/song.component';
+import { MotherCornerComponent } from './components/mother-corner/mother-corner.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +24,12 @@ import { ChristmasDayComponent } from './components/christmas-day/christmas-day.
     CalendarComponent,
     DayComponent,
     StoryComponent,
-    ActivityComponent,
     CountdownComponent,
     ChristmasDayComponent,
+    CraftComponent,
+    SongComponent,
+    MotherCornerComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
