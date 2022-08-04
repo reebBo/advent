@@ -1,0 +1,22 @@
+ 
+<div class="card" *ngFor="let craft of crafts">
+    <div *ngIf="selectedDay==craft.id">
+        <h1 class="card-header text-center">
+            Craft
+        </h1>
+        <div class="card-body">
+            <h3 class="card-title">{{craft.title}}</h3>
+            <p class="card-text"><b>Materiale necesare:</b> <br> {{craft.text}}</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 my-1" *ngFor="let img of craft.images">
+                    <img class="img-fluid img-thumbnail" src="assets/{{img}}" alt="craft">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card-footer text-muted">
+            {{craft.credit}}
+        </div>
+    </div>
+</div>
