@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "images":["images/1.png", "images/2.png", "images/3.png"],
     "title": "Stelute, Stelute",
     "text": "hârtie (de orice culoare sau dimensiune), foarfecă, lipici, sfoară",
     "credit":"s.madalina.bucur - Instagram"
