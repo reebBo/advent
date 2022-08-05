@@ -9,21 +9,17 @@ import { SharedService } from 'src/app/services/shared.service';
   styleUrls: ['./day.component.scss'],
 })
 export class DayComponent implements OnInit {
-  Object = Object;
-  isCollapsed = true;
-  modalRef?: BsModalRef;
+  Object = Object; 
 
   categories = [{ story: 'Poveste' }, { song: 'Cântec' }, { craft: 'Craft' }, { moms: 'Colțul mămicilor' }]
 
-  constructor( private router: Router,) { }
+  constructor( private router: Router) { }
 
   navigateToElement(route: any) {
-    this.router.navigate([`/${route}`])
-  }
-  ngOnInit(): void { 
+    this.router.navigate([`/${route}`]);
   }
 
-
+  ngOnInit(): void {}
  
   // transcriptStory: string = '';
   // storyCredit: string = '';

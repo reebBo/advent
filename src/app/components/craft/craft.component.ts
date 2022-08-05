@@ -8,27 +8,28 @@ import { DailyContentService } from 'src/services/daily-content.service';
   styleUrls: ['./craft.component.scss']
 })
 export class CraftComponent implements OnInit {
-  crafts!: any[];
-  selectedDay: string = '';
-  
+  craft: any;
+
   constructor(
     private sharedService: SharedService,
-    private contentService:DailyContentService) { }
-  
-  
-  getCraft() {
-    this.contentService.getCraft()
-    .subscribe(craftRes => {
-      this.crafts = Object.values(craftRes); 
-    })
-  }
-
+    private contentService: DailyContentService) { }
 
   ngOnInit(): void {
-    this.sharedService.currentId.subscribe((data) => {
-      this.selectedDay = data;
-    });
     this.getCraft();
+  }
+
+  getCraft() {
+    this.sharedService.currentId.subscribe((date) => {
+      this.contentService.getCraft()
+        .subscribe(craftRes => {
+          let crafts = Object.values(craftRes);
+          crafts.map(elem => {
+            if (date == elem.id) {
+              this.craft = elem;
+            }
+          })
+        })
+    });
   }
 
 }
