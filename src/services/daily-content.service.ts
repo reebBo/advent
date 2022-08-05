@@ -13,4 +13,9 @@ export class DailyContentService {
   getCraft():Observable<Object> {
    return this.http.get('../../../assets/jsonContent/craft.json');
   }
+
+  getSong(){
+   return this.http.get('../../../assets/jsonContent/songs.json');
+
+  }
 }
