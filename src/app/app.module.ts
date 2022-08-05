@@ -17,6 +17,7 @@ import { CraftComponent } from './components/craft/craft.component';
 import { SongComponent } from './components/song/song.component';
 import { MotherCornerComponent } from './components/mother-corner/mother-corner.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ReplacePipe } from './pipes/replace.pipe';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { FooterComponent } from './components/footer/footer.component';
     SongComponent,
     MotherCornerComponent,
     FooterComponent,
+    ReplacePipe,
   ],
   imports: [
     BrowserModule,

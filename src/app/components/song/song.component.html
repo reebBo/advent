@@ -1,1 +1,12 @@
-<p>song works!</p>
+<div class="card" *ngIf="song">
+    <h1 class="card-header text-center">
+        Cântec
+    </h1>
+    <div class="card-body">
+        <p class="card-text">{{song.text}} 
+        </p>
+    </div>
+    <div class="card-footer text-muted">
+        {{song.credit}}
+    </div>
+</div>
