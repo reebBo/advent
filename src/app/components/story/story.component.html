@@ -1,1 +1,19 @@
-<p>story works!</p>
+<div class="card" *ngIf="story">
+    <h1 class="card-header text-center">
+        Poveste
+    </h1>
+    <div class="card-body">
+        <h5>{{story.title}} <br>
+            <span class="small text-muted">
+                {{story.author}}
+            </span>
+        </h5>
+        <p class="card-text">{{story.text}}
+        </p>
+        <div class="text-muted small">
+            <hr>
+            {{story.credit}}
+        </div>
+    </div>
+
+</div>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DailyContentService } from 'src/app/services/daily-content.service';
 import { SharedService } from 'src/app/services/shared.service';
-import { DailyContentService } from 'src/services/daily-content.service';
 
 @Component({
   selector: 'app-song',

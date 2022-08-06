@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DailyContentService } from 'src/app/services/daily-content.service';
+import { SharedService } from 'src/app/services/shared.service';
 
 @Component({
   selector: 'app-story',
@@ -7,9 +9,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StoryComponent implements OnInit {
 
-  constructor() { }
+  story: any;
+
+  constructor(private sharedService: SharedService,
+    private contentService: DailyContentService) { }
 
   ngOnInit(): void {
+    this.getStory(); 
   }
 
+  getStory() {
+    this.sharedService.currentId.subscribe((date) => {
+      this.contentService.getStory()
+        .subscribe(storyRes => {
+          let crafts = Object.values(storyRes);
+          crafts.map(elem => {
+            if (date == elem.id) {
+              this.story = elem;
+            }
+          })
+        })
+    });
+  }
 }
