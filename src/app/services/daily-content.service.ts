@@ -16,6 +16,8 @@ export class DailyContentService {
 
   getSong(){
    return this.http.get('../../../assets/jsonContent/songs.json');
-
+  }
+  getStory(){
+    return this.http.get('../../../assets/jsonContent/story.json');
   }
 }
