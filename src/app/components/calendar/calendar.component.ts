@@ -36,11 +36,11 @@ export class CalendarComponent implements OnInit {
       selectedDay = this.day;
     }
     // display today's day and previous
-    if (id <= selectedDay && this.month == 8) {
+    // if (id <= selectedDay && this.month == 8) {
       // make id available in day component to filter content based on it
       this.sharedS.updateId(id);
       this.router.navigateByUrl('/day');
-    }
+    // }
     // else if (this.month != 12) {
     //   alert(
     //     '😁 Ești curios să vezi despre ce e vorba, nu-i așa? 😁 Merită să revii pe data de 1 DECEMBRIE, te asigur! 😁'

@@ -1,1 +1,20 @@
-<p>mother-corner works!</p>
+<div class="card" *ngIf="momsCorner">
+    <h1 class="card-header text-center">
+        Colțul mămicilor
+    </h1>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-6 card-text">{{momsCorner.text}}
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid img-thumbnail" src="assets/{{momsCorner.image}}" alt="momsCorner-pic">
+            </div>
+        </div>
+
+        <hr>
+        <p class="text-muted small">
+            {{momsCorner.credit}}
+        </p>
+    </div>
+
+</div>
