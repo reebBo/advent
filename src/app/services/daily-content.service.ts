@@ -20,4 +20,8 @@ export class DailyContentService {
   getStory(){
     return this.http.get('../../../assets/jsonContent/story.json');
   }
+
+  getMomsCorner(){
+    return this.http.get('../../../assets/jsonContent/moms.json');
+  }
 }
