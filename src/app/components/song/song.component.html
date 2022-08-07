@@ -1,14 +1,19 @@
 <div class="card" *ngIf="song">
     <h1 class="card-header text-center">
-        Cântec
+        Colţul cu muzică
     </h1>
+
     <div class="card-body">
-        <p class="card-text">{{song.text}}
-        </p>
+        <div class="row">
+            <div class="col-sm-6 card-text p-4">{{song.text}}
+            </div>
+            <div class="col-sm-6">
+                <img class="img-fluid img-thumbnail" src="assets/{{song.image}}" alt="song-pic">
+            </div>
+        </div>
         <hr>
-        <p class="text-muted small">
+        <p class="text-muted small px-2">
             Text: {{song.textCredit}}&nbsp;&nbsp;|&nbsp;&nbsp;Interpretare:{{song.interpretare}}
         </p>
     </div>
-
 </div>
