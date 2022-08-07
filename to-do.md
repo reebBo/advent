@@ -7,3 +7,5 @@ navigate to other elements of the same day without going one step back (ex: from
 vezi anii precedenti - mesaj in alert (inainte de decembrie) + button somewhere on the page
 
 move from data in the app to data outside app
+
+add PRINT/DOWNLOAD option on the website
