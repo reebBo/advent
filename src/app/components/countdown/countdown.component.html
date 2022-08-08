@@ -1,22 +1,17 @@
- 
 <div class="row mx-0 mt-5">
     <div class="wrap col-12 col-sm-12 p-2">
-        <div id="card"  class=" d-flex">
+        <div id="card" class=" d-flex">
             <div class="alert alert-danger w-100 text-center" role="alert">
-                <ng-template [ngIf]="daysToDecember >1">Mai sunt <span id="count">  {{daysToDecember}}</span> zile până la Crăciun!!!
+                <ng-template [ngIf]="daysToDecember >1">Mai sunt <span id="count"> {{daysToDecember}}</span> zile până
+                    la Crăciun!!!
                 </ng-template>
-                <ng-template  [ngIf]="daysToDecember ==1">
+                <ng-template [ngIf]="daysToDecember ==1">
                     Mai este DOAR o zi până la Crăciun!!! <br> Nu uita de concursul nostru!
                 </ng-template>
-                <ng-template  [ngIf]="daysToDecember ==0">
-                    Astăzi este Crăciunul!!! 
-                </ng-template> 
-              </div>
+                <ng-template [ngIf]="daysToDecember ==0">
+                    Astăzi este Crăciunul!!!
+                </ng-template>
+            </div>
         </div>
     </div>
-</div>
-<style>
-   .alert{
-    box-shadow: rgba(185, 41, 41, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
-</style>
+</div> 
