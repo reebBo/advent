@@ -8,6 +8,14 @@
                 {{story.author}}
             </span>
         </h5>
+        <audio controls class="w-100">
+            <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
+        </audio>
+        <span class="small">
+            Lectura: <a class="" target="_blank" href="{{story.voiceContact}}"><strong>
+                    {{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
+        </span>
+        <hr>
         <p class="card-text">{{story.text}}
         </p>
         <div class="text-muted small">
@@ -17,3 +25,9 @@
     </div>
 
 </div>
+<style>
+    .small,
+    a {
+        color: #832338;
+    }
+</style>
