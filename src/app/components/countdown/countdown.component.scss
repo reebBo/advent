@@ -6,13 +6,27 @@
     color: rgb(236, 247, 243);
 
 }
+.fa-home {
+    position: absolute;
+    margin-left: 0em;
+    color: #fff;
+}
 
-.alert-danger{
-    background: rgb(163, 102, 102) !important;
+.home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.content{
+    height: 100%; 
     border: none;
     color: aliceblue;
     font-size: 1.2em;
+    text-align: center;
+    // box-shadow: rgba(185, 41, 41, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.alert {
-    box-shadow: rgba(185, 41, 41, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.alert-danger{
+    background: rgb(163, 102, 102) !important;
+  
 }
+ 
