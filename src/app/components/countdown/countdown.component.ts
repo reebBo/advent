@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-countdown',
   templateUrl: './countdown.component.html',
-  styleUrls: ['./countdown.component.scss']
+  styleUrls: ['./countdown.component.scss'],
 })
 export class CountdownComponent implements OnInit {
   chrismasDate = '25/12/2021';
@@ -13,16 +14,16 @@ export class CountdownComponent implements OnInit {
   millisecondsDay = 1000 * 60 * 60 * 24;
   daysToDecember: any = '';
 
-
-  constructor() { }
+  constructor(private route: Router) {}
 
   ngOnInit(): void {
     let difference = +this.xMas - +this.today;
     this.daysToDecember = Math.ceil(difference / this.millisecondsDay);
   }
 
-
-
+  goHome() {
+    this.route.navigateByUrl('/');
+  }
 
   // getTimeRemaining(endtime: any) {
   //   let date: any = new Date();
@@ -41,5 +42,4 @@ export class CountdownComponent implements OnInit {
   //     seconds
   //   };
   // }
-
 }
