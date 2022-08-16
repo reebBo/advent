@@ -3,18 +3,22 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
-html, body{
-
-    // overflow:hidden;
-    // margin: 0;
-    // height: 100%; 
-    background: rgb(158, 123, 126);
-    background: linear-gradient(90deg, rgb(35, 68, 51) 0%, rgb(99, 172, 91) 35%, rgb(25, 88, 48) 100%); 
+html,
+body {
+  // overflow:hidden;
+  // margin: 0;
+  // height: 100%;
+  background: rgb(158, 123, 126);
+  background: linear-gradient(
+    90deg,
+    rgb(35, 68, 51) 0%,
+    rgb(99, 172, 91) 35%,
+    rgb(25, 88, 48) 100%
+  );
 }
 
-.clickable{
-    cursor: pointer;
+.clickable {
+  cursor: pointer;
 }
 
 ///whaaaat????
@@ -24,12 +28,19 @@ html, body{
 /* Importing Datepicker SCSS file. */
 @import "~ngx-bootstrap/datepicker/bs-datepicker";
 
-
-
-
-// @media (max-width: 575.98px) { 
-//     .calendar-number {
-//         font-size: 2em !important;
-//         line-height: 0em;
-//       }
-//  }
+@media (max-width: 575.98px) {
+  #card {
+    margin-top: 0.8em !important;
+  }
+  .calendar-number {
+    font-size: 2em !important;
+    line-height: 1.5em !important;
+  }
+  #count {
+    font-size: 3.5vh !important;
+  }
+  .content {
+    font-size: 1.5vh !important;
+  }
+}
+ 
