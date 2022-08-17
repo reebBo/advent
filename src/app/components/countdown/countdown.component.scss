@@ -1,22 +1,17 @@
 #count {
   font-family: "Puppies Play", cursive;
-  font-size: 6vh;
+  font-size: 2.2em;
   font-weight: bold;
   line-height: 0.6em;
-  color: #fff;
+  color: rgb(226, 183, 183); 
 }
- 
-//   background: url("../../../assets/images/pitici.png");
-//   background-repeat: repeat-x;
-//   background-attachment: fixed;
-//   background-size: 10% 20%;
-//   height: 100%;
 
 .fa-home {
   position: absolute;
   margin-left: 0em;
-  color: #fff;
-  border: 2px solid #fff;
+  color: rgb(226, 183, 183); 
+  border: 2px solid rgb(226, 183, 183); 
+
   padding: 0.45em 0.3em;
   border-radius: 50%;
 }
@@ -29,8 +24,8 @@
 .content {
   height: 100%;
   border: none;
-  color: aliceblue;
-  font-size: 1.2em;
+  color: rgb(226, 183, 183);
+  font-size: 2em;
   text-align: center;
   // box-shadow: rgba(185, 41, 41, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

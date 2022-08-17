@@ -1,10 +1,16 @@
-<div class="container-fluid mx-0 py-3 px-2 text-light">
+<div class="container-fluid mx-0 px-2 text-light">
       <p>Descoperă mai jos POVESTEA, CÂNTECELUL și secțiunea de CRAFT pregătite special pentru tine. Iar pentru mămici,
         zilnic va fi un gând nou și încurajator, ca o îmbrățișare caldă.</p>
  
     <div class="card my-4 clickable" *ngFor="let categ of categories|keyvalue">
         <h3 class="card-header text-center" (click)="navigateToElement(Object.keys(categ.value))">
-            {{Object.values(categ.value)}}
+           <span *ngFor="let i of [1,2]">
+            <img src="../../../assets/images/starDec.png" alt="star">  
+           </span> 
+         {{Object.values(categ.value)}} 
+         <span *ngFor="let i of [1,2]">
+            <img src="../../../assets/images/starDec.png" alt="star">  
+           </span>
         </h3>
     </div>
 </div>

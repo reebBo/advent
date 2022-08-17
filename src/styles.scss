@@ -4,15 +4,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 html,
-body {
-  // overflow:hidden;
-  // margin: 0;
-  // height: 100%;
-  background: rgb(158, 123, 126);
+body { 
   background: linear-gradient(
-    90deg,
-    rgb(35, 68, 51) 0%,
-    rgb(99, 172, 91) 35%,
+    30deg,
+    rgb(45, 95, 69) 0%,
+    rgb(66, 131, 59) 35%,
     rgb(25, 88, 48) 100%
   );
 }
@@ -37,10 +33,10 @@ body {
     line-height: 1.5em !important;
   }
   #count {
-    font-size: 3.5vh !important;
+    font-size: 1.8em !important;
   }
   .content {
-    font-size: 1.5vh !important;
+    font-size: 1.2em !important;
   }
 }
  
