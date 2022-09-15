@@ -1,28 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
-// @import "~bootstrap/dist/css/bootstrap.css";
+ 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-html,
-body { 
-  background: linear-gradient(
-    30deg,
-    rgb(45, 95, 69) 0%,
-    rgb(66, 131, 59) 35%,
-    rgb(25, 88, 48) 100%
-  );
-}
-
-.clickable {
-  cursor: pointer;
-}
-
 ///whaaaat????
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 
 /* Importing Datepicker SCSS file. */
 @import "~ngx-bootstrap/datepicker/bs-datepicker";
+
+html,
+body {  
+  height: 100vh;  
+  background: linear-gradient(
+    30deg,
+    rgb(45, 95, 69) 0%,
+    // rgb(66, 131, 59) 35%,
+    rgb(25, 88, 48) 100%
+  ); 
+} 
+.wrapper{
+  height: 100%; 
+  overflow-y: scroll;
+  padding-bottom: 2em;
+}
+ 
+.clickable {
+  cursor: pointer;
+}
+
 
 @media (max-width: 575.98px) {
   #card {
@@ -38,53 +43,10 @@ body {
   .content {
     font-size: 1.2em !important;
   }
+  .star{
+    width: 5% !important;
+  }
 }
  
-
-// snow
-@function random_range($min, $max) {
-    $rand: random();
-    $random_range: $min + floor($rand * (($max - $min) + 1));
-    @return $random_range;
-  }
-  
-  .snow {
-    $total: 200;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    font-size: 60px;
-    border-radius: 50%;
-    pointer-events: none;
-    color: #cad2f0;
-  
-    @for $i from 1 through $total {
-      $random-x: random(1000000) * 0.0001vw;
-      $random-offset: random_range(-200000, 200000) * 0.0001vw;
-      $random-x-end: $random-x + $random-offset;
-      $random-x-end-yoyo: $random-x + ($random-offset / 2);
-      $random-yoyo-time: random_range(30000, 80000) / 100000;
-      $random-yoyo-y: $random-yoyo-time * 100vh;
-      $random-scale: random(10000) * 0.0001;
-      $fall-duration: random_range(10, 30) * 1s;
-      $fall-delay: random(30) * -0.081s;
-  
-      &:nth-child(#{$i}) {
-        opacity: random(12000) * 1;
-        transform: translate($random-x, -130px) scale($random-scale);
-        animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
-      }
-  
-      @keyframes fall-#{$i} {
-        #{percentage($random-yoyo-time)} {
-          transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
-        }
-  
-        to {
-          transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
-        }
-      }
-    }
-  }
-
-  // code from https://trungk18.com/experience/angular-snow-effect/
+ 
+  //snow code at https://trungk18.com/experience/angular-snow-effect/

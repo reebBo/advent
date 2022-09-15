@@ -2,15 +2,13 @@
   font-family: "Puppies Play", cursive;
   font-size: 2.2em;
   font-weight: bold;
-  line-height: 0.6em;
-  // color: rgb(226, 183, 183); 
+  line-height: 0.6em; 
   color: #ac8b88;
 }
 
 .fa-home {
   position: absolute;
-  margin-left: 0em;
-  // color: rgb(226, 183, 183); 
+  margin-left: 0em; 
   color:  #ac8b88;
   border: 2px solid  #ac8b88;
 
@@ -25,12 +23,10 @@
 }
 .content {
   height: 100%;
-  border: none;
-  // color: rgb(226, 183, 183);
+  border: none; 
   color: #ac8b88;
   font-size: 2em;
   text-align: center;
-  // box-shadow: rgba(185, 41, 41, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .alert-danger {
   background: rgb(163, 102, 102) !important;
