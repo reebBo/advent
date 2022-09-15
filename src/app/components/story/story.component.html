@@ -1,8 +1,8 @@
 <div class="card mx-2 mb-5" *ngIf="story">
-    <h1 class="card-header text-center">
-        Poveste
+    <h1 class="card-header">
+        Poveste <span class="float-right"> <button class="btn btn-sm btn-outline-secondary mr-1">Cântec</button> <button class="btn btn-sm btn-outline-secondary mr-1">Lucru manual</button> <button class="btn btn-sm btn-outline-secondary">Colțul mămicilor</button></span>
     </h1>
-    
+
     <div class="card-body">
         <h5>{{story.title}} <br>
             <span class="small text-muted">
@@ -25,4 +25,6 @@
         </div>
     </div>
 
-</div> 
+</div>
+
+<!-- implement event handler which calls the function in the parent to display other components (song, mom s corner, craft) -->
