@@ -1,13 +1,24 @@
 <div class="container-fluid mx-0 px-2 pb-5 text-light">  
     <div class="card my-5 clickable" *ngFor="let categ of categories|keyvalue">
         <h3 class="card-header text-center" (click)="navigateToElement(Object.keys(categ.value))">
-           <span *ngFor="let i of [1,2]">
-            <img class="star" src="../../../assets/images/starDec.png" alt="star">  
-           </span> 
-         {{Object.values(categ.value)}} 
-         <span *ngFor="let i of [1,2]">
-            <img class="star" src="../../../assets/images/starDec.png" alt="star">  
-           </span>
+            <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>&nbsp;
+            <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i> <br>
+            &nbsp;{{Object.values(categ.value)}}&nbsp;  <br>
+         <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>&nbsp;
+         <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>&nbsp;
+         <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>
         </h3>
     </div>
 </div>
+<style>
+    .container-fluid{
+        height: 100vh;
+    }
+    .card{
+        padding: .65em;
+    }
+    .card-header{
+        background: transparent;
+        border-bottom:transparent;
+    }
+</style>
