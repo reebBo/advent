@@ -1,6 +1,11 @@
 <div class="card mx-2 mb-5" *ngIf="story">
     <h1 class="card-header">
-        Poveste <span class="float-right"> <button class="btn btn-sm btn-outline-secondary mr-1">Cântec</button> <button class="btn btn-sm btn-outline-secondary mr-1">Lucru manual</button> <button class="btn btn-sm btn-outline-secondary">Colțul mămicilor</button></span>
+        Poveste
+        <!-- <span class="float-right">
+            <button class="btn btn-sm btn-outline-secondary mr-1">Cântec</button>
+            <button class="btn btn-sm btn-outline-secondary mr-1">Lucru manual</button>
+            <button class="btn btn-sm btn-outline-secondary">Colțul mămicilor</button>
+        </span> -->
     </h1>
 
     <div class="card-body">
@@ -9,10 +14,10 @@
                 {{story.author}}
             </span>
         </h5>
-        <audio controls class="w-100">
+        <audio *ngIf="story.voiceContact" controls class="w-100">
             <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
         </audio>
-        <span class="small">
+        <span *ngIf="story.voiceContact" class="small">
             Lectura: <a class="" target="_blank" href="{{story.voiceContact}}"><strong>
                     {{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
         </span>
