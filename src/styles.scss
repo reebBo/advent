@@ -9,21 +9,15 @@
 @import "~ngx-bootstrap/datepicker/bs-datepicker";
 
 html,
-body {  
-  height: 100vh;  
+body {   
   background: linear-gradient(
     30deg,
     rgb(45, 95, 69) 0%,
-    // rgb(66, 131, 59) 35%,
+    rgb(66, 131, 59) 35%,
     rgb(25, 88, 48) 100%
-  ); 
-} 
-.wrapper{
-  height: 100%; 
-  overflow-y: scroll;
-  padding-bottom: 2em;
-}
- 
+  );  
+  background-repeat: no-repeat;
+}  
 .clickable {
   cursor: pointer;
 }
