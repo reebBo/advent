@@ -19,6 +19,7 @@ import { ReplacePipe } from './pipes/replace.pipe';
 import { StoryComponent } from './components/story/story.component';
 import { CraftComponent } from './components/craft/craft.component';
 import { SongComponent } from './components/song/song.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { SongComponent } from './components/song/song.component';
     MotherCornerComponent,
     FooterComponent,
     ReplacePipe,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
