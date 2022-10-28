@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavigationService } from './services/navigation.service';
 
 @Component({
   selector: 'app-root',
@@ -6,10 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+
+  constructor(public navig:NavigationService) { 
+    this.navig.startSaveHistory();
+  }
+
   getExplorerInfo() {
     let t:any = navigator.userAgent.toLowerCase();
-    alert(JSON.stringify(t))
-
     return 0 <= t.indexOf('msie')
       ? {
           //ie < 11

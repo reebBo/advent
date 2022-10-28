@@ -1,8 +1,13 @@
  
     <div class="card mx-2 mb-5" *ngIf="craft">
-        <h1 class="card-header">
-            Craft
-        </h1>
+        <span class="card-header">
+            <span class="h1">
+                Craft
+            </span>
+            <span class="float-right">
+                <app-navbar></app-navbar>
+            </span>
+        </span>
         <div class="card-body">
             <h3 class="card-title">{{craft.title}}</h3>
             <p class="card-text"><b>Materiale necesare:</b> <br> {{craft.text}}</p>

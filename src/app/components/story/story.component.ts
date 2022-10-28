@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DailyContentService } from 'src/app/services/daily-content.service';
+import { NavigationService } from 'src/app/services/navigation.service';
 import { SharedService } from 'src/app/services/shared.service';
 
 @Component({
@@ -12,7 +13,7 @@ export class StoryComponent implements OnInit {
   story: any;
 
   constructor(private sharedService: SharedService,
-    private contentService: DailyContentService) { }
+    private contentService: DailyContentService, public navig:NavigationService) { }
 
   ngOnInit(): void {
     this.getStory(); 
