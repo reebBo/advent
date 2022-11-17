@@ -1,7 +1,12 @@
 make sure to unsubscribe on observables 
 implement interfaces
+
+
+
   
 vezi anii precedenti - mesaj in alert (inainte de decembrie) + button somewhere on the page
+
+maybe make selecting years a dropdown
 
 move from data in the app to data outside app
 

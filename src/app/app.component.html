@@ -1,5 +1,48 @@
 <div class="wrapper container h-100">
         <app-countdown></app-countdown>
+        <div class="row mx-2">
+                <button class="btn btn-small btn-outline-dark mr-2" (click)="set2022()">2022</button>
+                <button class="btn btn-small btn-outline-dark mr-2" (click)="set2021()">2021</button>
+                <button class="btn btn-small btn-outline-dark mr-2" (click)="set2020()">2020</button>
+                <div class="text-dark h-100">Ai selectat anul {{selectedYear}}</div>
+        </div>
         <router-outlet></router-outlet>
         <app-footer></app-footer>
 </div>
+
+<style>
+        .text-dark {
+                /* text-align: center; */
+                vertical-align: middle;
+                /* line-height: 90px; */
+        }
+</style>
+
+<!-- <button
+#latestMeasurementBtn
+class="px-1 btn btn-light col-md-2 col-lg-2 form-group mr-2"
+[ngClass]="{ active: highlightedButton === 4 }"
+(click)="getLatestMeasurements()">
+{{ 'cdb_calendar_latest_measurement_text' | translate }}
+</button>
+
+<button
+class="btn btn-light form-group col-1 col-md-1 col-lg-1 mr-2 px-1"
+[ngClass]="{ active: highlightedButton === 1 }"
+(click)="getToday()">
+{{ 'cdb_calendar_button_1_day_text' | translate }}
+</button>
+
+<button
+class="btn btn-light form-group col-1 col-md-1 col-lg-1 mr-2 px-1 active"
+[ngClass]="{ active: highlightedButton === 2 }"
+(click)="getLastWeek()">
+{{ 'cdb_calendar_button_1_week_text' | translate }}
+</button>
+
+<button
+class="btn btn-light form-group col-1 col-md-1 col-lg-1 mr-2 px-1"
+[ngClass]="{ active: highlightedButton === 3 }"
+(click)="getLastMonth()">
+{{ 'cdb_calendar_button_1_month_text' | translate }}
+</button> -->

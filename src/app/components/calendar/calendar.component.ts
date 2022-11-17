@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router } from '@angular/router'; 
 import { SharedService } from 'src/app/services/shared.service';
 
 @Component({
@@ -17,6 +17,8 @@ export class CalendarComponent implements OnInit {
   month = this.today.getMonth() + 1;// +1 because getMonth() returns position starting from 0
 
   ngOnInit(): void {
+    // this.contentService.setYear();
+
     // alert('  day ' + this.day + '  month ' + this.month);
     if (this.day == 25 && this.month == 12) {
       this.router.navigateByUrl('/christmas-day');
