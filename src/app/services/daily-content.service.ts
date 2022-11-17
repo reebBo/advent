@@ -66,7 +66,7 @@ export class DailyContentService {
     return this.http.get('../../../assets/jsonContent/story.json').pipe(
       map((storiesData: any) => {
         if (Object.keys(storiesData).includes(year)) {
-          return storiesData[year]['storiesData'];
+          return storiesData[year]['stories'];
         }
       })
     )
