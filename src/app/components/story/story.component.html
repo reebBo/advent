@@ -9,12 +9,12 @@
     </span>
 
     <div class="card-body">
-        <h5>{{story.title}} <br>
+        <h5>{{story.title}} - Ziua {{story.id}}<br>
             <span class="small text-muted">
                 {{story.author}}
             </span>
         </h5>
-        <audio *ngIf="story.voiceContact" controls class="w-100">
+        <audio *ngIf="story.voice" controls class="w-100">
             <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
         </audio>
         <span *ngIf="story.voiceContact" class="small">
