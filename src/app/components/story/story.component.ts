@@ -13,19 +13,20 @@ export class StoryComponent implements OnInit {
   story: any;
 
   constructor(private sharedService: SharedService,
-    private contentService: DailyContentService, public navig:NavigationService) { }
+    private contentService: DailyContentService, public navig: NavigationService) { }
 
   ngOnInit(): void {
-    this.getStory(); 
+    this.getStory();
   }
 
   getStory() {
-    this.sharedService.currentId.subscribe((date) => {
+    this.sharedService.currentId.subscribe((selectedDate) => {
       this.contentService.getStory()
-        .subscribe(storyRes => {
+        .subscribe((storyRes: any) => {
+
           let crafts = Object.values(storyRes);
-          crafts.map((elem:any) => {
-            if (date == elem.id) {
+          crafts.map((elem: any) => {
+            if (selectedDate == elem.id) {
               this.story = elem;
             }
           })
