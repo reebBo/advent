@@ -24,7 +24,7 @@ export class StoryComponent implements OnInit {
       this.contentService.getStory()
         .subscribe(storyRes => {
           let crafts = Object.values(storyRes);
-          crafts.map(elem => {
+          crafts.map((elem:any) => {
             if (date == elem.id) {
               this.story = elem;
             }

@@ -15,16 +15,18 @@ export class CraftComponent implements OnInit {
     private contentService: DailyContentService) { }
 
   ngOnInit(): void {
-    this.getCraft();
+    this.getCraft();  
   }
 
+
   getCraft() {
-    this.sharedService.currentId.subscribe((date) => {
+    this.sharedService.currentId.subscribe((selectedDate) => {
       this.contentService.getCraft()
         .subscribe(craftRes => {
+
           let crafts = Object.values(craftRes);
           crafts.map(elem => {
-            if (date == elem.id) {
+            if (selectedDate == elem.id) {
               this.craft = elem;
             }
           })

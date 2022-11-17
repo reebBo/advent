@@ -9,23 +9,24 @@ import { SharedService } from 'src/app/services/shared.service';
 })
 export class SongComponent implements OnInit {
 
-  song:any;
+  song: any;
 
   constructor(private sharedService: SharedService,
     private contentService: DailyContentService) { }
 
   ngOnInit(): void {
-    this.getSong(); 
+    this.getSong();
   }
 
 
   getSong() {
-    this.sharedService.currentId.subscribe((date) => {
+    this.sharedService.currentId.subscribe((selectedDate) => {
       this.contentService.getSong()
         .subscribe(songRes => {
-          let crafts = Object.values(songRes);
-          crafts.map(elem => {
-            if (date == elem.id) {
+
+          let songs = Object.values(songRes);
+          songs.map((elem: any) => {
+            if (selectedDate == elem.id) {
               this.song = elem;
             }
           })

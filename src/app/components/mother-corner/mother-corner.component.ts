@@ -21,12 +21,12 @@ export class MotherCornerComponent implements OnInit {
 
 
   getMomsCorner() {
-    this.sharedService.currentId.subscribe((date) => {
+    this.sharedService.currentId.subscribe((selectedDate) => {
       this.contentService.getMomsCorner()
         .subscribe(songRes => {
           let crafts = Object.values(songRes);
-          crafts.map(elem => {
-            if (date == elem.id) {
+          crafts.map((elem:any) => {
+            if (selectedDate == elem.id) {
               this.momsCorner = elem;
             }
           })
