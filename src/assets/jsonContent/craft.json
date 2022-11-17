@@ -1,175 +1,354 @@
-[
-  {
-    "id": "1",
-    "images":["images/craft1.png"],
-    "title": "Stelute, Stelute",
-    "text": "hârtie (de orice culoare sau dimensiune), foarfecă, lipici, sfoară",
-    "credit":"s.madalina.bucur - Instagram"
+{
+  "2021": {
+    "crafts": [
+      {
+        "id": "1",
+        "images": [
+          "images/craft1.png"
+        ],
+        "title": "Stelute, Stelute",
+        "text": "hârtie (de orice culoare sau dimensiune), foarfecă, lipici, sfoară",
+        "credit": "s.madalina.bucur - Instagram"
+      },
+      {
+        "id": "2",
+        "images": [
+          "images/craft2.png",
+          "images/craft2.2.jpg",
+          "images/craft2.3.png"
+        ],
+        "title": "Paper twist",
+        "text": "hârtie (de orice culoare), foarfecă, lipici, sfoară",
+        "credit": "madamecriativa.com.br - Pinterest"
+      },
+      {
+        "id": "3",
+        "images": [
+          "images/craft3.png",
+          "images/craft3.2.png",
+          "images/craft3.3.png"
+        ],
+        "title": "Acadea",
+        "text": "hârtie (de orice culoare), foarfecă, lipici, sfoară",
+        "credit": "affelandra.ru - Pinterest"
+      },
+      {
+        "id": "4",
+        "images": [
+          "images/craft4.png",
+          "images/craft4.2.png"
+        ],
+        "title": "Lumânare în borcan",
+        "text": "bandă scotch sau bandă adezivă îngustă, borcan, acuarele, pensule, lumânare.\r\n\r\n Sfat: Îți recomand să feliezi o portocală și să pui feliile la uscat. Le vom folosi în una din zilele următoare ",
+        "credit": "kadinlarkulubu.com - Pinterest"
+      },
+      {
+        "id": "5",
+        "images": [
+          "images/star.png"
+        ],
+        "title": "Stea",
+        "text": "bețe (pot fi chiar crenguțe din pom), sfoară(după preferință), lipici (sau pistol de lipit)",
+        "credit": "www.simplesbellablog.com"
+      },
+      {
+        "id": "6",
+        "images": [
+          "images/craftHouses1.png",
+          "images/craftHouses2.png",
+          "images/craftHouses3.png"
+        ],
+        "title": "Căsuțe de iarnă",
+        "text": "Printează template-urile, decupează-le și construiește un minunat sătuc de iarnă, la fel ca în imaginile de mai sus. Dă click pe linkul de mai jos pentru a descărca template-urile dorite.\r\n\r\nSfat: Îți recomand să feliezi o portocală și să pui feliile la uscat. Le vom folosi în una din zilele următoare\r\n\r\n  ",
+        "credit": "https://www.daledetalles.com/navidad/villas-navidenas-de-papel"
+      },
+      {
+        "id": "7",
+        "images": [
+          "images/decor.png",
+          "images/collage3.png",
+          "images/collage4.png"
+        ],
+        "title": "Portocale feliate",
+        "text": "felii de portocale uscate (pot fi lămâi, mandarine, grapefruit, alte citrice), sfoară colorată (după preferință), steluțe, inimioare, biluțe sau alte elemente decorative, crenguțe de brad, globulețe",
+        "credit": " Pinterest"
+      },
+      {
+        "id": "8",
+        "images": [
+          "images/om1.png",
+          "images/om2.png"
+        ],
+        "title": "Un dar",
+        "text": "Carton colorat, \r\nMarker(carioci), \r\nLipici, \r\nFoarfece, \r\nHârtie cu sclipici (opțional), \r\nAutocolant cu fulgi de nea (opțional) \r\n\r\nCrăciunul nu este doar o ocazie pentru a primi daruri ci și o ocazie de a dărui altora. Cum ar fi să confecționezi una, două sau mai multe felicitări sau mici daruri pe care apoi să le oferi altora? \r\n\r\nGândește-te, cui ai putea să-i pui un zâmbet larg pe chip cu micuța ta surpriză?",
+        "credit": "https://craftsmeetkids.com/3d-snowman-christmas-card-for-kids/"
+      },
+      {
+        "id": "9",
+        "images": [
+          "images/frameCollage.png"
+        ],
+        "title": "Ramă de Crăciun",
+        "text": "lipici, carton, sclipici pulbere sau lipici cu sclipici, ață colorată (sau panglică), foarfece, creion, o fotografie. Bineînțeles, poți adăuga și alte elemente, dacă dorești - biluțe colorate, steluțe",
+        "credit": "https://www.cleverpatch.com.au"
+      },
+      {
+        "id": "10",
+        "images": [
+          "images/memory.png"
+        ],
+        "title": "Memory",
+        "text": "Imprimantă, hârtie/carton, foarfece, lipici.\r\nDescarcă, printează pe carton (sau pe hârtie pe care să o lipești apoi pe carton), decupează apoi joacă împreună cu cei dragi jocul MEMORY",
+        "credit": "ck-creativekitcken.com"
+      },
+      {
+        "id": "11",
+        "images": [
+          "images/difference1.png",
+          "images/difference2.png"
+        ],
+        "title": "Găsește diferențele",
+        "text": "Imprimantă, hârtie, foarfece, creion.\r\nDescarcă, printează și apoi rezolvă provocările",
+        "credit": "www.universdecopii.ro + www.woojr.com"
+      },
+      {
+        "id": "12",
+        "images": [
+          "images/jocPastori.png",
+          "images/pastoras2.jpg",
+          "images/pastoras3.jpg"
+        ],
+        "title": "Drumul spre Prunc - Joc",
+        "text": "Imprimantă, hârtie, foarfece, lipici, capac de plastic de la un pet de suc, zar.\r\n\r\nDescarcă și printează jocul pe o coală A3 sau A4.\r\n\r\nDescarcă și printează păstorașul - câte unul pentru fiecare jucător.\r\n\r\nDacă dorești poți lipi păstorașul în jurul unui capac de plastic, pe care  să-l poți folosi drept 'piedestal' pe traseu.\r\n\r\nCum se joacă?\r\nTu ești păstorașul care Îl caută pe pruncul Isus.\r\nTocmai ai auzit de la îngeri că El s-a nascut și ești nerăbdător să Îl vezi.\r\nFiecare jucător dă cu zarul și înaintează tot atâția pași cât arată zarul.\r\nVrei să ajungi primul la pruncul Isus!\r\nDacă te oprești pe o stea cu rază poți să o iei pe scurtătura, e clar că știi drumul",
+        "credit": "kleuteridee.nl"
+      },
+      {
+        "id": "13",
+        "images": [
+          "images/pastorDots.png",
+          "images/sudoku1.png",
+          "images/sudoku2.png"
+        ],
+        "title": "Sudoku ++",
+        "text": "Imprimantă, hârtie, creion, răbdare.\r\n\r\nDescarcă și printează paginile.\r\n\r\nAi auzit de jocul Sudoku? Ei bine, dacă de obicei e cu cifre, de data acesta noi îl avem cu simboluri, respectiv cu cuvinte. Mai exact, un cuvânt. Regula este simplă: pe linii și pe coloane, dar și în regiunile cu cadru îngroșat, simbolurile apar toate, o sigură dată. Succes!",
+        "credit": "cateheza.ro"
+      },
+      {
+        "id": "14",
+        "images": [
+          "images/1.png",
+          "images/2.png",
+          "images/3.png"
+        ],
+        "title": "Îngeri mii",
+        "text": "Agrafe de birou, ață colorată, biluțe decorative, entuziasm",
+        "credit": "  https://comofazartesanato.wordpress.com/2013/11/14/como-se-faz-anjinhos-para-arvore-de-natal/"
+      },
+      {
+        "id": "15",
+        "images": [
+          "images/flake1.png",
+          "images/flake2.png",
+          "images/flake3.png"
+        ],
+        "title": "Fulgii bucuriei",
+        "text": "Imprimantă, hârtie, foarfece, pix.\r\nDescarcă, printează și apoi scrie motivele tale de bucurie/mulțumire.",
+        "credit": "https://www.template.net/design-templates/print/snowflake-template/"
+      },
+      {
+        "id": "16",
+        "images": [
+          "images/pastorii.png"
+        ],
+        "title": "Păstorii",
+        "text": "Imprimantă, hârtie.\r\n\r\nDescarcă și printează pe o coală A4 apoi unește punctele.",
+        "credit": "biblewise.com"
+      },
+      {
+        "id": "17",
+        "images": [
+          "images/catapult1.png",
+          "images/catapult2.png"
+        ],
+        "title": "Catapulta",
+        "text": "Bețe de înghețată, elastice de bucătărie (sau chiar de păr), mingi de ping-pong sau mingi din material textil (sau marshmallows - yummy), bandă dublu adeziv (sau lipici), un capac de la cutia de lapte, o linguriță de plastic(opțional).\r\n\r\nAtenție, nu folosi catapulta cu obiecte care ar putea răni pe alții sau pe tine",
+        "credit": "https://www.science-sparks.com/how-to-make-a-catapult/"
+      },
+      {
+        "id": "18",
+        "images": [
+          "images/morisca1.png",
+          "images/morisca2.png"
+        ],
+        "title": "Morișca decorativă",
+        "text": "Hârtie roșie, hârtie galbenă, hârtie verde, creion, foarfece, capsator sau lipici. Pe fiecare din linii, taie din colț până la semnul alb, apoi impăturește toate colțurile cu gaură înspre mijloc (in loc de gaură, poti doar să faci un semn cu creionul pe foaie). Lipiți-le sau capsați-le acolo. Tăiați un cerc mic din hârtie galbenă și lipiți-l deasupra, ca în exemplu. Tăiați una sau două frunze din hârtie verde și lipiți-le astfel încât să iasă din spatele moriștii. ",
+        "credit": "https://sweetpartyplace.com/poinsettia-pinwheel-craft-fun-christmas-craft-idea-for-kids/"
+      },
+      {
+        "id": "19",
+        "images": [
+          "images/maze_dificult.png",
+          "images/maze_easy.jpg"
+        ],
+        "title": "Găsește drumul spre Pruncul Isus",
+        "text": "Imprimantă, hârtie,creion.\r\nDescarcă, printează și apoi găsește traseul către Prunc. Alege labirintul care ți se potrivește",
+        "credit": "https://www.makinglearningfun.com/"
+      },
+      {
+        "id": "20",
+        "images": [
+          "images/inima.png",
+          "images/inima1.png"
+        ],
+        "title": "Decorații din Scandinavia - inima",
+        "text": "Hârtie de două culori diferite, printer, foarfece, lipici",
+        "credit": "https://www.pianetadonne.blog"
+      },
+      {
+        "id": "21",
+        "images": [
+          "images/felinare.png",
+          "images/felinare1.png",
+          "images/felinare2.jpg"
+        ],
+        "title": "Felinarele ințelepților",
+        "text": "Imprimantă, hârtie, creioane colorate, foarfece, lipici, răbdare.\r\n\r\nDescarcă și printează paginile.\r\n\r\n Colorează, decupează și confecționează un felinar.",
+        "credit": "kleuteridee.nl"
+      },
+      {
+        "id": "22",
+        "images": [
+          "images/collage1.png",
+          "images/collage2.png"
+        ],
+        "title": "Ghirlanda inimii",
+        "text": "Hârtie, foarfece, lipici, sfoară",
+        "credit": "http://seilifestyle.blogspot.com"
+      },
+      {
+        "id": "23",
+        "images": [
+          "images/colinda.png",
+          "images/colindatori.png"
+        ],
+        "title": "Colindătorii",
+        "text": "ghinde, acuarele acrilice, pistol de lipit, dopuri de plută, carton alb",
+        "credit": "https://thepinterestedparent.com"
+      },
+      {
+        "id": "24",
+        "images": [
+          "images/ghirlanda1.png",
+          "images/ghirlanda2.png",
+          "images/ghirlanda3.png"
+        ],
+        "title": "Ghirlanda din popcorn",
+        "text": " Floricele de porumb nesărate, ac, ață",
+        "credit": "www.wikihow.com"
+      }
+    ]
   },
-  {
-    "id": "2",
-    "images":["images/craft2.png","images/craft2.2.jpg","images/craft2.3.png"],
-    "title": "Paper twist",
-    "text": "hârtie (de orice culoare), foarfecă, lipici, sfoară",
-    "credit":"madamecriativa.com.br - Pinterest"
-  },
-  {
-    "id": "3",
-    "images":["images/craft3.png","images/craft3.2.png","images/craft3.3.png"],
-     "title": "Acadea",
-    "text": "hârtie (de orice culoare), foarfecă, lipici, sfoară",
-    "credit":"affelandra.ru - Pinterest"
-
-  },
-  {
-    "id": "4",
-    "images":["images/craft4.png","images/craft4.2.png"],
-     "title": "Lumânare în borcan",
-    "text": "bandă scotch sau bandă adezivă îngustă, borcan, acuarele, pensule, lumânare.\r\n\r\n Sfat: Îți recomand să feliezi o portocală și să pui feliile la uscat. Le vom folosi în una din zilele următoare ",
-    "credit":"kadinlarkulubu.com - Pinterest"
-
-  },
-  {
-    "id": "5",
-    "images":["images/star.png"],
-     "title": "Stea",
-    "text": "bețe (pot fi chiar crenguțe din pom), sfoară(după preferință), lipici (sau pistol de lipit)",
-    "credit":"www.simplesbellablog.com"
-  },
-
-  {
-    "id": "6",
-    "images":["images/craftHouses1.png","images/craftHouses2.png","images/craftHouses3.png"],
-      "title": "Căsuțe de iarnă",
-    "text": "Printează template-urile, decupează-le și construiește un minunat sătuc de iarnă, la fel ca în imaginile de mai sus. Dă click pe linkul de mai jos pentru a descărca template-urile dorite.\r\n\r\nSfat: Îți recomand să feliezi o portocală și să pui feliile la uscat. Le vom folosi în una din zilele următoare\r\n\r\n  ",
-    "credit":"https://www.daledetalles.com/navidad/villas-navidenas-de-papel"
-
-  },
-  {
-    "id": "7",
-    "images":["images/decor.png","images/collage3.png","images/collage4.png"],
-     "title": "Portocale feliate",
-    "text": "felii de portocale uscate (pot fi lămâi, mandarine, grapefruit, alte citrice), sfoară colorată (după preferință), steluțe, inimioare, biluțe sau alte elemente decorative, crenguțe de brad, globulețe",
-    "credit":" Pinterest"
-
-  },
-  {
-    "id": "8",
-    "images":["images/om1.png","images/om2.png"],
-     "title": "Un dar",
-    "text": "Carton colorat, \r\nMarker(carioci), \r\nLipici, \r\nFoarfece, \r\nHârtie cu sclipici (opțional), \r\nAutocolant cu fulgi de nea (opțional) \r\n\r\nCrăciunul nu este doar o ocazie pentru a primi daruri ci și o ocazie de a dărui altora. Cum ar fi să confecționezi una, două sau mai multe felicitări sau mici daruri pe care apoi să le oferi altora? \r\n\r\nGândește-te, cui ai putea să-i pui un zâmbet larg pe chip cu micuța ta surpriză?",
-    "credit":"https://craftsmeetkids.com/3d-snowman-christmas-card-for-kids/"
-  },
-  {
-    "id": "9",
-    "images":["images/frameCollage.png"],
-     "title": "Ramă de Crăciun",
-    "text": "lipici, carton, sclipici pulbere sau lipici cu sclipici, ață colorată (sau panglică), foarfece, creion, o fotografie. Bineînțeles, poți adăuga și alte elemente, dacă dorești - biluțe colorate, steluțe",
-    "credit":"https://www.cleverpatch.com.au"
-  },
-  {
-    "id": "10",
-    "images":["images/memory.png"],
-     "title": "Memory",
-    "text": "Imprimantă, hârtie/carton, foarfece, lipici.\r\nDescarcă, printează pe carton (sau pe hârtie pe care să o lipești apoi pe carton), decupează apoi joacă împreună cu cei dragi jocul MEMORY",
-    "credit":"ck-creativekitcken.com" 
-  },
-  {
-    "id": "11",
-    "images":["images/difference1.png","images/difference2.png"],
-     "title": "Găsește diferențele",
-    "text": "Imprimantă, hârtie, foarfece, creion.\r\nDescarcă, printează și apoi rezolvă provocările",
-    "credit":"www.universdecopii.ro + www.woojr.com"
-  },
-  {
-    "id": "12",
-    "images":["images/jocPastori.png", "images/pastoras2.jpg", "images/pastoras3.jpg"],
-      "title": "Drumul spre Prunc - Joc",
-    "text": "Imprimantă, hârtie, foarfece, lipici, capac de plastic de la un pet de suc, zar.\r\n\r\nDescarcă și printează jocul pe o coală A3 sau A4.\r\n\r\nDescarcă și printează păstorașul - câte unul pentru fiecare jucător.\r\n\r\nDacă dorești poți lipi păstorașul în jurul unui capac de plastic, pe care  să-l poți folosi drept 'piedestal' pe traseu.\r\n\r\nCum se joacă?\r\nTu ești păstorașul care Îl caută pe pruncul Isus.\r\nTocmai ai auzit de la îngeri că El s-a nascut și ești nerăbdător să Îl vezi.\r\nFiecare jucător dă cu zarul și înaintează tot atâția pași cât arată zarul.\r\nVrei să ajungi primul la pruncul Isus!\r\nDacă te oprești pe o stea cu rază poți să o iei pe scurtătura, e clar că știi drumul",
-    "credit":"kleuteridee.nl"
-  },
-  {
-    "id": "13",
-    "images":["images/pastorDots.png", "images/sudoku1.png", "images/sudoku2.png"],
-     "title": "Sudoku ++",
-    "text": "Imprimantă, hârtie, creion, răbdare.\r\n\r\nDescarcă și printează paginile.\r\n\r\nAi auzit de jocul Sudoku? Ei bine, dacă de obicei e cu cifre, de data acesta noi îl avem cu simboluri, respectiv cu cuvinte. Mai exact, un cuvânt. Regula este simplă: pe linii și pe coloane, dar și în regiunile cu cadru îngroșat, simbolurile apar toate, o sigură dată. Succes!",
-    "credit":"cateheza.ro"
-  },
-  {
-    "id": "14",
-    "images":["images/1.png", "images/2.png", "images/3.png"],
-     "title": "Îngeri mii",
-    "text": "Agrafe de birou, ață colorată, biluțe decorative, entuziasm",
-    "credit":"  https://comofazartesanato.wordpress.com/2013/11/14/como-se-faz-anjinhos-para-arvore-de-natal/" 
-  },
-  {
-    "id": "15",
-    "images":["images/flake1.png", "images/flake2.png", "images/flake3.png"],
-     "title": "Fulgii bucuriei",
-    "text": "Imprimantă, hârtie, foarfece, pix.\r\nDescarcă, printează și apoi scrie motivele tale de bucurie/mulțumire.",
-    "credit":"https://www.template.net/design-templates/print/snowflake-template/"
-  },
-  {
-    "id": "16",
-    "images":["images/pastorii.png"],
-     "title": "Păstorii",
-    "text": "Imprimantă, hârtie.\r\n\r\nDescarcă și printează pe o coală A4 apoi unește punctele.",
-    "credit":"biblewise.com"
-  },
-  {
-    "id": "17",
-    "images":["images/catapult1.png","images/catapult2.png"],
-     "title": "Catapulta",
-    "text": "Bețe de înghețată, elastice de bucătărie (sau chiar de păr), mingi de ping-pong sau mingi din material textil (sau marshmallows - yummy), bandă dublu adeziv (sau lipici), un capac de la cutia de lapte, o linguriță de plastic(opțional).\r\n\r\nAtenție, nu folosi catapulta cu obiecte care ar putea răni pe alții sau pe tine",
-    "credit":"https://www.science-sparks.com/how-to-make-a-catapult/"
-  },
-  {
-    "id": "18",
-    "images":["images/morisca1.png","images/morisca2.png"],
-     "title": "Morișca decorativă",
-    "text": "Hârtie roșie, hârtie galbenă, hârtie verde, creion, foarfece, capsator sau lipici. Pe fiecare din linii, taie din colț până la semnul alb, apoi impăturește toate colțurile cu gaură înspre mijloc (in loc de gaură, poti doar să faci un semn cu creionul pe foaie). Lipiți-le sau capsați-le acolo. Tăiați un cerc mic din hârtie galbenă și lipiți-l deasupra, ca în exemplu. Tăiați una sau două frunze din hârtie verde și lipiți-le astfel încât să iasă din spatele moriștii. ",
-    "credit":"https://sweetpartyplace.com/poinsettia-pinwheel-craft-fun-christmas-craft-idea-for-kids/" 
-  },
-  {
-    "id": "19",
-    "images":["images/maze_dificult.png","images/maze_easy.jpg"],
-      "title": "Găsește drumul spre Pruncul Isus",
-    "text": "Imprimantă, hârtie,creion.\r\nDescarcă, printează și apoi găsește traseul către Prunc. Alege labirintul care ți se potrivește",
-    "credit":"https://www.makinglearningfun.com/"
-  },
-  {
-    "id": "20",
-    "images":["images/inima.png","images/inima1.png"],
-    "title": "Decorații din Scandinavia - inima",
-    "text": "Hârtie de două culori diferite, printer, foarfece, lipici",
-    "credit":"https://www.pianetadonne.blog"
-  },
-  {
-    "id": "21",
-    "images":["images/felinare.png","images/felinare1.png","images/felinare2.jpg"],
-    "title": "Felinarele ințelepților",
-    "text": "Imprimantă, hârtie, creioane colorate, foarfece, lipici, răbdare.\r\n\r\nDescarcă și printează paginile.\r\n\r\n Colorează, decupează și confecționează un felinar.",
-    "credit":"kleuteridee.nl"
-  },
-  {
-    "id": "22",
-    "images":["images/collage1.png","images/collage2.png"],
-     "title": "Ghirlanda inimii",
-    "text": "Hârtie, foarfece, lipici, sfoară",
-    "credit":"http://seilifestyle.blogspot.com"
-  },
-  {
-    "id": "23",
-    "images":["images/colinda.png","images/colindatori.png"],
-      "title": "Colindătorii",
-    "text": "ghinde, acuarele acrilice, pistol de lipit, dopuri de plută, carton alb",
-    "credit":"https://thepinterestedparent.com"
-  },
-  {
-    "id": "24",
-    "images":["images/ghirlanda1.png","images/ghirlanda2.png","images/ghirlanda3.png"],
-     "title": "Ghirlanda din popcorn",
-    "text": " Floricele de porumb nesărate, ac, ață",
-    "credit":"www.wikihow.com"
+  "2022": {
+    "crafts": [
+      {
+        "id": "1",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 1",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "2",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 2",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "3",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 3",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "4",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 4",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "5",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 5",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "6",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 6",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "7",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 7",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "8",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 8",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "9",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 9",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "10",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 10",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      },
+      {
+        "id": "11",
+        "images": [
+          "images/street-advent/street_advent.jpg"
+        ],
+        "title": "Adventul din strada -Ziua 11",
+        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "credit": " asdasdasd"
+      }
+    ]
   }
-]
+}
