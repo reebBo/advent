@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     //for navigation between each day's element
     this.navig.startSaveHistory();
-    this.set2021();
+    this.set2022();
   }
 
   set2021() {
