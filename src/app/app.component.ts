@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { DailyContentService } from './services/daily-content.service';
 import { NavigationService } from './services/navigation.service';
+import { BsModalService, BsModalRef, ModalDirective } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-root',
@@ -11,14 +12,33 @@ import { NavigationService } from './services/navigation.service';
 export class AppComponent implements OnInit {
 
   highlightedButton = 0;
-  selectedYear!: number;
+  selectedYear!: number; 
+  modalRef: BsModalRef | undefined;
+  
+  @ViewChild('autoShownModal', { static: false }) autoShownModal?: ModalDirective;
+  isModalShown = false;
+ 
+  showModal(): void {
+    this.isModalShown = true;
+  }
+ 
+  hideModal(): void {
+    this.autoShownModal?.hide();
+  }
+ 
+  onHidden(): void {
+    this.isModalShown = false;
+  }
 
-  constructor(private router: Router, public navig: NavigationService, public contentService: DailyContentService) { }
 
+
+  constructor(private modalService: BsModalService, private router: Router, public navig: NavigationService, public contentService: DailyContentService) { }
   ngOnInit(): void {
     //for navigation between each day's element
     this.navig.startSaveHistory();
     this.set2022();
+    // this.openModal();
+    this.showModal();
   }
 
   set2021() {
@@ -31,6 +51,8 @@ export class AppComponent implements OnInit {
     this.selectedYear = 2022;
     this.router.navigateByUrl('/calendar');
   }
+
+
 
   getExplorerInfo() {
     let t: any = navigator.userAgent.toLowerCase();
