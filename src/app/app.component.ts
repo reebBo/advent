@@ -38,10 +38,10 @@ export class AppComponent implements OnInit {
     //for navigation between each day's element
     this.navig.startSaveHistory();
     this.set2022();
-    this.showModal();
+    // this.showModal();
 
 
-    alert('today ' + this.today + ' this.day ' + this.day)
+    // alert('today ' + this.today + ' this.day ' + this.day)
     let difference = +this.decemberFirst - +this.today;
     this.noOfDaysToAdvent = Math.ceil(difference / this.millisecondsDay);
 
