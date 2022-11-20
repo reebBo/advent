@@ -4,4 +4,19 @@
     color: #c0aeac;
   box-shadow: 1px 2px 4px hsl(60deg 70% 0% / 10.78);
  } 
- 
+ .card-header{
+  background: transparent;
+  border-bottom:transparent;
+}
+.card {
+  height: 20% !important;
+}
+
+.card-header {
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center; 
+  margin: 0 auto;
+  font-size: 3vh;
+}
