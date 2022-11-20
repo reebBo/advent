@@ -1,48 +1,106 @@
 <div class="wrapper container h-100">
-        <app-countdown></app-countdown>
-        <div class="row mx-2">
-                <button class="btn btn-sm text-white mr-2" (click)="set2022()">2022</button>
-                <button class="btn btn-sm text-white mr-2" (click)="set2021()">2021</button>
-                <div class="selected text-dark h-100">Ai selectat anul {{selectedYear}}</div>
-        </div>
-        <router-outlet></router-outlet>
-        <app-footer></app-footer>
-</div> 
+  <app-countdown></app-countdown>
+  <div class="row mx-2">
+    <button class="btn btn-sm text-white mr-2" (click)="set2022()">2022</button>
+    <button class="btn btn-sm text-white mr-2" (click)="set2021()">2021</button>
+    <div class="selected text-dark h-100">Ai selectat anul {{selectedYear}}</div>
+  </div>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</div>
 
-<ng-template #template>
-        <div class="modal-header">
-          <h4 class="modal-title pull-left">Modal</h4>
-          <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="modalRef?.hide()">
-            <span aria-hidden="true" class="visually-hidden">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-                kjljlkjkljkl
+
+<div *ngIf="isModalShown" [config]="{ show: true }" (onHidden)="onHidden()" bsModal #autoShownModal="bs-modal"
+  class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-auto-name">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header mx-auto">
+        <h4 id="dialog-auto-name" class="modal-title">Mai sunt {{noOfDaysToAdvent}} zile pana incepe Adventul! </h4>
+      </div>
+      <div class="p-3">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
+      </div>
+      <div class="modal-body">
+
+        <h3>Am pregatit un concurs! Nu-l rata! <span>INSCRIE-TE ACUM!!!</span> </h3>
+        <!-- ************* -->
+        <div class="register-form">
+          <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label>Prenumele tau</label>
+              <input type="text" formControlName="name" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.name.errors }" />
+              <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                <div *ngIf="f.name.errors.required">Completeaza Prenumele </div>
+              </div>
             </div>
-      </ng-template>
 
+            <div class="form-group">
+              <label>Numele tau</label>
+              <input type="text" formControlName="lastname" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.lastname.errors }" />
+              <div *ngIf="submitted && f.lastname.errors" class="invalid-feedback">
+                <div *ngIf="f.lastname.errors.required">Completeaza Numele </div>
+              </div>
+            </div>
 
-      <!-- <button type="button" class="btn btn-primary" (click)="showModal()">Render auto-shown modal</button> -->
-      <div *ngIf="isModalShown" [config]="{ show: true }" (onHidden)="onHidden()" bsModal #autoShownModal="bs-modal"
-           class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-auto-name">
-        <div class="modal-dialog modal-sm">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 id="dialog-auto-name" class="modal-title pull-left">Auto shown modal</h4>
-              <button type="button" class="btn-close close pull-right" aria-label="Close" (click)="hideModal()">
-                <span aria-hidden="true" class="visually-hidden">&times;</span>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="text" formControlName="email" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+              <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                <div *ngIf="f.email.errors.required">Completeaza emailul</div>
+                <div *ngIf="f.email.errors.email">Emailul nu este valid</div>
+              </div>
+            </div>
+
+            <div class="form-group form-check">
+              <input type="checkbox" formControlName="acceptTerms" class="form-check-input"
+                [ngClass]="{ 'is-invalid': submitted && f.acceptTerms.errors }" />
+              <label for="acceptTerms" class="form-check-label">Sunt de acord cu salvarea si prelucrarea datelor mele <i
+                  class="fa fa-info-circle fa-xs" aria-hidden="true"
+                  tooltip="Nu vom împărtăși, în nicio circumstanță, informațiile tale personale cu alte persoane sau organizații fără permisiunea ta, inclusiv cu organizații publice, corporații sau persoane fizice, cu excepția cazului în care este aplicabil prin lege.  Nu vindem, comunicăm sau divulgăm informațiile tale către nicio listă de corespondență."></i>
+              </label>
+              <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">
+                Acceptarea Termenilor este necesara
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-sm btn-submit text-white">Vreau sa particip la concurs</button>
+              <button type="button" (click)="onReset()" class="btn btn-sm btn-cancel float-right">
+                Nu vreau sa particip
               </button>
             </div>
-            <div class="modal-body">
-              <p>I am a modal that is shown right after initialization!</p>
-              <p>I wasn't present in DOM until you clicked the button</p>
-              <p>When you close me, I'll be removed from the DOM</p>
-            </div>
-          </div>
+          </form>
         </div>
+
+        <!-- ************* -->
       </div>
+    </div>
+  </div>
+</div>
 
+<style>
+  .modal-content {
+    background: linear-gradient(30deg,
+        rgb(45, 95, 69) 0%,
+        rgb(42, 80, 38) 35%,
+        rgb(25, 88, 48) 100%);
 
+    color: rgb(226, 214, 214) !important;
+  }
+
+  h3 span {
+    background: -webkit-linear-gradient(rgb(238, 213, 161), rgb(163, 139, 31));
+    -webkit-background-clip: text;
+    /* -moz-background-clip: ; */
+    -webkit-text-fill-color: transparent;
+  }
+</style>
 
 
 <!-- <button
