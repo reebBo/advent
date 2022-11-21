@@ -1,9 +1,9 @@
 
-<div class="calendar-wrapp row mx-0 mb-3">
-    <div class="col-3 p-2 p-md-3 p-lg-4 col-sm-3 col-md-3 col-lg-2" *ngFor="let d of days">
+<div class="calendar-wrapp row mx-0 my-2"><!-- my-md-5 my-lg-4-->
+    <div class="col-3 p-2 p-md-2 p-lg-2 col-sm-3 col-md-3 col-lg-2" *ngFor="let d of days">
         <div id="card" class="d-flex justify-content-center">
             <!--  [ngClass]="{'active': d.id ==day}" -->
-            <div id="day" class="btn p-1 py-sm-1 py-md-4 px-md-0 py-lg-3 mx-lg-4" (click)='goToContent(d.id)'>
+            <div id="day" class="btn p-1 py-sm-1 py-md-4 mx-md-3 py-lg-4 mx-lg-4" (click)='goToContent(d.id)'>
 
                 <span class="calendar-number">
                     {{d.id}}

@@ -1,8 +1,8 @@
 <div class="wrapper container h-100">
   <app-countdown></app-countdown>
-  <div class="row mx-2">
-    <button class="btn btn-sm text-white mr-2" (click)="set2022()">2022</button>
-    <button class="btn btn-sm text-white mr-2" (click)="set2021()">2021</button>
+  <div class="row mx-2 mb-4">
+    <button class="btn-year btn btn-sm mr-2" (click)="set2022()">2022</button>
+    <button class="btn-year btn btn-sm text-white mr-2" (click)="set2021()">2021</button>
     <div class="selected text-dark h-100">Ai selectat anul {{selectedYear}}</div>
   </div>
   <router-outlet></router-outlet>
@@ -84,24 +84,7 @@
   </div>
 </div>
 
-<style>
-  .modal-content {
-    background: linear-gradient(30deg,
-        rgb(45, 95, 69) 0%,
-        rgb(42, 80, 38) 35%,
-        rgb(25, 88, 48) 100%);
-
-    color: rgb(226, 214, 214) !important;
-  }
-
-  h3 span {
-    background: -webkit-linear-gradient(rgb(238, 213, 161), rgb(163, 139, 31));
-    -webkit-background-clip: text;
-    /* -moz-background-clip: ; */
-    -webkit-text-fill-color: transparent;
-  }
-</style>
-
+ 
 
 <!-- <button
 #latestMeasurementBtn

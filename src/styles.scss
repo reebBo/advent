@@ -10,7 +10,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  padding:0;
+  padding: 0;
   background: linear-gradient(30deg, rgb(45, 95, 69) 0%, rgb(66, 131, 59) 35%, rgb(25, 88, 48) 100%);
   background-repeat: no-repeat;
 }
@@ -18,39 +18,10 @@ body {
   cursor: pointer;
 }
 
-
-// @media (max-width: 810px) {
-   
-//   .calendar-wrapp #day{
-//     color: rgb(31, 19, 206) !important;
-//   }
-//   .countdown-wrap #count {
-//     font-size: 1.8em !important;
-//   }
-//   .countdown-wrap .content {
-//     font-size: 1.2em !important;
-//   }
-//   .calendar-wrapp .calendar-number {
-//     font-size: 2em !important;
-//     line-height: 1em !important;
-//   }
-
-//   .star {
-//     width: 5% !important;
-//   }
-// }
-
-
-
 @media (max-width: 428px) {
   .calendar-wrapp {
-    // max-height: 60% !important;
-     height: 70% !important;
-     max-height: 75% !important;
-
-  }
-  .calendar-wrapp #day{
-    color: rgb(73, 25, 206) !important;
+    height: 70% !important;
+    max-height: 75% !important;
   }
   .countdown-wrap #count {
     font-size: 1.8em !important;
@@ -68,10 +39,7 @@ body {
   }
 }
 
-@media (max-width: 375px) { 
-  .calendar-wrapp #day{
-    color: rgb(206, 194, 25) !important;
-  }
+@media (max-width: 375px) {
   .countdown-wrap #count {
     font-size: 1.8em !important;
   }
@@ -81,21 +49,13 @@ body {
   .calendar-wrapp .calendar-number {
     font-size: 2.3em !important;
     line-height: 1em !important;
-  }
-
-  .star {
-    width: 5% !important;
-  }
+  } 
 }
-
 
 //snow code at https://trungk18.com/experience/angular-snow-effect/
 
-
 @media screen and (min-width: 1900px) {
-   
-  .calendar-wrapp #day{
-    color: rgb(31, 209, 233) !important;
+  .calendar-wrapp #day {
     margin-top: 2em !important;
     margin-bottom: 2em !important;
   }
