@@ -1,24 +1,9 @@
-<div class="container-fluid mx-0 px-2 pb-5 text-light">  
-    <div class="card my-5 clickable" *ngFor="let categ of categories|keyvalue">
-        <h3 class="card-header text-center" (click)="navigateToElement(Object.keys(categ.value))">
+<div class="mx-0 px-2 text-light h-75">
+    <div class="card my-2 clickable" *ngFor="let categ of categories|keyvalue">
+        <div class="card-header text-center" (click)="navigateToElement(Object.keys(categ.value))">
+            <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>
+            &nbsp;{{Object.values(categ.value)}}&nbsp;
             <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>&nbsp;
-            <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i> <br>
-            &nbsp;{{Object.values(categ.value)}}&nbsp;  <br>
-         <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>&nbsp;
-         <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>&nbsp;
-         <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>
-        </h3>
+        </div>
     </div>
 </div>
-<style>
-    .container-fluid{
-        height: 100vh;
-    }
-    .card{
-        padding: .65em;
-    }
-    .card-header{
-        background: transparent;
-        border-bottom:transparent;
-    }
-</style>

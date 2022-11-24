@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { DailyContentService } from './services/daily-content.service';
 import { NavigationService } from './services/navigation.service';
@@ -9,23 +9,24 @@ import { NavigationService } from './services/navigation.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-
+  
   highlightedButton = 0;
   selectedYear!: number;
+  // -----------
 
-  constructor(private router: Router, public navig: NavigationService, public contentService: DailyContentService) { }
+ 
+  constructor( private router: Router, public navig: NavigationService, public contentService: DailyContentService) { }
+
 
   ngOnInit(): void {
+
     //for navigation between each day's element
     this.navig.startSaveHistory();
-    this.set2021();
-  }
+    this.set2022();
+    // this.showModal();
 
-  set2020() {
-    this.contentService.setYear(2020);
-    this.selectedYear = 2020;
-    this.router.navigateByUrl('/calendar');
-  }
+}
+
   set2021() {
     this.contentService.setYear(2021);
     this.selectedYear = 2021;
@@ -36,6 +37,10 @@ export class AppComponent implements OnInit {
     this.selectedYear = 2022;
     this.router.navigateByUrl('/calendar');
   }
+
+
+  // -----------
+
 
   getExplorerInfo() {
     let t: any = navigator.userAgent.toLowerCase();
