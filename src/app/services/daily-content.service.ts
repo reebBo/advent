@@ -22,7 +22,9 @@ export class DailyContentService {
   //   );
   // }
 
-
+getYear(){
+  return this.year;
+}
 
   // set the year, either by selecting the button on the page or current year
   setYear(selectedYear?: number): number {

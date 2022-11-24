@@ -1,5 +1,5 @@
 
-
+responsiveness on poveste/cantec/activitati/moms on mobile  
 tooltip on click too
 email for the form, not just database
 database to one.com
