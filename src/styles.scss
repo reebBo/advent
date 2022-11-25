@@ -49,10 +49,26 @@ body {
   .calendar-wrapp .calendar-number {
     font-size: 2.3em !important;
     line-height: 1em !important;
-  } 
+  }
+  .story-card, .song-card, .craft-card, .mom-card {
+    height: 65%;
+    overflow-y: scroll;
+    .title {
+      font-size: 1.2em;
+    }
+    .card-text{
+      font-size: 1em;
+    }
+  }
 }
 
 //snow code at https://trungk18.com/experience/angular-snow-effect/
+
+@media screen and (min-width: 810px) {
+  .story-card .nav-menu, .song-card .nav-menu, .craft-card .nav-menu, .mom-card .nav-menu{
+    float: right;
+  }
+}
 
 @media screen and (min-width: 1900px) {
   .calendar-wrapp #day {
