@@ -1,16 +1,18 @@
 <div class="song-card card mx-2 mt-2 mb-5" *ngIf="song">
     <div class="card-header">
         <div class="title h3 mb-0">
-            Ziua {{song.id}}
+            Colțul cu muzică - Ziua {{song.id}}
         </div>
     </div>
-    <div class="nav-menu mt-2">
-        <app-navbar></app-navbar>
-    </div>
-    <div class="audio mt-2">
-        <audio controls class="w-100">
-            <source src="assets/{{song.mediaFile}}" type="audio/mpeg">
-        </audio>
+    <div class="row mx-0">
+        <span class="nav-menu mt-2 w-75">
+            <app-navbar></app-navbar>
+        </span>
+        <span class="audio mt-2 w-25">
+            <audio controls class="w-100">
+                <source src="assets/{{song.mediaFile}}" type="audio/mpeg">
+            </audio>
+        </span>
     </div>
     <div class="card-body">
         <div class="row">

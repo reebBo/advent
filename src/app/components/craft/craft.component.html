@@ -12,7 +12,7 @@
         <p class="card-text" [ngClass]="craft.text.includes('Materiale necesare:')  ? 'strong' : ''">
             {{craft.text}} </p>
         <div class="row mx-0">
-            <div class="col-sm-12 col-md-12 col-lg-6 my-1" *ngFor="let img of craft.images">
+            <div class="col-sm-12 col-md-12 col-lg-6 my-1 px-0" *ngFor="let img of craft.images">
                 <img class="img-fluid img-thumbnail" src="assets/{{img}}" alt="craft">
             </div>
         </div>

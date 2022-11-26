@@ -7,16 +7,18 @@
             </span>
         </div>
     </div>
-    <div class="nav-menu mt-2">
-        <app-navbar></app-navbar>
-    </div>
-    <div class="audio mt-2">
-        <audio controls *ngIf="story.voice" controls class="w-100">
-            <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
-        </audio>
-        <span *ngIf="story.voiceContact" class="small">
-            Lectura: <a class="" target="_blank" href="{{story.voiceContact}}"><strong>
-                    {{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
+    <div class="row mx-0">
+        <span class="nav-menu mt-2 w-75">
+            <app-navbar></app-navbar>
+        </span>
+        <span class="audio mt-2 w-25">
+            <audio controls *ngIf="story.voice" controls class="w-100">
+                <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
+            </audio>
+            <span *ngIf="story.voiceContact" class="small">
+                Lectura: <a class="" target="_blank" href="{{story.voiceContact}}"><strong>
+                        {{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
+            </span>
         </span>
     </div>
     <div class="card-body mt-2">

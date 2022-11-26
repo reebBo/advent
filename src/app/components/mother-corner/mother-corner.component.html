@@ -4,15 +4,17 @@
             Colțul mămicilor - Ziua {{momsCorner.id}}
         </div>
     </div>
-    <div class="nav-menu mt-2">
-        <app-navbar></app-navbar>
+    <div class="row mx-0">
+        <span class="nav-menu mt-2 w-75">
+            <app-navbar></app-navbar>
+        </span>
+        <span class="audio mt-2 w-25">
+            <audio controls loop class="w-100">
+                <source src="assets/{{momsCorner.song}}" type="audio/mpeg">
+            </audio>
+        </span>
     </div>
-    <div class="audio mt-2">
-        <audio controls loop class="w-100">
-            <source src="assets/{{momsCorner.song}}" type="audio/mpeg">
-        </audio>
-    </div>
-    
+
     <div class="card-body">
         <div class="row mx-0">
             <div class="col-sm-6 card-text p-0">{{momsCorner.text}}
