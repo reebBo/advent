@@ -1,7 +1,7 @@
 <div class="craft-card card mx-2 mt-2 mb-5" *ngIf="craft">
     <span class="card-header">
         <span class="title h3">
-           {{craft.title}} - Ziua {{craft.id}}
+            {{craft.title}} - Ziua {{craft.id}}
         </span>
         <span class="nav-menu">
             <app-navbar></app-navbar>
@@ -9,16 +9,27 @@
     </span>
     <div class="card-body">
         <h3 class="card-title"></h3>
-        <p class="card-text"><b>Materiale necesare:</b> <br> {{craft.text}}</p>
+        <p class="card-text" [ngClass]="craft.text.includes('Materiale necesare:')  ? 'strong' : ''">
+            {{craft.text}} </p>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 my-1" *ngFor="let img of craft.images">
                 <img class="img-fluid img-thumbnail" src="assets/{{img}}" alt="craft">
             </div>
-        </div>
+        </div> 
         <hr>
         <p class="text-muted small">
             {{craft.credit}}
         </p>
+        <div *ngIf="craft.questions">
+            <p class="card-text"> {{craft.questions}}</p><br>
+        </div>
     </div>
 
 </div>
+
+<style>
+    .strong {
+        font-weight: 600;
+        /* color: red; */
+    }
+</style>
