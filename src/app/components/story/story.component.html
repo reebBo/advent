@@ -1,17 +1,16 @@
 <div class="story-card card mx-2 mt-2 mb-5" *ngIf="story">
-    <span class="card-header">
-        <span class="title h3">
-            Poveste - {{story.title}} - Ziua {{story.id}}
+    <div class="card-header">
+        <div class="title h3 mb-0">
+            {{story.title}} - Ziua {{story.id}}
             <span class="small text-muted">
                 ({{story.author}})
-            </span> 
-        </span>
-        <span class="nav-menu">
-            <app-navbar></app-navbar>
-        </span>
-    </span>
-
-    <div class="card-body">
+            </span>
+        </div>
+    </div>
+    <div class="nav-menu mt-2">
+        <app-navbar></app-navbar>
+    </div>
+    <div class="audio mt-2">
         <audio *ngIf="story.voice" controls class="w-100">
             <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
         </audio>
@@ -19,9 +18,11 @@
             Lectura: <a class="" target="_blank" href="{{story.voiceContact}}"><strong>
                     {{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
         </span>
-        <hr>
-        <p class="card-text mb-4">{{story.text}}
-        </p>
+    </div>
+    <div class="card-body">
+
+
+        <p class="card-text mb-4">{{story.text}}</p>
         <div *ngIf="story.credit" class="text-muted small pb-3">
             <hr>
             {{story.credit}}

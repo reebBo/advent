@@ -4,10 +4,11 @@
         margin: 0;
         display: flex;
         padding: 0;
+        justify-content: space-between; 
     
-        li {
-            margin-left: .2em;
-          }
+        // li {
+        //     margin-left: .2em;
+        //   }
       }      
 }
 .btn {

@@ -18,7 +18,29 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 428px) {
+.story-card.card,
+.song-card.card,
+.craft-card.card,
+.mom-card.card {
+  border: 0px solid transparent;
+  background-color: transparent;
+  .card-header {
+    background-color: #fff;
+    &:first-child {
+      border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px);
+    }
+  }
+  .card-body{
+    padding: .2rem 0 ;
+  }
+  audio {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px);
+  }
+}
+
+// ========================================
+
+@media (max-width: 600px) and (max-height: 926px) {
   .calendar-wrapp {
     height: 70% !important;
     max-height: 75% !important;
@@ -34,6 +56,22 @@ body {
     line-height: 1em !important;
   }
 
+  .story-card,
+  .song-card,
+  .craft-card,
+  .mom-card {
+    .card-body {
+      overflow-y: scroll;
+    }
+    height: 70%;
+    .title {
+      font-size: 1em;
+    }
+    .card-text {
+      font-size: 1em;
+      color: rgb(240, 208, 208);
+    }
+  }
   .star {
     width: 5% !important;
   }
@@ -50,14 +88,15 @@ body {
     font-size: 2.3em !important;
     line-height: 1em !important;
   }
-  .story-card, .song-card, .craft-card, .mom-card {
-    height: 65%;
-    overflow-y: scroll;
-    .title {
-      font-size: 1.2em;
-    }
-    .card-text{
-      font-size: 1em;
+  .story-card,
+  .song-card,
+  .craft-card,
+  .mom-card {
+    .card-body {
+      .card-text {
+        font-size: 1em;
+        color: rgb(229, 243, 237);
+      }
     }
   }
 }
@@ -65,7 +104,10 @@ body {
 //snow code at https://trungk18.com/experience/angular-snow-effect/
 
 @media screen and (min-width: 810px) {
-  .story-card .nav-menu, .song-card .nav-menu, .craft-card .nav-menu, .mom-card .nav-menu{
+  .story-card .nav-menu,
+  .song-card .nav-menu,
+  .craft-card .nav-menu,
+  .mom-card .nav-menu {
     float: right;
   }
 }
