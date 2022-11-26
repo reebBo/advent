@@ -18,6 +18,11 @@ body {
   cursor: pointer;
 }
 
+audio{
+  opacity: .4;
+  background-color: #fff !important;
+}
+
 .story-card.card,
 .song-card.card,
 .craft-card.card,
@@ -25,7 +30,7 @@ body {
   border: 0px solid transparent;
   background-color: transparent;
   .card-header {
-    background-color: #fff;
+    background-color: rgb(227, 240, 229);
     &:first-child {
       border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px);
     }

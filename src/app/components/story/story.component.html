@@ -11,7 +11,7 @@
         <app-navbar></app-navbar>
     </div>
     <div class="audio mt-2">
-        <audio *ngIf="story.voice" controls class="w-100">
+        <audio controls *ngIf="story.voice" controls class="w-100">
             <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
         </audio>
         <span *ngIf="story.voiceContact" class="small">
