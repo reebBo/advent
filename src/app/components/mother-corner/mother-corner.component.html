@@ -1,20 +1,23 @@
 <div class="mom-card card mx-2 mt-2 mb-5" *ngIf="momsCorner">
-    <span class="card-header">
-        <span class="title h3">
+    <div class="card-header">
+        <div class="title h3 mb-0">
             Colțul mămicilor - Ziua {{momsCorner.id}}
-        </span>
-        <span class="nav-menu">
-            <app-navbar></app-navbar>
-        </span>
-    </span>
-    <div class="card-body">
+        </div>
+    </div>
+    <div class="nav-menu mt-2">
+        <app-navbar></app-navbar>
+    </div>
+    <div class="audio mt-2">
         <audio controls loop class="w-100">
             <source src="assets/{{momsCorner.song}}" type="audio/mpeg">
         </audio>
-        <div class="row">
-            <div class="col-sm-6 card-text p-3">{{momsCorner.text}}
+    </div>
+    
+    <div class="card-body">
+        <div class="row mx-0">
+            <div class="col-sm-6 card-text p-0">{{momsCorner.text}}
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 px-0">
                 <img class="img-fluid img-thumbnail" src="assets/{{momsCorner.image}}" alt="momsCorner-pic">
             </div>
         </div>
