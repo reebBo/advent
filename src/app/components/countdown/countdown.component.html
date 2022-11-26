@@ -1,12 +1,12 @@
-<div class="countdown-wrap row mx-0 pt-0">
-    <div class="col-12 col-sm-12 p-2">
+<div class="countdown-wrap row mb-2 p-2">
+    <div class="col-12 col-sm-12">
         <div class="d-flex">
-            <div class="d-flex w-100">
+            <div class="d-flex w-100 py-0">
                 <div class="home">
                     <i class="fa fa-home fa-lg clickable" (click)="goHome()"></i>
                 </div>
 
-                <div class="content mx-auto my-3 p-1">
+                <div class="content mx-auto p-1">
                     <ng-template [ngIf]="daysToDecember >1">
                         <span id="count"> {{daysToDecember}}</span> de zile <br>
                         până la Crăciun!!!
