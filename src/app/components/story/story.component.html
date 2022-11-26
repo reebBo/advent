@@ -1,4 +1,4 @@
-<div class="story-card card mx-2 mt-2 mb-5" *ngIf="story">
+<div class="story-card card mt-2 mb-5" *ngIf="story">
     <div class="card-header">
         <div class="title h3 mb-0">
             {{story.title}} - Ziua {{story.id}}
@@ -8,10 +8,10 @@
         </div>
     </div>
     <div class="row mx-0">
-        <span class="nav-menu mt-2 w-75">
+        <span class="nav-menu mt-2 w-50">
             <app-navbar></app-navbar>
         </span>
-        <span class="audio mt-2 w-25">
+        <span class="audio mt-2 w-50">
             <audio controls *ngIf="story.voice" controls class="w-100">
                 <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
             </audio>

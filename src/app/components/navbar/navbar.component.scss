@@ -1,10 +1,13 @@
-.navigation{
-    ul {
-        list-style: none;
-        margin: 0;
-        display: flex;
-        padding: 0;
-        // justify-content: space-between; 
-     
-      }      
-} 
+.navigation {
+  ul {
+    background: #3b613d;
+    opacity: 0.8;
+    list-style: none; 
+    display: flex;
+    padding: 0.5rem 0;
+    justify-content: start;
+    li{
+      margin-right: 3rem;
+    }
+  }
+}

@@ -1,9 +1,8 @@
-<div class="mx-0 py-5 px-2 text-light h-75">
+<div class="mx-0 py-5 px-0 text-light h-75">
     <div class="card my-2 clickable" *ngFor="let categ of categories|keyvalue">
         <div class="card-header text-center" (click)="navigateToElement(Object.keys(categ.value))">
-            <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>
             &nbsp;{{Object.values(categ.value)}}&nbsp;
-            <i class="fa fa-snowflake-o fa-xs" aria-hidden="true"></i>&nbsp;
         </div>
     </div>
+    
 </div>

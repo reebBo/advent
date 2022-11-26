@@ -2,20 +2,20 @@
   <div>
     <app-countdown></app-countdown>
   </div>
-  <div class="row mx-2 mt-4 mb-3 my-md-5">
-    <button class="btn-year btn btn-sm mr-2" (click)="set2022()">2022</button>
-    <button class="btn-year btn btn-sm text-white mr-2" (click)="set2021()">2021</button>
-    <div class="selected text-dark h-100">Ai selectat anul {{selectedYear}}</div>
-  </div>
-  <router-outlet></router-outlet>
-  <div class="w-100">
-    <app-footer></app-footer>
+  <div class="data">
+    <div class="years-btns row mx-0 mt-4 mb-3 my-md-5 my-lg-4">
+      <button class="btn-year btn btn-sm mr-2" (click)="set2022()">2022</button>
+      <button class="btn-year btn btn-sm text-white mr-2" (click)="set2021()">2021</button>
+      <div class="selected text-dark h-100">Ai selectat anul {{selectedYear}}</div>
+    </div>
+    <router-outlet></router-outlet>
+    <div class="w-100">
+      <app-footer></app-footer>
+    </div>
   </div>
 </div>
 
-
-
-
+ 
 <!-- <button
 #latestMeasurementBtn
 class="px-1 btn btn-light col-md-2 col-lg-2 form-group mr-2"

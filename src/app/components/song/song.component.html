@@ -5,20 +5,20 @@
         </div>
     </div>
     <div class="row mx-0">
-        <span class="nav-menu mt-2 w-75">
+        <span class="nav-menu mt-2 w-50">
             <app-navbar></app-navbar>
         </span>
-        <span class="audio mt-2 w-25">
+        <span class="audio mt-2 w-50">
             <audio controls class="w-100">
                 <source src="assets/{{song.mediaFile}}" type="audio/mpeg">
             </audio>
         </span>
     </div>
     <div class="card-body">
-        <div class="row">
+        <div class="row mx-0">
             <div class="col-sm-6 card-text p-3">{{song.text}} </div>
             <div class="col-sm-6">
-                <img class="img-fluid img-thumbnail h-75" src="assets/{{song.image}}" alt="song-pic">
+                <img class="img-fluid img-thumbnail h-50" src="assets/{{song.image}}" alt="song-pic">
             </div>
         </div>
         <hr>
