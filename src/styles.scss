@@ -32,12 +32,16 @@ audio {
   background-color: transparent;
   .card-header {
     background-color: rgb(227, 240, 229);
+    font-size: 1.2em;
     &:first-child {
       border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px);
     }
   }
   .card-body {
     padding: 0.2rem 0;
+    .card-text {
+     color: rgb(227, 240, 229);
+    }
   }
 }
 
@@ -46,7 +50,7 @@ audio {
 @media (max-width: 600px) and (max-height: 926px) {
   .navigation ul li {
     margin-right: 1rem !important;
-  } 
+  }
   .countdown-wrap #count {
     font-size: 1.8em !important;
   }
@@ -72,7 +76,7 @@ audio {
       font-size: 1em;
     }
     .card-text {
-      font-size: 1em;
+      font-size: 1em; 
     }
   }
 }
@@ -125,10 +129,10 @@ audio {
 
 @media screen and (min-width: 992px) {
   //my screen
+  .data .years-btns , .footer-wrap{
+    padding: 0 6.5em !important;
+  }
   .data {
-    .years-btns {
-      padding: 0 6.5em !important;
-    }
     height: 75%;
   }
   .story-card,
@@ -136,7 +140,7 @@ audio {
   .craft-card,
   .mom-card {
     height: 85%;
-    .img{
+    .img {
       height: 80%;
     }
   }

@@ -8,6 +8,11 @@
     justify-content: start;
     li{
       margin-right: 3rem;
+      padding-left: .3em;
+      padding-right: .3em;
+      a{
+        color:  rgb(227, 240, 229);
+      }
     }
   }
 }
