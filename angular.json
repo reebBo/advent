@@ -70,9 +70,12 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "configurations": {
+          "options": {
+            "proxyConfig": "src/proxy.conf.json"
+          },
+           "configurations": {
             "production": {
-              "browserTarget": "advent:build:production"
+              "browserTarget": "advent:build:production",
             },
             "development": {
               "browserTarget": "advent:build:development"
