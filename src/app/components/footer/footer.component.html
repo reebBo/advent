@@ -1,11 +1,12 @@
 <footer class="footer pb-4">
-    <a class="btn btn-sm btn-contact small mr-5" href="mailto:isusnavi2005@gmail.com"> Contact&nbsp;
-        <i class="fa fa-solid fa-envelope"></i>
-    </a>
-    <a class="btn btn-sm btn-contact small" (click)="showModal();"> Concurs&nbsp;
-        <i class="fas fa-trophy"></i>
-    </a>
+  <a class="btn btn-sm btn-contact small mr-5" href="mailto:isusnavi2005@gmail.com"> Contact&nbsp;
+    <i class="fa fa-solid fa-envelope"></i>
+  </a>
+  <a class="btn btn-sm btn-contact small" (click)="showModal();"> Concurs&nbsp;
+    <i class="fas fa-trophy"></i>
+  </a>
 </footer>
+
 
 
 <div *ngIf="isModalShown" [config]="{ show: true }" (onHidden)="onHidden()" bsModal #autoShownModal="bs-modal"
@@ -13,26 +14,26 @@
   <div class="modal-dialog modal-md">
     <div class="modal-content">
       <div class="modal-header mx-auto">
-        <h4 id="dialog-auto-name" class="modal-title text-center">Mai sunt {{noOfDaysToAdvent}} zile pana incepe <span id="advent">Adventul!</span>  </h4>
+        <h4 id="dialog-auto-name" class="modal-title text-center">Mai sunt {{noOfDaysToAdvent}} zile până începe <span
+            id="advent">Adventul!</span> </h4>
       </div>
       <div class="p-3">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
       </div>
       <div class="modal-body">
 
-        <h3 class="mb-3">Am pregatit un concurs! Nu-l rata! <br> <span>INSCRIE-TE ACUM!!!</span> </h3>
-        <!-- ************* -->
+        <h3 class="mb-3">Am pregătit un concurs! Nu-l rata! <br> <span>ÎNSCRIE-TE ACUM!!!</span> </h3>
         <div class="register-form">
           <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
             <div class="form-group">
-              <label>Numele si Prenumele tau</label>
+              <label>Numele și Prenumele tău</label>
               <input type="text" formControlName="full_name" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f.full_name.errors }" />
               <div *ngIf="submitted && f.full_name.errors" class="invalid-feedback">
-                <div *ngIf="f.full_name.errors.required">Completeaza Numele si Prenumele </div>
+                <div *ngIf="f.full_name.errors.required">Completează Numele și Prenumele </div>
               </div>
             </div>
 
@@ -41,7 +42,7 @@
               <input type="text" formControlName="email" class="form-control"
                 [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
               <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
-                <div *ngIf="f.email.errors.required">Completeaza emailul</div>
+                <div *ngIf="f.email.errors.required">Completează emailul</div>
                 <div *ngIf="f.email.errors.email">Emailul nu este valid</div>
               </div>
             </div>
@@ -49,17 +50,89 @@
             <div class="form-group form-check">
               <input type="checkbox" formControlName="acceptTerms" class="form-check-input"
                 [ngClass]="{ 'is-invalid': submitted && f.acceptTerms.errors }" />
-              <label for="acceptTerms" class="form-check-label">Sunt de acord cu salvarea si prelucrarea datelor mele <i
-                  class="fa fa-info-circle fa-xs" aria-hidden="true"
-                  tooltip="Nu vom împărtăși, în nicio circumstanță, informațiile tale personale cu alte persoane sau organizații fără permisiunea ta, inclusiv cu organizații publice, corporații sau persoane fizice, cu excepția cazului în care este aplicabil prin lege.  Nu vindem, comunicăm sau divulgăm informațiile tale către nicio listă de corespondență."></i>
+              <label for="acceptTerms" class="form-check-label">Sunt de acord cu salvarea și prelucrarea datelor mele.
               </label>
               <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">
-                Acceptarea termenilor este necesara
+                Acceptarea termenilor este necesară. Nu vom împărtăși informațiile tale cu alte persoane sau organizații fără permisiunea ta.
               </div>
             </div>
 
             <div class="form-group">
-              <button type="submit" class="btn btn-sm btn-submit text-white">Vreau sa particip</button>
+              <button type="submit" class="btn btn-sm btn-submit text-white">Vreau să particip</button>
+              <button type="button" (click)="onReset()" class="btn btn-sm btn-cancel float-right">
+                Nu particip
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- 
+<div *ngIf="isModalShown" [config]="{ show: true }" (onHidden)="onHidden()" bsModal #autoShownModal="bs-modal"
+  class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-auto-name">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header mx-auto">
+        <h4 id="dialog-auto-name" class="modal-title text-center">Mai sunt {{noOfDaysToAdvent}} zile până începe <span id="advent">Adventul!</span>  </h4>
+      </div>
+      <div class="p-3">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+      </div>
+      <div class="modal-body">
+
+        <h3 class="mb-3">Am pregătit un concurs! Nu-l rata! <br> <span>ÎNSCRIE-TE ACUM!!!</span> </h3>
+     
+        <div class="register-form">
+          <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label>Numele și Prenumele tău</label>
+              <input type="text" formControlName="full_name" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.full_name.errors }" />
+              <div *ngIf="submitted && f.full_name.errors" class="invalid-feedback">
+                <div *ngIf="f.full_name.errors.required">Completează Numele și Prenumele </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Email</label>
+              <input type="text" formControlName="email" class="form-control"
+                [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+              <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                <div *ngIf="f.email.errors.required">Completează emailul</div>
+                <div *ngIf="f.email.errors.email">Emailul nu este valid</div>
+              </div>
+            </div>
+
+            <div class="form-group form-check">
+              <input type="checkbox" formControlName="acceptTerms" class="form-check-input"
+                [ngClass]="{ 'is-invalid': submitted && f.acceptTerms.errors }" />
+              <label for="acceptTerms" class="form-check-label">Sunt de acord cu salvarea și prelucrarea datelor mele. <i
+                  class="fa fa-info-circle fa-xs" aria-hidden="true"
+                  tooltip="Nu vom împărtăși, în nicio circumstanță, informațiile tale personale cu alte persoane sau organizații fără permisiunea ta, inclusiv cu organizații publice, corporații sau persoane fizice, cu excepția cazului în care este aplicabil prin lege.  Nu vindem, comunicăm sau divulgăm informațiile tale către nicio listă de corespondență."></i>
+              </label>
+              <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">
+                Acceptarea termenilor este necesară
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-sm btn-submit text-white">Vreau să particip</button>
               <button type="button" (click)="onReset()" class="btn btn-sm btn-cancel float-right">
                 Nu particip
               </button>
@@ -68,8 +141,8 @@
           </form>
         </div>
 
-        <!-- ************* -->
+        
       </div>
     </div>
   </div> 
-</div>
+</div> -->

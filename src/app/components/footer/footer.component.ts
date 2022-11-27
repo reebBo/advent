@@ -1,7 +1,7 @@
-import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ModalDirective } from 'ngx-bootstrap/modal';
+import { ContactService } from 'src/app/services/contact.service';
 
 @Component({
   selector: 'app-footer',
@@ -25,26 +25,24 @@ export class FooterComponent implements OnInit {
   day = this.today.getDate();
   month = this.today.getMonth() + 1;
 
-  // -----------
-
-  constructor(private httpClient: HttpClient, private formBuilder: FormBuilder,) { }
+  // -----------  
+  constructor(private formBuilder: FormBuilder, private contactService: ContactService) { }
+  formValue = localStorage.getItem('form-data');
 
   ngOnInit(): void {
+    // localStorage.clear();
+    if (!this.formValue) {
+      this.showModal();
+    }
     this.registerForm = this.formBuilder.group(
       {
         full_name: ['', Validators.required],
         email: ['', [Validators.required, Validators.email]],
         acceptTerms: [false, Validators.requiredTrue]
       });
-
-
-    // alert('today ' + this.today + ' this.day ' + this.day)
     let difference = +this.decemberFirst - +this.today;
     this.noOfDaysToAdvent = Math.ceil(difference / this.millisecondsDay);
-  
   }
-
-
 
   // convenience getter for easy access to form fields
   get f(): { [key: string]: AbstractControl } {
@@ -57,19 +55,23 @@ export class FooterComponent implements OnInit {
     if (this.registerForm.invalid) {
       return;
     }
-
     let user = {
       name: this.registerForm.value.full_name, email: this.registerForm.value.email,
-      acceptTerms: this.registerForm.value.acceptTerms
     }
+    this.contactService.postMessage(user)
+      .subscribe(() => {
+        localStorage.setItem('form-data', JSON.stringify([this.registerForm.value.full_name, this.registerForm.value.email]));
 
-
-    return this.httpClient.get('http://localhost:8888/users.php', { params: user })
-      .subscribe(resp => {
-        alert(resp)
+        location.href = 'https://mailthis.to/confirm';
         this.hideModal();
-      });
+      }
+        , error => {
+          console.warn(error.responseText)
+          console.log({ error })
+        }
+      )
   }
+
 
   onReset(): void {
     this.submitted = false;
@@ -88,6 +90,5 @@ export class FooterComponent implements OnInit {
   onHidden(): void {
     this.isModalShown = false;
   }
-  // -----------
 
 }
