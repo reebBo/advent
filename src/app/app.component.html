@@ -4,9 +4,11 @@
   </div>
   <div class="data">
     <div class="years-btns row mx-0 mt-4 mb-3 my-md-5 my-lg-4">
-      <button class="btn-year btn btn-sm mr-2" (click)="set2022()">2022</button>
-      <button class="btn-year btn btn-sm text-white mr-2" (click)="set2021()">2021</button>
-      <div class="selected text-dark h-100">Ai selectat anul {{selectedYear}}</div>
+      <button [ngClass]="{ active: highlightedButton === 2 }" class="btn-year btn btn-sm mr-2"
+        (click)="set2022()">2022</button>
+
+      <button [ngClass]="{ active: highlightedButton === 1 }" class="btn-year btn btn-sm text-white mr-2"
+        (click)="set2021()">2021</button>
     </div>
     <router-outlet></router-outlet>
     <div class="w-100 footer-wrap">
@@ -14,33 +16,3 @@
     </div>
   </div>
 </div>
-
- 
-<!-- <button
-#latestMeasurementBtn
-class="px-1 btn btn-light col-md-2 col-lg-2 form-group mr-2"
-[ngClass]="{ active: highlightedButton === 4 }"
-(click)="getLatestMeasurements()">
-{{ 'cdb_calendar_latest_measurement_text' | translate }}
-</button>
-
-<button
-class="btn btn-light form-group col-1 col-md-1 col-lg-1 mr-2 px-1"
-[ngClass]="{ active: highlightedButton === 1 }"
-(click)="getToday()">
-{{ 'cdb_calendar_button_1_day_text' | translate }}
-</button>
-
-<button
-class="btn btn-light form-group col-1 col-md-1 col-lg-1 mr-2 px-1 active"
-[ngClass]="{ active: highlightedButton === 2 }"
-(click)="getLastWeek()">
-{{ 'cdb_calendar_button_1_week_text' | translate }}
-</button>
-
-<button
-class="btn btn-light form-group col-1 col-md-1 col-lg-1 mr-2 px-1"
-[ngClass]="{ active: highlightedButton === 3 }"
-(click)="getLastMonth()">
-{{ 'cdb_calendar_button_1_month_text' | translate }}
-</button> -->

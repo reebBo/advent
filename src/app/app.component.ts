@@ -30,11 +30,13 @@ export class AppComponent implements OnInit {
   set2021() {
     this.contentService.setYear(2021);
     this.selectedYear = 2021;
+    this.highlightedButton= 1;
     this.router.navigateByUrl('/calendar');
   }
   set2022() {
     this.contentService.setYear(2022);
     this.selectedYear = 2022;
+    this.highlightedButton= 2;
     this.router.navigateByUrl('/calendar');
   }
 
