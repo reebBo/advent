@@ -19,11 +19,9 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit(): void {
-
     //for navigation between each day's element
     this.navig.startSaveHistory();
     this.set2022();
-    // this.showModal();
 
 }
 

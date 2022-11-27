@@ -27,32 +27,34 @@ export class CalendarComponent implements OnInit {
 
   //make days clickable only on specific days, based on date.
   goToContent(id: any) {
+    // alert('  id ' + id  );
 
     let selectedDay: number;
 
-    //this.day == 30 needed for testing before launching
-    if (this.day == 30 && this.month == 11) {
+    //this.day == 30 && this.month===10 needed for testing before launching
+    if (this.day == 27 && this.month == 10) {
       selectedDay = 1;
     }
     else {
       selectedDay = this.day;
     }
-    // display today's day and previous
-    // if (id <= selectedDay && this.month == 8) {
+    
+    // display today and previous
+    if (id <= selectedDay && this.month == 12) {
       // make id available in day component to filter content based on it
       this.sharedS.updateId(id);
       this.router.navigateByUrl('/day');
-    // }
-    // else if (this.month != 12) {
-    //   alert(
-    //     '😁 Ești curios să vezi despre ce e vorba, nu-i așa? 😁 Merită să revii pe data de 1 DECEMBRIE, te asigur! 😁'
-    //   );
-    // }
-    // else {
-    //   alert(
-    //     '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru ziua următoare, te asigur! 😁'
-    //   );
-    // }
+    }
+    else if (this.month != 12) {
+      alert(
+        '😁 Ești curios să vezi despre ce e vorba, nu-i așa? 😁 Merită să revii pe data de 1 DECEMBRIE, te asigur! 😁'
+      );
+    }
+    else {
+      alert(
+        '😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru ziua următoare, te asigur! 😁'
+      );
+    }
   }
  
 

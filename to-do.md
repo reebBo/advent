@@ -1,11 +1,4 @@
-
-tooltip on click too
-email for the form, not just database
-database to one.com
-
-
-
-
+need to refactor calendat.ts to add year on condition too, so that they can see last year whenever they want
 
 
 make sure to unsubscribe on observables 
