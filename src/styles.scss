@@ -81,7 +81,7 @@ audio {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px)  and (max-height: 896px) {
   .countdown-wrap #count {
     font-size: 1.8em !important;
   }
