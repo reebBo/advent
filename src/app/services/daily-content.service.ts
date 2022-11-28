@@ -41,7 +41,7 @@ getYear(){
     return this.year;
   }
 
-  getCraft(): Observable<Object> {
+  getCraft(){
     let year = this.year.toString();//private property at the top
     return this.http.get('../../../assets/jsonContent/craft.json/').pipe(
       map((craftData: any) => {

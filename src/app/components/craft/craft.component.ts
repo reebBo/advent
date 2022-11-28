@@ -25,7 +25,7 @@ export class CraftComponent implements OnInit {
         .subscribe(craftRes => {
 
           let crafts = Object.values(craftRes);
-          crafts.map(elem => {
+          crafts.map((elem:any) => {
             if (selectedDate == elem.id) {
               this.craft = elem;
             }
