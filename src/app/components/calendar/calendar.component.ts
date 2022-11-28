@@ -30,13 +30,13 @@ export class CalendarComponent implements OnInit {
     let selectedDay: number;
 
     //this.day == 30 && this.month===10 && currentYear==2022 needed for testing before launching
-    if ((this.day == 28||29||30) && this.month == 11 && currentYear) {
-      selectedDay = 1;
-      this.month=12;
-    }
-    else {
-      selectedDay = this.day;
-    }
+    // if ((this.day == 28||29||30) && this.month == 11 && currentYear) {
+    //   selectedDay = 1;
+    //   this.month=12;
+    // }
+    // else {
+    selectedDay = this.day;
+    // }
 
     // display today and previous  
     if ((id <= selectedDay && this.month == 12 && currentYear) || (currentYear == 2021)) {
