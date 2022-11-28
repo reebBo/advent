@@ -27,7 +27,6 @@ export class CraftComponent implements OnInit {
           crafts.map((elem: any) => {
             if (selectedDate == elem.id) {
               this.craft = elem;
-              alert(JSON.stringify(this.craft.images))
             }
           })
         })

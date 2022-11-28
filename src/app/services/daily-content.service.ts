@@ -32,17 +32,7 @@ getYear(){
     return this.year;
   }
 
-  getCraft(){
-    let year = this.year.toString();//private property at the top
-      return this.http.get('assets/jsonContent/craft.json/').pipe(
-      map((craftData: any) => {
-        if (Object.keys(craftData).includes(year)) {
-          // alert(JSON.stringify(craftData[year]['crafts']))
-          return craftData[year]['crafts'];
-        }
-      })
-    )
-  }
+
 
   getSong() {
     let year = this.year.toString();//private property at the top
@@ -71,6 +61,18 @@ getYear(){
       map((momsData: any) => {
         if (Object.keys(momsData).includes(year)) {
           return momsData[year]['moms'];
+        }
+      })
+    )
+  }
+
+  getCraft(){
+    let year = this.year.toString();//private property at the top
+      return this.http.get('assets/jsonContent/craft.json').pipe(
+      map((craftData: any) => {
+        if (Object.keys(craftData).includes(year)) {
+          // alert(JSON.stringify(craftData[year]['crafts']))
+          return craftData[year]['crafts'];
         }
       })
     )
