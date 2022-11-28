@@ -43,7 +43,8 @@ getYear(){
 
   getCraft(){
     let year = this.year.toString();//private property at the top
-    return this.http.get('../../../assets/jsonContent/craft.json/').pipe(
+    // return this.http.get('../../../assets/jsonContent/craft.json/').pipe(
+      return this.http.get('assets/jsonContent/craft.json/').pipe(
       map((craftData: any) => {
         if (Object.keys(craftData).includes(year)) {
           // alert(JSON.stringify(craftData[year]['crafts']))
@@ -55,7 +56,7 @@ getYear(){
 
   getSong() {
     let year = this.year.toString();//private property at the top
-    return this.http.get('../../../assets/jsonContent/songs.json').pipe(
+    return this.http.get('assets/jsonContent/songs.json').pipe(
       map((songsData: any) => {
         if (Object.keys(songsData).includes(year)) {
           return songsData[year]['songs'];
@@ -65,7 +66,7 @@ getYear(){
   }
   getStory() {
     let year = this.year.toString();//private property at the top
-    return this.http.get('../../../assets/jsonContent/story.json').pipe(
+    return this.http.get('assets/jsonContent/story.json').pipe(
       map((storiesData: any) => {
         if (Object.keys(storiesData).includes(year)) {
           return storiesData[year]['stories'];
@@ -76,7 +77,7 @@ getYear(){
 
   getMomsCorner() {
     let year = this.year.toString();//private property at the top
-    return this.http.get('../../../assets/jsonContent/moms.json').pipe(
+    return this.http.get('assets/jsonContent/moms.json').pipe(
       map((momsData: any) => {
         if (Object.keys(momsData).includes(year)) {
           return momsData[year]['moms'];
