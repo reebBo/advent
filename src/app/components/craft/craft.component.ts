@@ -15,7 +15,7 @@ export class CraftComponent implements OnInit {
     private contentService: DailyContentService) { }
 
   ngOnInit(): void {
-    this.getCraft();  
+    this.getCraft();
   }
 
 
@@ -23,11 +23,11 @@ export class CraftComponent implements OnInit {
     this.sharedService.currentId.subscribe((selectedDate) => {
       this.contentService.getCraft()
         .subscribe(craftRes => {
-
           let crafts = Object.values(craftRes);
-          crafts.map((elem:any) => {
+          crafts.map((elem: any) => {
             if (selectedDate == elem.id) {
               this.craft = elem;
+              alert(JSON.stringify(this.craft.images))
             }
           })
         })
@@ -35,3 +35,4 @@ export class CraftComponent implements OnInit {
   }
 
 }
+// { "id": "2", "images": ["images/craft2.png", "images/craft2.2.jpg", "images/craft2.3.png"], "title": "Paper twist", "text": "Materiale necesare:\r\nhârtie (de orice culoare), foarfecă, lipici, sfoară", "credit": "madamecriativa.com.br - Pinterest" }

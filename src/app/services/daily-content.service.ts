@@ -11,16 +11,7 @@ export class DailyContentService {
   private year: number = 0;
 
   constructor(private http: HttpClient) { }
-
-  // getPinnedIDsFromWebService(): Observable<number[]> {
-  //   const clinician = this.clinicianId();
-  //   return this.http.get<any>(`/pins/${clinician}`).pipe(
-  //     map(res => {
-  //       this.webServicePinnedIds = res.map((elem: any) => elem.patient);
-  //       return this.webServicePinnedIds;
-  //     })
-  //   );
-  // }
+ 
 
 getYear(){
   return this.year;
@@ -43,7 +34,6 @@ getYear(){
 
   getCraft(){
     let year = this.year.toString();//private property at the top
-    // return this.http.get('../../../assets/jsonContent/craft.json/').pipe(
       return this.http.get('assets/jsonContent/craft.json/').pipe(
       map((craftData: any) => {
         if (Object.keys(craftData).includes(year)) {
