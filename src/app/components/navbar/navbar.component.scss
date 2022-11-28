@@ -1,15 +1,12 @@
 .navigation {
   ul {
-    background: #3b613d;
-    opacity: 0.8;
+    // background: #3b613d;
+    // opacity: 0.8;
     list-style: none; 
     display: flex;
     padding: 0.5rem 0;
     justify-content: start;
     li{
-      margin-right: 3rem;
-      padding-left: .3em;
-      // padding-right: .3em;
       a{
         color:  rgb(227, 240, 229);
       }

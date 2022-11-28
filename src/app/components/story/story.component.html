@@ -8,14 +8,14 @@
         </div>
     </div>
     <div class="row mx-0">
-        <span class="nav-menu mt-2 w-50">
+        <span class="nav-menu mt-2 pr-3 w-50">
             <app-navbar></app-navbar>
         </span>
         <span class="audio mt-2 w-50">
             <audio controls *ngIf="story.voice" controls class="w-100">
                 <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
             </audio>
-            <div *ngIf="story.voiceContact" class="small"><!-- style="text-align: right; display:block;"-->
+            <div *ngIf="story.voiceContact" class="small float-right"> 
                 <a class="d-flex small" target="_blank" href="{{story.voiceContact}}"><strong>
                     Lectura:{{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
                 </div>
