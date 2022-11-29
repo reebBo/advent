@@ -4,11 +4,14 @@
     // opacity: 0.8;
     list-style: none; 
     display: flex;
-    padding: 0.5rem 0;
+    padding:  0;
     justify-content: start;
+    margin-bottom: 0;
     li{
+      margin-right: 0;
       a{
-        color:  rgb(227, 240, 229);
+        // color:  rgb(227, 240, 229);
+        color: #68906a;
       }
     }
   }

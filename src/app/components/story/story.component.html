@@ -1,26 +1,30 @@
+<style>
+    .nav {
+        margin-left: auto;
+    }
+</style>
+
 <div class="story-card card mt-2 mb-5 mx-lg-5 px-lg-5" *ngIf="story">
-    <div class="card-header">
-        <div class="title h3 mb-0">
-            {{story.title}} - Ziua {{story.id}}
+    <div class="card-header row mx-0">
+        <span class="col-12 col-md-6 title h3 px-0">{{story.title}} - Ziua {{story.id}}
             <span class="small text-muted">
-                 {{story.author}}
+                {{story.author}}
             </span>
-        </div>
-    </div>
-    <div class="row mx-0">
-        <span class="nav-menu mt-2 pr-3 w-50">
-            <app-navbar></app-navbar>
         </span>
-        <span class="audio mt-2 w-50">
-            <audio controls *ngIf="story.voice" controls class="w-100">
-                <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
-            </audio>
-            <div *ngIf="story.voiceContact" class="small float-right"> 
-                <a class="d-flex small" target="_blank" href="{{story.voiceContact}}"><strong>
-                    Lectura:{{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
-                </div>
+        <span class="col-12 col-md-6 nav nav-menu">
+            <app-navbar class="ml-sm-auto"></app-navbar>
         </span>
     </div>
+    <div class="audio ml-0">
+        <audio controls *ngIf="story.voice" controls class="w-100 h-50">
+            <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
+        </audio>
+    </div>
+    <div *ngIf="story.voiceContact" class="small float-right">
+        <a class="d-flex small" target="_blank" href="{{story.voiceContact}}"><strong>
+                Lectura:{{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
+    </div>
+
     <div class="card-body mt-2">
         <p class="card-text mb-4">{{story.text}}</p>
         <div *ngIf="story.credit" class="text-muted small pb-3">

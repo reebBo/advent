@@ -1,13 +1,16 @@
+<style>
+    .nav {
+        margin-left: auto;
+    }
+</style>
 <div class="craft-card card mt-2 mb-5 mx-lg-5 px-lg-5" *ngIf="craft">
-    <div class="card-header">
-        <div class="title h3 mb-0">
-            {{craft.title}} - Ziua {{craft.id}}
-        </div>
-    </div>
-    <div class="nav-menu mt-2">
-        <app-navbar></app-navbar>
-    </div>
-    <div class="card-body mt-2"> 
+    <div class="card-header row mx-0">
+        <span class="col-12 col-md-6 title h3 px-0"> {{craft.title}} - Ziua {{craft.id}}</span>
+        <span class="col-12 col-md-6 nav nav-menu">
+            <app-navbar class="ml-sm-auto"></app-navbar>
+        </span> 
+    </div> 
+    <div class="card-body mt-2">
         <p class="card-text" [ngClass]="craft.text.includes('Materiale necesare:')  ? 'strong' : ''">
             {{craft.text}} </p>
         <div class="row mx-0">
