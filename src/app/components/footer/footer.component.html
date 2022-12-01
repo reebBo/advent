@@ -1,5 +1,6 @@
 <footer class="footer pb-4">
-  <a class="btn btn-sm btn-contact small mr-2 mr-lg-5" href="mailto:bucuriedeadvent@gmail.com" target="_blank"> Contact&nbsp;
+  <a class="btn btn-sm btn-contact small mr-2 mr-lg-5" href="mailto:bucuriedeadvent@gmail.com" target="_blank">
+    Contact&nbsp;
     <i class="fa fa-solid fa-envelope"></i>
   </a>
   <a class="btn btn-sm btn-contact small" (click)="showModal();"> Concurs&nbsp;
@@ -14,8 +15,9 @@
   <div class="modal-dialog modal-md">
     <div class="modal-content">
       <div class="modal-header mx-auto">
-        <h4 id="dialog-auto-name" class="modal-title text-center">Mai sunt {{noOfDaysToAdvent}} zile până începe <span
-            id="advent">Adventul!</span> </h4>
+        <!-- <h4 id="dialog-auto-name" class="modal-title text-center">Mai sunt {{noOfDaysToAdvent}} zile până începe <span
+            id="advent">Adventul!</span>
+        </h4> -->
       </div>
       <div class="p-3">
         <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
@@ -53,7 +55,8 @@
               <label for="acceptTerms" class="form-check-label">Sunt de acord cu salvarea și prelucrarea datelor mele.
               </label>
               <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">
-                Acceptarea termenilor este necesară. Nu vom împărtăși informațiile tale cu alte persoane sau organizații fără permisiunea ta.
+                Acceptarea termenilor este necesară. Nu vom împărtăși informațiile tale cu alte persoane sau organizații
+                fără permisiunea ta.
               </div>
             </div>
 
