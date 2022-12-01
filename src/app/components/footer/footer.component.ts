@@ -14,7 +14,6 @@ export class FooterComponent implements OnInit {
   // -----------
   registerForm!: FormGroup;
   submitted = false;
-  posts: any;
   // -----------
   today = new Date();
   decemberFirst = new Date(this.today.getFullYear(), 11, 1);

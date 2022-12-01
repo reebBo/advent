@@ -20,6 +20,7 @@ import { StoryComponent } from './components/story/story.component';
 import { CraftComponent } from './components/craft/craft.component';
 import { SongComponent } from './components/song/song.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { ContestComponent } from './components/contest/contest.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     FooterComponent,
     ReplacePipe,
     NavbarComponent,
+    ContestComponent,
   ],
   imports: [
     BrowserModule,

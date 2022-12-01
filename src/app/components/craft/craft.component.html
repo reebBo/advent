@@ -8,8 +8,8 @@
         <span class="col-12 col-md-6 title h3 px-0"> {{craft.title}} - Ziua {{craft.id}}</span>
         <span class="col-12 col-md-6 nav nav-menu">
             <app-navbar class="ml-sm-auto"></app-navbar>
-        </span> 
-    </div> 
+        </span>
+    </div>
     <div class="card-body mt-2">
         <p class="card-text" [ngClass]="craft.text.includes('Materiale necesare:')  ? 'strong' : ''">
             {{craft.text}} </p>
@@ -18,13 +18,20 @@
                 <img class="img-fluid img-thumbnail h-75" src="assets/{{img}}" alt="craft">
             </div>
         </div>
-        <hr>
-        <p class="text-muted small">
-            {{craft.credit}}
-        </p>
+
         <div *ngIf="craft.questions">
             <p class="card-text"> {{craft.questions}}</p><br>
         </div>
+        <div class=" text-white">
+            <h5 class="text-danger"> Concurs:</h5>
+            <app-contest></app-contest>
+            
+            <a href="mailto:bucuriedeadvent@gmail.com" target="_blank" class="btn-contest btn btn-sm text-white mb-5">Trimite pozele pe email</a>
+        </div>
+
+        <p class="text-muted small mt-5">
+            Resurse: {{craft.credit}}
+        </p>
     </div>
 
 </div>

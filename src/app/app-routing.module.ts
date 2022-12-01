@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { ChristmasDayComponent } from './components/christmas-day/christmas-day.component';
+import { ContestComponent } from './components/contest/contest.component';
 import { CraftComponent } from './components/craft/craft.component';
 import { DayComponent } from './components/day/day.component';
 import { MotherCornerComponent } from './components/mother-corner/mother-corner.component';
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'story', component: StoryComponent },
   { path: 'song', component: SongComponent },
   { path: 'moms', component: MotherCornerComponent },
-  { path: 'craft', component: CraftComponent },
+  { path: 'craft', component: CraftComponent }, 
+  { path: 'contest', component: ContestComponent },
   // otherwise redirect to calendar
   { path: '**', redirectTo: 'CalendarComponent' },
 ];
@@ -26,4 +28,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

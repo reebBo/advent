@@ -18,13 +18,12 @@
 #day {
   font-family: "Puppies Play", cursive;
   text-align: center;
-  color: rgb(23, 90, 63);
+  color: rgb(55, 133, 102);
   opacity: 0.9;
   background: #dfc6c3;
   width: 100%;
   border-radius: 50%;
-  margin: 0.1em 0.2em;
-  // box-shadow: 1px 4px 8px hsl(60deg 70% 0% / 10.78);
+  margin: 0.1em 0.2em; 
   cursor: pointer;
   opacity: 0.8;
   border: #cb3939 solid 1px;
@@ -36,9 +35,11 @@
 }
 
 .active {
-  background: #0fa723 !important;
-  color: rgb(109, 12, 12) !important;
+  background: #87e093 !important;
+  color: rgb(214, 74, 74) !important;
   border-radius: 50%;
   font-weight: 700;
-  box-shadow: 1px 1px 0 #9ac9b3, 0 0 20px 5px #49ad82, inset 12px 12px 0 #528d73;
+  border: #39cb59 solid 1px;
+
+  box-shadow: 1px 1px 0 #bee5d3, 0 0 20px 5px #49ad82, inset 12px 12px 0 #8fddbb;
 }

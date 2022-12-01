@@ -7,11 +7,12 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ContactService {
-  private api = 'https://mailthis.to/bucuriedeadvent';
+  private apiUserForm = 'https://mailthis.to/bucuriedeadvent';
+  
   constructor(private http: HttpClient) { }
 
   postMessage(input: any) {
-    return this.http.post(this.api, input, { responseType: 'text' })
+    return this.http.post(this.apiUserForm, input, { responseType: 'text' })
       .pipe(map((res: any) => {
         if (res) {
           {
@@ -25,6 +26,5 @@ export class ContactService {
       ))
   }
 
-
-
+ 
 }
