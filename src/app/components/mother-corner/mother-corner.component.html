@@ -6,6 +6,9 @@
 <div class="mom-card card mt-2 mb-5 mx-lg-5 px-lg-5" *ngIf="momsCorner">
     <div class="card-header row mx-0">
         <span class="col-12 col-md-6 title h3 px-0">Colțul mămicilor - Ziua {{momsCorner.id}}
+            <span class="small text-muted">
+                - {{momsCorner.author}}
+            </span>
         </span>
         <span class="col-12 col-md-6 nav nav-menu">
             <app-navbar class="ml-sm-auto"></app-navbar>
@@ -21,8 +24,8 @@
         <div class="row mx-0">
             <div class="col-sm-6 col-md-12 col-lg-6 card-text p-0 mb-3">{{momsCorner.text}}
             </div>
-            <div class="col-sm-6 col-md-12 col-lg-6 px-0 p-md-5 p-lg-5">
-                <img class="img-fluid img-thumbnail h-75" src="assets/{{momsCorner.image}}" alt="momsCorner-pic">
+            <div class="col-sm-4 col-md-10 col-lg-6 px-0 p-md-5 p-lg-5">
+                <img class="img-fluid img-thumbnail w-75" src="assets/{{momsCorner.image}}" alt="momsCorner-pic">
             </div>
         </div>
 
