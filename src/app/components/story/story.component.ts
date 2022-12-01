@@ -23,7 +23,6 @@ export class StoryComponent implements OnInit {
     this.sharedService.currentId.subscribe((selectedDate) => {
       this.contentService.getStory()
         .subscribe((storyRes: any) => {
-
           let crafts = Object.values(storyRes);
           crafts.map((elem: any) => {
             if (selectedDate == elem.id) {
