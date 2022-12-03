@@ -30,9 +30,9 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
     // localStorage.clear();
-    if (!this.formValue) {
-      this.showModal();
-    }
+    // if (!this.formValue) {
+    //   this.showModal();
+    // }
     this.registerForm = this.formBuilder.group(
       {
         full_name: ['', Validators.required],
