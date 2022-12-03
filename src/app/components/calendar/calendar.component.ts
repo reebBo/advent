@@ -29,9 +29,7 @@ export class CalendarComponent implements OnInit {
     let selectedDay: number;
     let currentYear = this.contentServ.getYear();
     selectedDay = this.day;
-    // selectedDay = 1;
-    // this.month = 12;
-
+    
 
     // display today and previous  
     if ((id <= selectedDay && this.month == 12) || currentYear == 2021) {
