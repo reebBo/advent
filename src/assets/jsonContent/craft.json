@@ -291,11 +291,11 @@
       {
         "id": "5",
         "images": [
-          "images/street-advent/street_advent.jpg"
+         "images/street-advent/quilling2.png","images/street-advent/quilling3.png","images/street-advent/quilling4.png","images/street-advent/quilling5.png","images/street-advent/quilling6.png","images/street-advent/quilling7.png"
         ],
-        "title": "Un altfel de Advent",
-        "text": "---- ",
-        "credit": ""
+        "title": "Adventul de acasă - Craft",
+        "text": "Dragostea lui Dumnezeu este motivul pentru care există Crăciunul.\r\nÎmi place să spun că tot Dumnezeu a inventat și cadourile.\r\n\r\nViața ar fi mult mai tristă fără cadouri, nu crezi? Mari sau mici, scumpe sau nu, ceea ce face un cadou cu adevărat special este inima care îl pregătește și îl dăruiește.\r\n\r\nAstăzi te încurajez să confecționezi inimioare.\r\nInimioarele pot fi o reprezentare vizibilă a dragostei, și acesta este exact modul în care intenționăm să le folosim în zilele următoare, deci confecționează cât mai multe.\r\n\r\nPoți găsi indicații despre tehnica de quilling în imaginile de mai jos. Spor! Abia aștept să văd ce-ți iese!",
+        "credit": "thepaperycraftery.com"
       },
       {
         "id": "6",
@@ -303,7 +303,7 @@
           "images/street-advent/street_advent.jpg"
         ],
         "title": "Adventul de acasă - Quiz de Crăciun",
-        "text": "1. Cum se numeau parintii lui Isus?\r\na. Maria (Matt. 1:16; Luke 1:31, 2:6-7).\r\nb. Dumnezeu (Luke 1:32, 35).\r\nc. Iosif (Matt 1:16, 19-20, 24-25).\r\n\r\n\r\n2. Cum se numea ingerul care a venit la Maria?\r\nGabriel (Luke 1:26).\r\n\r\n3. Unde au locuit Iosif si Maria dupa ce s-au casatorit? Nazaret (Luke 2:4-5, 39).\r\n\r\n4. Pe cine a vizitat Maria imediat dupa ce ingerul a venit la ea?\r\nElizabeta, ruda ei (Luke 1:36).\r\n\r\n5. De ce ai calatorit Maria si Iosif la Betleem?\r\nCa sa se inscrie acolo (Luke 2:1-3).\r\n\r\n7.  Ce a cantat corul de ingeri in auzul pastorilor?\r\nSlava lui Dumnezeu in locurile preainalte si pace pe pamant intre oamenii placuti Lui. (Luke 2:14).\r\n\r\n8. Care era semnul pe care ingerii l-au dat pastorilor? Ce anume trebuiau sa caute?\r\nUn prunc infasat in scutece si culcat intr-o iesle (Luke 2:12, 16-17).\r\n\r\n9. Cati magi au venit la Isus?\r\nNiste magi.\r\n\r\n10. Ce daruri au adus magii? Aur, smirna si tamaie. (Matt 2:1-2, 11).\r\n\r\n11. Unde a crescut copilul Isus?\r\nNazaret(Matt 2:23).",
+        "text": "1. Cum se numeau părinții lui Isus?\r\na. Maria\r\nb. Dumnezeu\r\nc. Iosif\r\n\r\n2. Cum se numea îngerul care a venit la Maria?\r\na. Gabriel\r\nb. Mihail\r\nc. Haniel\r\n\r\n3. Unde au locuit Iosif și Maria după ce s-au căsătorit?\r\na. Nazaret\r\nb. Betleem\r\nc. Ierusalim\r\n\r\n4. Pe cine a vizitat Maria imediat după ce îngerul a venit să-i aducă vestea?\r\na. Elizabeta, ruda ei\r\nb. Iosif\r\nc. Preotul\r\n\r\n5. De ce au călătorit Maria și Iosif la Betleem?\r\na. Ca să se înscrie acolo\r\nb. Pentru a sărbători Crăciunul cu rudele\r\nc. Au vrut să facă o plimbare\r\n\r\n7.  Ce a cântat corul de îngeri în auzul păstorilor?\r\na. Slavă lui Dumnezeu în locurile preaînalte și pace pe pământ între oamenii plăcuți Lui.\r\nb. Nu vă temeți, S-a născut Mesia!\r\nc. Sfânt locaș, tainic locaș...\r\n\r\n8. Care era semnul pe care îngerii l-au dat păstorilor? Ce anume trebuiau să caute?\r\na. Un prunc înfășat în scutece și culcat într-o iesle\r\nb. Locul deasupra caruia avea să se oprească steaua călăuzitoare\r\nc. Trebuiau să găsească pruncul născut la palat.\r\n\r\n9. Câți magi au venit la Isus?\r\na. trei\r\nb. cinci\r\nc. niște magi.\r\n\r\n10. Ce daruri au adus magii?\r\na. Aur, smirnă și tămâie.\r\nb. Tămâie, bani și mirodenii\r\nc. Cămile, măgari și sclavi.\r\n\r\n11. Unde a crescut copilul Isus?\r\na. Nazaret\r\nb. Betleem\r\nc. Egipt ",
         "credit": ""
       },
       {
