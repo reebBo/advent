@@ -32,7 +32,7 @@
         </div>
 
         <p *ngIf="craft.credit" class="text-muted small mt-5">
-            Resurse: {{craft.credit}}
+         <a [href]="craft.credit" class="text-white"  style="text-decoration: underline;">{{craft.credit}}</a>
         </p>
     </div>
 
