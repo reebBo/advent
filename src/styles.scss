@@ -112,6 +112,26 @@ audio {
 
 //snow code at https://trungk18.com/experience/angular-snow-effect/
 
+
+@media screen and (min-width: 601px) {
+  .data {
+    height: 75%; 
+  }
+  .contest-wrapp,
+  .story-card,
+  .song-card,
+  .craft-card,
+  .mom-card {
+    height: 85%;
+    .card-body {
+      overflow-y: scroll;
+    } 
+
+    .img {
+      height: 80%;
+    }
+  }
+}
 @media screen and (min-width: 810px) {
   .data {
     height: 75%;
