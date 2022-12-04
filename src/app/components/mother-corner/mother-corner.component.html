@@ -24,14 +24,19 @@
         <div class="row mx-0">
             <div class="col-sm-6 col-md-12 col-lg-6 card-text p-0 mb-3">{{momsCorner.text}}
             </div>
-            <div class="col-sm-4 col-md-10 col-lg-6 px-0 p-md-5 p-lg-5">
+            <iframe *ngIf="momsCorner.id==5" width="500" height="300" src="https://www.youtube.com/embed/IlIKHIuCi2U"
+                title="Way Maker - BBSO" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <div *ngIf="momsCorner.image" class="col-sm-4 col-md-10 col-lg-6 px-0 p-md-5 p-lg-5">
                 <img class="img-fluid img-thumbnail w-75" src="assets/{{momsCorner.image}}" alt="momsCorner-pic">
             </div>
         </div>
 
         <hr>
         <p class="text-muted small">
-         <a [href]="momsCorner.credit" class="text-white"  style="text-decoration: underline;">{{momsCorner.credit}}</a>
+            <a [href]="momsCorner.credit" class="text-white"
+                style="text-decoration: underline;">{{momsCorner.credit}}</a>
         </p>
     </div>
 

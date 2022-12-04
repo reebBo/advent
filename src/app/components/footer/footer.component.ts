@@ -69,6 +69,16 @@ export class FooterComponent implements OnInit {
           console.log({ error })
         }
       )
+    // database
+    // return this.httpClient.get('https://reeb.dk/users.php', { params: user })
+    //   .pipe(
+    //     map(a => alert('hghgy '+JSON.stringify(a)))
+    //   )
+    //   .subscribe(resp => {
+    //     console.log("hello", resp);
+    //     this.hideModal();
+    //   });
+
   }
 
 
