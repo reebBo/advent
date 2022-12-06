@@ -12,12 +12,13 @@
     </div>
     <div class="card-body my-3">
         <p class="card-text" [ngClass]="craft.text.includes('Materiale necesare:')  ? 'strong' : ''">
-            {{craft.text}} </p>
-        <div class="row mx-0">
+            {{craft.text}}
+        </p>
+        <div class="row mx-0" *ngIf="craft.images">
             <div class="col-sm-12 col-md-12 col-lg-6 my-1 px-0" *ngFor="let img of craft.images">
                 <a href="assets/{{img}}" download="img_download" class="clickable">
                     <img class="img-fluid img-thumbnail w-75 " src="assets/{{img}}" alt="craft">
-                </a> 
+                </a>
             </div>
         </div>
 
@@ -31,9 +32,18 @@
                 class="btn-contest btn btn-sm text-white mb-5">Trimite pozele pe email</a>
         </div>
 
-        <p *ngIf="craft.credit" class="text-muted small mt-5">
-         <a [href]="craft.credit" class="text-white"  style="text-decoration: underline;">{{craft.credit}}</a>
-        </p>
+        <div *ngIf="craft.credit" class="text-muted small mt-5">
+            <div *ngIf="craft.id==7">
+                <a href="assets/{{craft.credit}}" download="download_questions" class="clickable text-white"
+                    style="text-decoration: underline;">
+                    Descarcă întrebările
+                </a>
+            </div>
+
+            <ng-template #default>
+                <a [href]="craft.credit" class="text-white" style="text-decoration: underline;">{{craft.credit}}</a>
+            </ng-template>
+        </div>
     </div>
 
 </div>
