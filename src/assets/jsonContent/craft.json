@@ -273,7 +273,8 @@
       {
         "id": "3",
         "images": [
-          "images/street-advent/letter_template.jpg", "images/street-advent/christmas_card.png"
+          "images/street-advent/letter_template.jpg",
+          "images/street-advent/christmas_card.png"
         ],
         "title": "Adventul de acasă - Purtătorii de vești bune",
         "text": "Înainte de whatsapp, messenger, sms și email... oamenii scriau scrisori. Era cam așa: Căutai cea mai frumoasă coală de hârtie, stiloul, plicul și timbrele. Scriai adresa expeditorului și adresa destinatarului. Apoi, cu cea mai frumoasă caligrafie posibilă, înșirai cuvintele pe foaie și aveai grijă să nu greșești sau să nu pătezi foaia cu cerneală.\r\n\r\nBucuria și uimirea de a primi scrisori este cu atât mai mare astăzi cu cât aproape nimeni nu le mai scrie. Te provoc să pui un zâmbet pe chipurile celor dragi din familia ta lărgită sau chiar ale prietenilor tăi. Te asigur că gestul acesta nu va rămâne neobservat.\r\n\r\nP.s. Cu un click pe poză, o poți descărca, printa și folosi pentru scrisori, dacă dorești.",
@@ -291,7 +292,12 @@
       {
         "id": "5",
         "images": [
-         "images/street-advent/quilling2.png","images/street-advent/quilling3.png","images/street-advent/quilling4.png","images/street-advent/quilling5.png","images/street-advent/quilling6.png","images/street-advent/quilling7.png"
+          "images/street-advent/quilling2.png",
+          "images/street-advent/quilling3.png",
+          "images/street-advent/quilling4.png",
+          "images/street-advent/quilling5.png",
+          "images/street-advent/quilling6.png",
+          "images/street-advent/quilling7.png"
         ],
         "title": "Adventul de acasă - Craft",
         "text": "Dragostea lui Dumnezeu este motivul pentru care există Crăciunul.\r\nÎmi place să spun că tot Dumnezeu a inventat și cadourile.\r\n\r\nViața ar fi mult mai tristă fără cadouri, nu crezi? Mari sau mici, scumpe sau nu, ceea ce face un cadou cu adevărat special este inima care îl pregătește și îl dăruiește.\r\n\r\nAstăzi te încurajez să confecționezi inimioare.\r\nInimioarele pot fi o reprezentare vizibilă a dragostei, și acesta este exact modul în care intenționăm să le folosim în zilele următoare, deci confecționează cât mai multe.\r\n\r\nPoți găsi indicații despre tehnica de quilling în imaginile de mai jos. Spor! Abia aștept să văd ce-ți iese!",
@@ -308,48 +314,47 @@
       },
       {
         "id": "7",
-        "images": [
-          "images/street-advent/street_advent.jpg"
-        ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
-        "credit": ""
+        "images": [],
+        "title": "Adventul de acasă - Întrebări banale, răspunsuri originale",
+        "text": "Descarcă și printează (sau nu) pdf-ul, accesând linkul din josul paginii, și petrece un timp amuzant cu cei dragi.\r\nE o ocazie bună să râdeți împreună dar și să descoperiți lucruri pe care poate că nu le știați unii despre alții.\r\nAți putea chiar premia cea mai sinceră, cea mai creativă sau cea mai amuzantă persoană.",
+        "credit": "pdf/un_altfel_de_advent_intrebari.pdf"
       },
       {
         "id": "8",
         "images": [
           "images/street-advent/street_advent.jpg"
         ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "title": "Un altfel de Advent - Purtătorii de vești bune",
+        "text": "Pentru activitatea de astăzi ai nevoie de:\r\n- carton\r\n- inimioare - din cele pe cate le-ai confecționat în cealaltă zi\r\n- mesaj - poți să printezi sau să scrii manual textul de mai jos\r\n- plic - cumpărat sau confecționat de mână.\r\n\r\nAcum, că ai tot ce-ți trebuie, te încurajez să confecționezi câteva carduri de Crăciun pentru unul sau mai mulți copii, prieteni, colegi, vecini din blocul/cartierul în care locuiești.\r\nBate la ușă și dă-le.\r\nSau poți să le lași în cutia poștală.\r\n\r\nIată aici textul recomandat pentru card:\r\n\r\nCraciunul, copilul meu, este dragoste in actiune. Atunci cand iubesti pe cineva, ii faci cadouri, la fel cum Dumnezeu ne face cadouri noua. Cel mai mare cadou pe care ni l-a daruit a fost Fiul Sau, trimis la noi in chip de om, ca sa ne descopere cum este Dumnezeu Insusi. De fiecare data cand oferim dragostea noastra, de fiecare data cand facem cadouri este Craciun! - dupa Dale Evans\r\n\r\nDe asemenea, îl poți provoca pe cel care primește cardul să dea mai departe. Putem astfel să formăm o rețea de încurajare cu ocazia Crăciunului. Pentru asta, îi poți lăsa o mică notă:\r\n 'Te provoc sa trimiți la rândul tău acest mesaj de încurajare'.",
         "credit": ""
       },
       {
         "id": "9",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/turta-dulce-decorata.jpg"
         ],
-        "title": "Adventul de acasă - Întrebări...",
-        "text": "Mai jos găsești linkul către un document cu întrebări. Le poți printa, împături și pune într-o cutie. Pe rând, fiecare membru al familiei poate extrage câte un bilețel și trebuie să răspundă cât mai sincer.",
-        "credit": " DOWNLOAD PDF"
+        "title": "Adventul de acasă - Turtă dulce",
+        "text": "Să facem miros de sărbătoare în casă și cu această ocazie să pregătim ceva și pentru 'Adventul din stradă'.\r\n\r\nCe este 'Adventul din stradă', mă veți întreba?\r\n\r\nEi bine, 'Adventul din stradă' este oportunitatea de a face o bucurie neașteptată nevoiașilor de pe stradă.\r\n\r\nÎn zilele următoare vom vorbi mai mult despre asta.\r\n\r\nAșadar, pregătește o porție în plus pentru 'Adventul din stradă', împachetează-le și decorează-le cu inimioare din cele pe care le-ai confecționat zilele trecute.\r\n\r\nRețeta o poți găsi accesând linkul din josul paginii.",
+        "credit": "https://lacera.ro/turta-dulce/"
       },
       {
         "id": "10",
         "images": [
           "images/street-advent/street_advent.jpg"
         ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "title": "Un altfel de Advent - multumire",
+        "text": "",
         "credit": ""
       },
       {
         "id": "11",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/angels.png"
         ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
-        "credit": ""
+        "title": "Un altfel de Advent - O altfel de poveste",
+        "text": "Când un lucru sau o poveste își pierde elementul de noutate există pericolul să nu mai fim prea impresionați.\r\n\r\nHai să privim lucurile dintr-o altă perspectivă:\r\n\r\nHai să vorbim puțin despre îngerii care în acea noapte au coborât deasupra câmpiei unde păstorii vegheau oile lor.\r\n\r\nPentru ei, experiența era de asemenea extraordinară. Înainte de a lua chip de om și a se naște ca prunc pe pământ, Isus a fost în cer.\r\nÎngerii Îl cunoșteau ca pe Fiul lui Dumnezeu, iar acum sarcina lor era să le comunice acelor păstori ca Cel care în cer era pe tron,\r\n\r\ns-a născut acum într-o iesle, iar ei puteau merge să-l vadă.\r\n\r\nImaginează-ți că ai avea ocazia să vorbești cu unul din ingerii din acea noapte.\r\n\r\n",
+        "questions":"Cum crezi că ți-ar povesti faptul că Fiul lui Dumnezeu e acum un prunc mic și neajutorat? Ce cuvinte crezi că ar folosi?\r\n\r\nCum și-ar explica ei dragostea Fiului lui Dumnezeu pentru oameni- asemenea dragoste ce l-a determinat să vină pe pământ?\r\n\r\nCe crezi că ar zice îngerul despre faptul că în cer Isus era atotputernic iar acum s-a născut în chip de copil care are nevoie de ajutor?\r\n\r\nCrezi că s-ar mira?\r\n\r\nCum crezi că ar încerca să explice faptul că cineva așa de mare a ales să devină cineva așa de mic?",
+         "credit": ""
       },
       {
         "id": "12",
@@ -357,27 +362,26 @@
           "images/street-advent/heart-branches.jpg",
           "images/street-advent/branches.png"
         ],
-        "title": "Adventul de acasă - Craft ❤️ ",
+        "title": "Adventul de acasă - Craft ",
         "text": "Materiale necesare:\r\n- crenguțe culese din grădină sau din parc, uscate și vopsite după preferință.\r\nLe poți colora cu spray, cu acuarele sau cu vopsea.\r\nLe poți face albe sau aurii sau orice altă culoare dorești.\r\nApoi le poți lipi fie pe carton, fie pe hârtie sau chiar pe pânză.",
         "credit": "https://www.redtedart.com"
       },
       {
         "id": "13",
         "images": [
-          "images/street-advent/angels.png"
+          "images/street-advent/together.png"
         ],
-        "title": "Adventul de acasa - O altfel de poveste",
-        "text": "Și tu și eu am auzit istoria Crăciunului de mai multe ori până acum, nu-i așa?\r\nȘtim despre călătoria spre Betleem a lui Iosif și a Mariei,\r\nștim despre faptul că au fost nevoiți să petreacă noaptea într-un grajd de animale și nu într-o casă,\r\nștim că îngerii din cer au venit la păstorii de pe câmp și le-au spus despre nașterea Pruncului,\r\nși știm că magii din Răsărit au pornit în căutarea noului Rege, urmând o stea.\r\n\r\nCând un lucru sau o poveste își pierde elementul de noutate e un pic mai greu să mai fim impresionați.\r\n\r\nAșa că, iată aici o nouă provocare ce ne-ar putea ajuta în acest sens:\r\nIosif și Maria călătoreau spre Betleem. Quirinius dăduse porunca de recensământ. Le plăcea sau nu, porunca trebuia împlinită.\r\nOdată cu ei mai calatoreau și alți oameni spre Betleem, din acelasi motiv ca și ei. Așadar, când au ajuns, au găsit un Betleem aglomerat, în care fiecare își căuta un loc de dormit.\r\nDin nefericire, Iosif și Maria nu au găsit nicio casă și niciun pat în care să poată rămâne peste noapte, așa că au fost nevoiți să stea într-un adăpost pentru animale.\r\nÎn acea noapte Maria l-a născut pe Isus, iar Biblia spune că Maria l-a înfășat în scutece și l-a culcat într-o iesle.",
-        "questions": "Marele Dumnezeu întrupat într-un mic copilaș s-a născut iar Dumnezeu a hotărât să trimită vestea unor păstori oarecare, ce făceau de strajă împrejurul turmei lor.\r\n\r\nBiblia ne spune că mai întâi păstorii s-au speriat, apoi au fost uimiți iar apoi au hotărât să meargă să-l vadă pe prunc.\r\nDar haideți să schimbăm puțin lentila:\r\n\r\n1.Ce crezi că ar povesti oile de pe camp despre noaptea în care au aparut niște îngeri?\r\n\r\n2.Crezi ca s-au speriat sau erau curioase?\r\n3.Cum crezi că ar povesti oaia mamă bebelusului care s-ar naște primăvara următoare? Ce i-ar spune?\r\n\r\n4.Ce crezi că ar vorbi oile între ele, dacă ar avea grai, după ce îngerii s-au întors în cer?\r\n5.Ce crezi că li s-ar parea cel mai interesant din toată seara aceea?\r\n\r\n6.Daca le-ai lua interviu în ziua următoare oilor, cam ce crezi că ar spune despre: îngeri, păstori, vremea de afară, vestea auzită.\r\n\r\n7.Crezi că oile ar fi fost curioase să-l vadă pe Isus? Tu ai fi fost?",
-        "credit": "https://www.freepik.com"
+        "title": "Adventul de acasă - Seara de amintiri din 2022",
+        "text": "Astăzi, în cadrul activității din familie, retrăim momentele de dragoste împărtășită din acest an.\r\n\r\nCaută în laptopul familiei folderul cu poze și filmulețe descărcate de pe telefoanele voastre în cursul acestui an și vizionați-le împreună.\r\n\r\nE o ocazie să retrăiești momente cu semnificație.\r\n\r\nÎți promit că va fi o experiență specială.",
+        "credit": ""
       },
       {
         "id": "14",
         "images": [
           "images/street-advent/street_advent.jpg"
         ],
-        "title": "Adventul de acasă - cuvinte frumoase",
-        "text": "Înainte de whatsapp, messenger, sms si email... oamenii scriau scrisori. Era cam așa: Căutai cea mai frumoasă coală de hârtie, stiloul plicul și timbrele. Scriai adresa expeditorului si adresa destinatarului. Apoi, cu cea mai frumoasă caligrafie posibilă, înșirai cuvintele pe foaie și aveai grijă să nu greșești sau să nu pătezi foaia cu cerneală. Bucuria și uimirea de a primi scrisori este cu atât mai mare astăzi cu cat aproape nimeni nu mai le mai scrie. Te provoc să pui un zambet pe chipurilor celor dragi din familia ta lărgită sau chiar prietenii tăi. Te asigur că gestul acesta nu va rămânea neobservat.",
+        "title": " ",
+        "text": "",
         "credit": ""
       },
       {
@@ -394,8 +398,8 @@
         "images": [
           "images/street-advent/street_advent.jpg"
         ],
-        "title": "Adventul de acasă - Seara de cântec în familie",
-        "text": "În fiecare țară din lume, sărbătoarea Crăciunului are variațiile specifice locului. Însă până acum nu am auzit de nicio țară în care muzica de Crăciun să lipsească. Muzica în sine este o modalitate de exprimare a sufletului, emoțiilor, gândurilor, rugăciunilor. Muzica unește oameni de aproape sau de departe, cunoscuți și nescunoscuți. Îmi amintesc și acum cu drag de serile de cântec în familie. Te incurajez să cauți cântecele tale preferate (de Crăciun și nu numai) și să petreci un timp muzical cu familia.",
+        "title": " ",
+        "text": "",
         "credit": ""
       },
       {
@@ -403,8 +407,9 @@
         "images": [
           "images/street-advent/street_advent.jpg"
         ],
-        "title": "Adventul de acasă - Quiz de Crăciun",
-        "text": "1. Cum se numeau parintii lui Isus?\r\na. Maria (Matt. 1:16; Luke 1:31, 2:6-7).\r\nb. Dumnezeu (Luke 1:32, 35).\r\nc. Iosif (Matt 1:16, 19-20, 24-25).\r\n\r\n\r\n2. Cum se numea ingerul care a venit la Maria?\r\nGabriel (Luke 1:26).\r\n\r\n3. Unde au locuit Iosif si Maria dupa ce s-au casatorit? Nazaret (Luke 2:4-5, 39).\r\n\r\n4. Pe cine a vizitat Maria imediat dupa ce ingerul a venit la ea?\r\nElizabeta, ruda ei (Luke 1:36).\r\n\r\n5. De ce ai calatorit Maria si Iosif la Betleem?\r\nCa sa se inscrie acolo (Luke 2:1-3).\r\n\r\n7.  Ce a cantat corul de ingeri in auzul pastorilor?\r\nSlava lui Dumnezeu in locurile preainalte si pace pe pamant intre oamenii placuti Lui. (Luke 2:14).\r\n\r\n8. Care era semnul pe care ingerii l-au dat pastorilor? Ce anume trebuiau sa caute?\r\nUn prunc infasat in scutece si culcat intr-o iesle (Luke 2:12, 16-17).\r\n\r\n9. Cati magi au venit la Isus?\r\nNiste magi.\r\n\r\n10. Ce daruri au adus magii? Aur, smirna si tamaie. (Matt 2:1-2, 11).\r\n\r\n11. Unde a crescut copilul Isus?\r\nNazaret(Matt 2:23).",
+        "title": " ",
+        "text": "Imaginează-ți că ești alături de magii care merg după steaua cea nouă apărută pe cer.\r\n",
+        "questions": "Despre ce crezi ca ar vorbi aceștia între ei pe drum?\r\n\r\nCrezi că ar avea îndoieli despre direcția și motivul călătoriei lor atunci când steaua ar dispărea din când în când?\r\n\r\nCe te-ar ține pe tine motivat să continui călătoria, chiar și atunci când nu știi foarte multe detalii?\r\n\r\nCum îți imaginezi că reacționau magii atunci când steaua reapărea pe cer și-i conducea spre destinație?\r\n\r\nCam în ce fel își imaginau acei magi că ar fi noul rege al cărei naștere o anunța steaua?\r\n\r\nUnde crezi că se așteptau ei să se fi născut acest nou rege?\r\n\r\nCum crezi că își imaginau magii că sunt părinții noului rege?\r\n\r\nDacă ar fi vorbit între ei despre aceste lucruri, ce ar fi spus?\r\n\r\nCam ce anume crezi că și-au spus unii altora magii atunci când au aflat că noul rege nu s-a născut la palatul lui Irod… și când au realizat că Irod nici măcar nu știa nimic despre asta?\r\n\r\nCrezi că ai avut vreo îndoială despre reușita călătoriei lor în acel moment?\r\n\r\nBiblia spune că n-au mai putut de bucurie când au văzut că iar a apărut steaua. Crezi că au răsuflat ușurați sau de ce crezi tu ca s-au bucurat mai exact?\r\n\r\nCe crezi că au povestit când s-au întors în țara lor?\r\n\r\nCe au spus despre regele pe care l-au găsit într-o casă obișnuită, regele spre care i-a condus o stea, regele despre care un înger le-a spus în vis că Irod vrea să-l omoare?\r\n\r\nCe alte lucruri crezi că li s-au parut importante de menționat?",
         "credit": ""
       },
       {
@@ -430,9 +435,9 @@
         "images": [
           "images/street-advent/street_advent.jpg"
         ],
-        "title": "Adventul de acasă - Întrebări...",
-        "text": "Mai jos găsești linkul către un document cu întrebări. Le poți printa, împături și pune într-o cutie. Pe rând, fiecare membru al familiei poate extrage câte un bilețel și trebuie să răspundă cât mai sincer.",
-        "credit": "DOWNLOAD PDF"
+        "title": " ",
+        "text": "",
+        "credit": " "
       },
       {
         "id": "21",
