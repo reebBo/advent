@@ -192,7 +192,7 @@
       {
         "id": "3",
         "image": "images/moms-corner/mug_cake.png",
-        "text": "Mini mug cake.\r\nPentru o dimineață în care ai vrea să-ți odihnești sufletul, cu jurnalul, o carte preferată sau cu Biblia și simți nevoia să asortezi cafeaua sau ceaiul cu ceva dulce.\r\n\r\nAcesta este un desert pe care-l poți prepara in zece (10) minute.\r\n\r\nȘi astfel îți mai rămâne timp și pentru suflet. Enjoy!\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
+        "text": "Porția ta de alint - Mini mug cake.\r\nPentru o dimineață în care ai vrea să-ți odihnești sufletul, cu jurnalul, o carte preferată sau cu Biblia și simți nevoia să asortezi cafeaua sau ceaiul cu ceva dulce.\r\n\r\nAcesta este un desert pe care-l poți prepara in zece (10) minute.\r\n\r\nȘi astfel îți mai rămâne timp și pentru suflet. Enjoy!\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
         "credit": "https://lacera.ro/mini-mug-cakes/",
         "author": "Reeb",
         "song": "music/god_rest_ye_merry.mp3"
@@ -239,48 +239,48 @@
       },
       {
         "id": "9",
-        "image": "images/moms-corner/pancinello.png",
-        "text": "- Pancinello, copilul meu, în faţa mea nu este nevoie să te aperi! Mie nu-mi pasă ce spun ceilalţi despre tine!\r\n- Chiar nu-ţi pasă? Pancinello se întoarse încet şi îl privi pe meşterul tâmplar, un bărbat înalt, cu o barbă stufoasă.\r\n- Nu, şi nici ţie nu ar trebui să-ţi pese!\r\n- Cine sunt ei, să împartă etichete bune sau rele?\r\nŞi ei sunt tot omuleţi de lemn ca tine.\r\n\r\nNu contează ce gândesc ei, Pancinello, contează doar ceea ce gândesc eu, iar eu cred că eşti o persoană tare deosebită!\r\n\r\nPancinello începu să râdă:\r\nEu, deosebit? De ce aş fi deosebit? Nu pot să merg repede, nu pot să sar, vopseaua mi se duce.\r\nDe ce aş însemna ceva pentru tine?\r\n\r\nEli se uită la Pancinello, îşi puse mâna pe umărul lui micuţ şi spuse încet:\r\n- Fiindcă eşti al meu, de aceea însemni foarte mult pentru mine!",
-        "credit": "https://www.scribd.com/doc/200955869/Tu-Esti-Special-Max-Lucado",
+        "image": "images/moms-corner/prajitura_cu_ovaz_si_cocos.png",
+        "text": "Porția ta de alint- Prajitură cu ovăz și cocos\r\n\r\nÎncă o dimineață în care sperăm să te ajutăm să ai mai mult timp pentru tine, cu un desert rapid.\r\n\r\nOdihnește-ți sufletul cu jurnalul, o carte preferată sau cu Biblia și asortează-ți cafeaua sau ceaiul cu ceva dulce.\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
+        "credit": "https://lacera.ro/prajitura-cu-ovaz-si-cocos/",
         "author": "",
         "song": "music/departeNtr1iesle.mp3"
       },
       {
         "id": "10",
-        "image": "images/moms-corner/cake.jpg",
-        "text": "",
-        "credit": "https://www.bible.com/reading-plans/17563",
-        "author": "Reeb",
+        "image": "images/moms-corner/pancinello.png",
+        "text": "- Pancinello, copilul meu, în faţa mea nu este nevoie să te aperi! Mie nu-mi pasă ce spun ceilalţi despre tine!\r\n- Chiar nu-ţi pasă? Pancinello se întoarse încet şi îl privi pe meşterul tâmplar, un bărbat înalt, cu o barbă stufoasă.\r\n- Nu, şi nici ţie nu ar trebui să-ţi pese!\r\n- Cine sunt ei, să împartă etichete bune sau rele?\r\nŞi ei sunt tot omuleţi de lemn ca tine.\r\n\r\nNu contează ce gândesc ei, Pancinello, contează doar ceea ce gândesc eu, iar eu cred că eşti o persoană tare deosebită!\r\n\r\nPancinello începu să râdă:\r\nEu, deosebit? De ce aş fi deosebit? Nu pot să merg repede, nu pot să sar, vopseaua mi se duce.\r\nDe ce aş însemna ceva pentru tine?\r\n\r\nEli se uită la Pancinello, îşi puse mâna pe umărul lui micuţ şi spuse încet:\r\n- Fiindcă eşti al meu, de aceea însemni foarte mult pentru mine!",
+        "credit": "https://www.scribd.com/doc/200955869/Tu-Esti-Special-Max-Lucado",
+        "author": "",
         "song": "music/god_rest_ye_merry.mp3"
       },
       {
         "id": "11",
-        "image": "images/moms-corner/cake.jpg",
-        "text": "",
-        "credit": "https://www.youtube.com/watch?v=hlDjRzIFA4E",
-        "author": "Reeb",
+        "image": "images/moms-corner/desert_la_lipie.png",
+        "text": "Porția ta de alint - Desert la lipie\r\n\r\nUn desert simplu și făcut rapid. Atât de simplu încât nu are nevoie de multă prezentare.\r\n\r\nOdihnește-ți sufletul cu jurnalul, o carte preferată sau cu Biblia și asortează-ți cafeaua sau ceaiul cu ceva dulce.\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
+        "credit": "https://lacera.ro/desert-la-lipie/",
+        "author": "",
         "song": "music/ingeriMii.mp3"
       },
       {
         "id": "12",
         "image": "images/moms-corner/cake.jpg",
         "text": "",
-        "credit": "https://blessinks.com/count-your-blessings-gratitude-challenge/",
+        "credit": "",
         "author": "Reeb",
         "song": "music/tuEsti1stelutaMica.mp3"
       },
       {
         "id": "13",
-        "image": "images/moms-corner/cake.jpg",
-        "text": "Porția ta de alint\r\n\r\n",
-        "credit": "",
-        "author": "Reeb",
+        "image": "images/moms-corner/crakers_aperitiv.png",
+        "text": "Porția ta de alint - Crakers aperitiv\r\n\r\n Vrei o gustare fulger, care să-ți încânte papilele și privirile?\r\n\r\nPentru o dimineață cu mai mult timp pentru tine!\r\n\r\nOdihnește-ți sufletul cu jurnalul, o carte preferată sau cu Biblia și asortează-ți dimineața cu această gustare.\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
+        "credit": "https://lacera.ro/crakers-aperitiv/",
+        "author": "",
         "song": "music/laViflaim.mp3"
       },
       {
         "id": "14",
         "image": "images/moms-corner/cake.jpg",
-        "text": "Te-ai gândit vreodată că prima promisiune pe care Dumnezeu a făcut-o vreodată a fost despre Crăciun?\r\n- Genesa 3:15\r\n Concentrându-ne pe împlinirea primei făgăduințe a lui Dumnezeu, vedem că Dumnezeu este fidel Cuvântului Său!\r\n\r\nMeditează astăzi la adevărul că El te iubește atât de mult\r\nîncât L-a trimis pe Fiul Său perfect să se nască într-o lume păcătoasă,\r\nastfel încât El să  poată avea o relație cu tine.\r\n\r\nFiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul Lui Fiu,\r\npentru ca oricine crede în El să nu piară,\r\nci să aibă viaţa veşnică.\r\n- Ioan 3:16",
+        "text": "",
         "credit": "",
         "author": "Reeb",
         "song": "music/christmas_bells_are_ringing.mp3"
@@ -288,39 +288,39 @@
       {
         "id": "15",
         "image": "images/moms-corner/cake.jpg",
-        "text": "Domnul Dumnezeul tău este în mijlocul tău, ca un viteaz care poate ajuta; se va bucura de tine cu mare bucurie, va tăcea în dragostea Lui,\r\nşi nu va mai putea de veselie pentru tine.”\r\n – Ţefania 3:17\r\n\r\nÎmi place să mi-L imaginez pe Tatăl ceresc bucurându-se pentru copiii Săi în acest fel,\r\nbucurându-se pentru mine şi pentru tine.\r\n\r\nCâteodată ne este greu să înţelegem cum poate Dumnezeu să ne iubească, mai ales atunci când ne amintim de toate greşelile şi momentele în care L-am dezamăgit.\r\n\r\nSau atunci când ne simţim că nu ne ridicăm la aşteptările Sale pentru că nu facem îndeajuns pentru împărăţia Sa şi pentru slava Sa.\r\n\r\nSau atunci când ne simţim respinşi de alţii şi ne gândim dacă Dumnezeu ne-a respins şi ne-a abandonat şi El. \r\n\r\nAlină-ți sufletul gândindu-te la faptul că Dumnezeu te iubeşte tot aşa cum tu îți iubeşti copiii.",
-        "credit": "https://anchor.tfionline.com/ro/post/domnul-se-desfat-tine/",
+        "text": "",
+        "credit": "",
         "author": "Reeb",
         "song": "music/noel.mp3"
       },
       {
         "id": "16",
-        "image": "images/moms-corner/cake.jpg",
-        "text": " În Henric al Vl-lea, Shakespeare prezintă în mod poetic mulţumirea lăuntrică.\r\nUn rege trece întâmplător prin ţară şi întâlneşte doi paznici de vânătoare.\r\nLe spune că este rege. Unul dintre ei întreabă:\r\n-Eşti rege? Unde ţi-e atunci coroana?\r\n\r\nAcesta îi răspunde:\r\n-O ţin în inimă. N-o ţin pe cap. Nu are focul pietrelor din Indii.\r\nCoroanei mele-i spune mulţumire; Au rareori coroana-aceasta regii.\r\n\r\n Majoritatea dintre noi ne putem defini viaţa atât într-un mod pozitiv, cât şi într-unul negativ.\r\n\r\nAi putea scrie o listă cu lucrurile pozitive din viaţa ta, dar ai putea scrie şi o listă cu lucrurile negative. Ambele sunt adevărate, însă perspectiva lor diferă.\r\n\r\nCum îţi defineşti viaţa? \r\n -încearcă acum să enumeri lucrurile pozitive şi cele negative pe care Dumnezeu le-a îngăduit în viaţa ta. Dacă vrei, scrie-le pe două coloane! \r\nAcum vreau să-ţi pun o întrebare, pe care mi-am pus-o adesea şi mie:\r\nla care dintre cele două liste te gândeşti cel mai des?",
-        "credit": "Adaptat după 'Linişteşte-mi inima îngrijorată' - Linda Dillow",
-        "author": "Reeb",
+        "image": "images/moms-corner/hot_choco.jpg",
+        "text": "Porția ta de alint - Ciocolată caldă\r\n\r\nPentru o dimineață rece, ai aici rețeta unei băuturi delicioase care să te încălzească.\r\n\r\nOdihnește-ți sufletul cu jurnalul, o carte preferată sau cu Biblia și o cană de ciocolată.\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
+        "credit": "https://lacera.ro/ciocolata-calda/",
+        "author": "",
         "song": "music/oHollyN.mp3"
       },
       {
         "id": "17",
         "image": "images/moms-corner/cake.jpg",
-        "text": "Ce vise ai pentru acest Crăciun?\r\n\r\nNu te întreb ce cadouri ai dori.\r\n\r\nCere-i lui Dumnezeu să îți arate cum să faci această sărbătoare cu semnificație.\r\n\r\nCum să o faci să fie mai mult decât alergătură, muncă, evenimente, gătit, cumpărături, oboseală și stres.\r\n\r\nMenirea sărbătorii de Crăciun  e să ne amintească faptul că Dumnezeu poate face orice – și cu siguranță rugăciunea ta va primi răspuns",
-        "credit": "Adaptat după THE LUCADO LIFE LESSONS - CHRISTMAS DEVOTIONAL",
+        "text": "",
+        "credit": "",
         "author": "Reeb",
         "song": "music/ingeriMii.mp3"
       },
       {
         "id": "18",
-        "image": "images/moms-corner/cake.jpg",
-        "text": "Dumnezeu te iubește!\r\nDe câte ori ai auzit asta? De nenumărate ori!\r\nIată, o dată în plus, câteva variațiuni ale aceluiași adevăr:\r\n\r\nDumnezeu te iubește și îți pregătește o masă copioasă.\r\n\r\nTu nu ai timp să te oprești, pentru că ai atâtea pe cap...\r\nAi de pus masa, la rândul tău, ai de strâns masa, de strâns ciorapii de peste tot, de strâns patul, de....\r\n\r\nÎn fine....\r\nDe fiecare dată El îți va pregăti o masă copioasă. Cu tot atâta dragoste. \r\nNu te va privi cu îmbufnare când, ostenită, te prăbușești cu ultimele firimituri de răbdare, speranță și energie. \r\nNu-ți va adresa răutăcios: \r\n- Acum se vine? \r\nEl îți pregătește ȚIE o masă copioasă.\r\nȚIE!\r\nMi se satură sufletul ca de niște bucate grase și miezoase, și gura mea Te laudă cu strigăte de bucurie pe buze.",
-        "credit": "https://sweetpartyplace.com/poinsettia-pinwheel-craft-fun-christmas-craft-idea-for-kids/",
-        "author": "Reeb",
+        "image": "images/moms-corner/Mic_dejun_cald_rapid_delicios.png",
+        "text": "Porția ta de alint - Mic dejun cald, rapid si delicios. \r\n\r\n Cu cât suntem mai aproape de Crăciun, cu atât timpul pare să fie tot mai puțin, iar lucrurile de făcut ... tot mai multe.\r\n\r\nDe aceea, iată o idee de mic dejun pentru o dimineată în care să-ți mai rămână și un pic de timp pentru tine.\r\n\r\nOdihnește-ți sufletul cu jurnalul, o carte preferată sau cu Biblia și asortează-ți dimineața cu această gustare.\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
+        "credit": "https://lacera.ro/mic-dejun-cald-rapid-si-delicios/",
+        "author": "",
         "song": "music/god_rest_ye_merry.mp3"
       },
       {
         "id": "19",
         "image": "images/moms-corner/cake.jpg",
-        "text": "Dragostea Lui pentru tine nu este gratuită:\r\n'Iată-Mă, vin să fac voia Ta, Dumnezeule'!\r\n\r\nDragostea Lui pentru tine nu forțează:\r\n'Iată, Eu stau la ușă și bat'.\r\n\r\nDragostea Lui pentru tine acoperă totul: trecut, prezent și viitor.\r\n\r\nDragostea Lui pentru tine începe exact din punctul în care nu are niciun sens.\r\nȘi nu se termină niciodată:\r\n'Dragostea nu va pieri niciodată'.",
+        "text": "",
         "credit": "",
         "author": "Reeb",
         "song": "music/departeNtr1iesle.mp3"
@@ -328,23 +328,23 @@
       {
         "id": "20",
         "image": "images/moms-corner/cake.jpg",
-        "text": "În dragoste nu există frică,\r\nci dragostea desăvârşită alungă frica,\r\npentru că frica are de-a face cu pedeapsa.\r\n\r\nCel ce se teme\r\nn-a fost făcut desăvârşit în dragoste.\r\n1 Ioan 4:18",
+        "text": "",
         "credit": "",
         "author": "Reeb",
         "song": "music/oHollyN.mp3"
       },
       {
         "id": "21",
-        "image": "images/moms-corner/cake.jpg",
-        "text": "Ella fusese timp de cincizeci și doi de ani misionară în mijlocul pigmeilor din Africa.\r\nÎsi părăsise țara, familia și toate lucrurile cu care se obisnuise.\r\nCondițiile în care trăise acolo erau mai rău decăt primitive, în căldura arzătoare și umiditatea climei africane.\r\nȘi nu avea cum să le schimbe, fiindcă electricitatea, aerul condiționat și alte avantaje de-ale tehnologiei moderne erau doar un vis.\r\nÎn unele zile, caldura era atât de insuportabilă, încât trebuia să aducă termometrul înăuntru fiindcă se defecta la peste 40 grade Celsius.\r\n\r\nMimi, fiica Ellei, se tot întreba cum de reușise mama ei – cum de trăise o viață de mulțumire în condiții care l-ar fi făcut chiar și pe cel mai puternic om să se plângă.\r\nNu demult Mimi a descoperit o comoară, mult mai prețioasă decât aurul sau argintul.\r\nÎntr-un vechi jurnal al mamei sale a găsit rețeta mulțumirii: \r\nNiciodată să nu iți ingădui să te plângi de ceva – nici chiar de vremea de afară.\r\nNiciodată să nu te imaginezi în vreo altă împrejurare sau loc.\r\nNiciodată să nu iți compari soarta cu a altuia.\r\nNiciodată să nu iți doresti ca ceva să fi fost altfel.\r\nNiciodată să nu te îngândureze ziua de mâine – amintește-ți că ea Îi aparține lui Dumnezeu, nu nouă.",
-        "credit": "https://mamicile.wordpress.com/2009/01/15/reteta-multumirii/",
-        "author": "Reeb",
+        "image": "images/moms-corner/lipie_calda _aperitiv.png",
+        "text": "Porția ta de alint - Lipie caldă – aperitiv \r\n\r\nTimpul se grăbește, dar această idee de mic dejun  te poate ajuta să-ți mai rămână și un pic de timp pentru tine în această dimineață.\r\n\r\nOdihnește-ți sufletul cu jurnalul, o carte preferată sau cu Biblia și asortează-ți dimineața cu această gustare.\r\n\r\nMai jos găsesti linkul spre rețeta pregătită special pentru tine.",
+        "credit": "https://lacera.ro/lipie-calda-aperitiv/",
+        "author": "",
         "song": "music/oCome.mp3"
       },
       {
         "id": "22",
         "image": "images/moms-corner/cake.jpg",
-        "text": "Dragostea este în cameră cu tine de Crăciun.\r\n\r\nTot ce trebuie să faci e să încetezi a mai deschide cadourile\r\nși doar să asculți.\r\n- Anonim",
+        "text": "",
         "credit": "",
         "author": "Reeb",
         "song": "music/noel.mp3"
@@ -352,7 +352,7 @@
       {
         "id": "23",
         "image": "images/moms-corner/cake.jpg",
-        "text": "Isus nu a intrat în lume\r\nca să ne ajute să ne mântuim\r\nPE noi înșine.\r\n\r\nEl a intrat în lume ca să ne salveze\r\nDE noi înșine.",
+        "text": "",
         "credit": "Max Lucado, Because of Bethlehem",
         "author": "Reeb",
         "song": "music/laViflaim.mp3"
