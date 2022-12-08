@@ -9,13 +9,14 @@ import { SharedService } from 'src/app/services/shared.service';
 })
 export class CraftComponent implements OnInit {
   craft: any;
-
+  selectedYear!: number;
   constructor(
     private sharedService: SharedService,
     private contentService: DailyContentService) { }
 
   ngOnInit(): void {
     this.getCraft();
+    this.selectedYear = this.contentService.getYear();
   }
 
 

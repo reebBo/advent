@@ -11,7 +11,8 @@
         </span>
     </div>
     <div class="card-body my-3">
-        <p class="card-text" [ngClass]="craft.text.includes('Materiale necesare:')  ? 'strong' : ''">
+        <p class="card-text">
+            <!-- [ngClass]="craft.text.includes('Materiale necesare:')  ? 'strong' : ''"-->
             {{craft.text}}
         </p>
         <div class="row mx-0" *ngIf="craft.images">
@@ -25,7 +26,7 @@
         <div *ngIf="craft.questions">
             <p class="card-text"> {{craft.questions}}</p><br>
         </div><br>
-        <div *ngIf="craft.credit" class="text-white">
+        <div *ngIf="craft.credit && selectedYear==2022" class="text-white">
             <app-contest></app-contest>
 
             <a href="mailto:bucuriedeadvent@gmail.com" target="_blank"
