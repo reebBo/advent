@@ -20,15 +20,6 @@
   <div class="modal-dialog modal-md">
     <div class="modal-content">
       <div class="modal-header mx-auto">
-        <!-- <h4 id="dialog-auto-name" class="modal-title text-center">Mai sunt {{noOfDaysToAdvent}} zile până începe <span
-            id="advent">Adventul!</span>
-        </h4> -->
-      </div>
-      <div class="p-5">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
-        <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
       </div>
       <div class="modal-body">
         <h5>
@@ -51,13 +42,15 @@
           </a> <br>
           Ne-am bucura să ne scrii!
         </h5>
-        <div class="form-group">
-          <button type="button" (click)="onReset()" class="btn btn-sm btn-cancel float-right text-white">
-            OK
-          </button>
+        <div class="p-5">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
         </div>
 
-        <!-- <h3 class="mb-3">Am pregătit un concurs! Nu-l rata! <br> <span>ÎNSCRIE-TE ACUM!!!</span> </h3>
+        <h5> Dacă nu te-ai înscris la concurs încă, o poți face aici:</h5>
+        <!-- <h3 class="mb-3">Am pregătit un concurs! Nu-l rata! <br> <span>ÎNSCRIE-TE ACUM!!!</span> </h3> -->
         <div class="register-form">
           <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
             <div class="form-group">
@@ -98,7 +91,7 @@
             </div>
 
           </form>
-        </div> -->
+        </div>
 
 
       </div>
