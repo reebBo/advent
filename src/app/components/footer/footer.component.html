@@ -7,10 +7,10 @@
     <i class="fas fa-trophy"></i>
   </a>
   <div style='text-align:left; margin-top: .4em;'>
-      <iframe width="80%" height="20" scrolling="no" frameborder="no" allow="autoplay"
-      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1169795239&color=%23e18181&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+    <iframe width="80%" height="20" scrolling="no" frameborder="no" allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1169795239&color=%23e18181&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false">
+    </iframe>
   </div>
-
 </footer>
 
 
@@ -24,15 +24,40 @@
             id="advent">Adventul!</span>
         </h4> -->
       </div>
-      <div class="p-3">
+      <div class="p-5">
         <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
         <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
         <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
         <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
       </div>
       <div class="modal-body">
+        <h5>
+          Concursul nostru de la rubrica 'Un altfel de Advent' merge mai departe! <br>
+          Dacă nu ai participat încă, mai este timp. <br>
+          Spor!
+        </h5>
+        <div class="p-5">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+        </div>
+        <h5>
+          Deasemenea, dacă vrei să ne scrii și să ne lași idei, opinii, comentarii o poți face oricând prin intermediul
+          butonului <a class="btn btn-sm btn-contact small mr-2 mr-lg-5" href="mailto:bucuriedeadvent@gmail.com"
+            target="_blank">
+            Contact&nbsp;
+            <i class="fa fa-solid fa-envelope"></i>
+          </a> <br>
+          Ne-am bucura să ne scrii!
+        </h5>
+        <div class="form-group">
+          <button type="button" (click)="onReset()" class="btn btn-sm btn-cancel float-right text-white">
+            OK
+          </button>
+        </div>
 
-        <h3 class="mb-3">Am pregătit un concurs! Nu-l rata! <br> <span>ÎNSCRIE-TE ACUM!!!</span> </h3>
+        <!-- <h3 class="mb-3">Am pregătit un concurs! Nu-l rata! <br> <span>ÎNSCRIE-TE ACUM!!!</span> </h3>
         <div class="register-form">
           <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
             <div class="form-group">
@@ -73,7 +98,7 @@
             </div>
 
           </form>
-        </div>
+        </div> -->
 
 
       </div>
