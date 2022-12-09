@@ -32,9 +32,8 @@
             <a href="mailto:bucuriedeadvent@gmail.com" target="_blank"
                 class="btn-contest btn btn-sm text-white mb-5">Trimite pozele pe email</a>
         </div>
-
-        <div *ngIf="craft.credit" class="text-muted small mt-5">
-            <div *ngIf="craft.id==7">
+        <div *ngIf="craft.credit" class="text-muted small mt-3">
+            <div *ngIf="craft.id==7; else default">
                 <a href="assets/{{craft.credit}}" download="download_questions" class="clickable text-white"
                     style="text-decoration: underline;">
                     Descarcă întrebările
@@ -42,7 +41,7 @@
             </div>
 
             <ng-template #default>
-                <a [href]="craft.credit" class="text-white" style="text-decoration: underline;">{{craft.credit}}</a>
+                <a [href]="craft.credit" class="text-white" style="text-decoration: underline;" target="_blank">{{craft.credit}}</a>
             </ng-template>
         </div>
     </div>
