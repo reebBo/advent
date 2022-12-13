@@ -6,7 +6,7 @@
 
 <div class="story-card card mt-2 mb-5 mx-lg-5 px-lg-5" *ngIf="story">
     <div class="card-header row mx-0">
-        <span class="col-12 col-md-6 title h3 px-0">{{story.title}} - Ziua {{story.id}}
+        <span class="col-12 col-md-6 title h3 px-0">{{story.title}} <span class="small">- Ziua {{story.id}} </span>
             <span class="small text-muted">
                 {{story.author}}
             </span>
@@ -20,8 +20,8 @@
             <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
         </audio>
     </div>
-    <div *ngIf="story.voiceContact" class="small float-right">
-        <a class="d-flex small" target="_blank" href="{{story.voiceContact}}"><strong>
+    <div *ngIf="story.voiceContact" class="lecture float-right">
+        <a class="d-flex lecture" target="_blank" href="{{story.voiceContact}}"><strong>
                 Lectura:{{story.voice}} <i class="fab fa-facebook-square mx-1"></i></strong></a>
     </div>
 
