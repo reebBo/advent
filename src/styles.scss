@@ -77,13 +77,13 @@ audio {
   .mom-card {
     .card-body {
       overflow-y: scroll;
+      .card-text {
+        font-size: 1.3em;
+      }
     }
     height: 87%;
     .title {
-      font-size: 1em;
-    }
-    .card-text {
-      font-size: 1em;
+      font-size: 1em; 
     }
   }
 }
@@ -102,16 +102,6 @@ audio {
   .data {
     height: 70%;
   }
-  .story-card,
-  .song-card,
-  .craft-card,
-  .mom-card {
-    .card-body {
-      .card-text {
-        font-size: 1em;
-      }
-    }
-  }
 }
 
 //snow code at https://trungk18.com/experience/angular-snow-effect/
@@ -121,6 +111,10 @@ audio {
   .data {
     height: 75%; 
   }
+  .title {
+    font-size: 1.4em; 
+    color: green;
+  }
   .contest-wrapp,
   .story-card,
   .song-card,
@@ -129,11 +123,17 @@ audio {
     height: 85%;
     .card-body {
       overflow-y: scroll;
+      .card-text {
+        font-size: 1.3em;
+      }
     } 
 
     .img {
       height: 80%;
     }
+  }
+  .navigation .fa-md{
+   margin-right: 1em;
   }
 }
 @media screen and (min-width: 810px) {
@@ -147,13 +147,7 @@ audio {
     .card-body {
       overflow-y: scroll;
     }
-    height: 95%;
-    .title {
-      font-size: 1em;
-    }
-    .card-text {
-      font-size: 1.4em;
-    }
+    height: 95%; 
   }
 }
 
