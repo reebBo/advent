@@ -399,26 +399,36 @@
       {
         "id": "16",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/popcorn1.png",
+          "images/street-advent/popcorn2.png",
+          "images/street-advent/popcorn3.png"
         ],
         "title": "Adventul de acasă - Film și popcorn",
-        "text": "Care sunt cele mai năstrușnice combinații pe care le-ai încercat vreodată când vine vorba de popcorn? Preferata mea este cu sare și zahăr. Da, combinate, bineînțeles.\r\n\r\n Sau poți încerca ciocolată și sare.\r\nPoți găsi o rețetă accesând linkul din josul paginii.\r\nȘi dacă n-ai văzut încă niciunul din filmele Narnia, îți recomand să începi chiar cu 'Narnia - Leul, dulapul și vrăjitoarea'. E un film bun. Cartea bate filmul, totuși!",
+        "text": "Care sunt cele mai năstrușnice combinații pe care le-ai încercat vreodată când vine vorba de popcorn?\r\nPreferata mea este cu sare și zahăr.\r\nDa, combinate, bineînțeles.\r\n\r\n Sau poți încerca ciocolată și sare.\r\nPoți găsi o rețetă accesând linkul din josul paginii.\r\nȘi dacă n-ai văzut încă niciunul din filmele Narnia, îți recomand să începi chiar cu 'Narnia - Leul, dulapul și vrăjitoarea'.\r\nE un film bun. Cartea bate filmul, totuși!",
         "credit": "https://savoriurbane.com/popcorn-cu-caramel-sau-zahar-ars-facut-in-casa/"
       },
       {
         "id": "17",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/breakfast1.png",
+          "images/street-advent/breakfast2.png",
+          "images/street-advent/breakfast4.png",
+          "images/street-advent/breakfast5.png",
+          "images/street-advent/breakfast7.png",
+          "images/street-advent/breakfast8.png",
+          "images/street-advent/breakfast9.png",
+          "images/street-advent/breakfast10.png",
+          "images/street-advent/breakfast11.png",
+          "images/street-advent/breakfast12.png"
         ],
-        "title": "Un altfel de Advent - O altfel de poveste",
-        "text": "Imaginează-ți că ești alături de magii care merg după steaua cea nouă apărută pe cer.\r\n",
-        "questions": "Despre ce crezi ca ar vorbi aceștia între ei pe drum?\r\n\r\nCrezi că ar avea îndoieli despre direcția și motivul călătoriei lor atunci când steaua ar dispărea din când în când?\r\n\r\nCe te-ar ține pe tine motivat să continui călătoria, chiar și atunci când nu știi foarte multe detalii?\r\n\r\nCum îți imaginezi că reacționau magii atunci când steaua reapărea pe cer și-i conducea spre destinație?\r\n\r\nCam în ce fel își imaginau acei magi că ar fi noul rege al cărei naștere o anunța steaua?\r\n\r\nUnde crezi că se așteptau ei să se fi născut acest nou rege?\r\n\r\nCum crezi că își imaginau magii că sunt părinții noului rege?\r\n\r\nDacă ar fi vorbit între ei despre aceste lucruri, ce ar fi spus?\r\n\r\nCam ce anume crezi că și-au spus unii altora magii atunci când au aflat că noul rege nu s-a născut la palatul lui Irod… și când au realizat că Irod nici măcar nu știa nimic despre asta?\r\n\r\nCrezi că ai avut vreo îndoială despre reușita călătoriei lor în acel moment?\r\n\r\nBiblia spune că n-au mai putut de bucurie când au văzut că iar a apărut steaua. Crezi că au răsuflat ușurați sau de ce crezi tu ca s-au bucurat mai exact?\r\n\r\nCe crezi că au povestit când s-au întors în țara lor?\r\n\r\nCe au spus despre regele pe care l-au găsit într-o casă obișnuită, regele spre care i-a condus o stea, regele despre care un înger le-a spus în vis că Irod vrea să-l omoare?\r\n\r\nCe alte lucruri crezi că li s-au parut importante de menționat?",
-        "credit": ""
+        "title": "Adventul de acasă - Mic dejun în familie",
+        "text": "Ziua bună se cunoaște de dimineață!\r\nHai să exersăm mulțumirea la micul dejun.\r\n\r\nPrimul pas: pregătirea mesei împreună cu familia - este o ocazie bună să conștientizăm ce bine e că avem familie.\r\n\r\nÎn timpul mesei, fiecare poate să spună motive de mulțumire sau experiențe din săptămâna care a trecut.\r\n\r\nDacă vreți, vă puteți inspira din imaginile de mai jos.",
+        "credit": "pixabay.com"
       },
       {
         "id": "18",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/give.png"
         ],
         "title": "Un altfel de Advent- Adventul din stradă",
         "text": "Un Altfel de Advent = O mână întinsă.\r\n\r\nUn Altfel de Advent = Un pic de dragoste împărtășită.\r\n\r\nCu cei ce n-au nimic să ne dea la schimb.\r\n\r\nCând ieși azi la plimbare, fă un ceai fierbinte și oferă un termos de ceai unei persoane de pe stradă.\r\n\r\nIa din cozonacul/turta dulce/sărățelele sau alte bunătăți pe care le ai acasă, împachetează-le frumos, pune o inimioară confecționată de tine…  și dăruiește-le nevoiașilor de pe stradă când mergi la plimbare.",
@@ -427,10 +437,11 @@
       {
         "id": "19",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/wisemen.png"
         ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "title": "Un altfel de Advent - O altfel de poveste",
+        "text": "Așa cum am mai spus și în alte zile, când un lucru sau o poveste își pierde elementul de noutate există pericolul să nu mai fim prea impresionați.\r\nAșadar, iată provocarea de azi:\r\nImaginează-ți că ești alături de magii care merg după steaua cea nouă apărută pe cer.\r\nȘi încearcă să răspunzi la întrebările de mai jos:\r\n",
+        "questions": "Despre ce crezi ca ar vorbi aceștia între ei pe drum?\r\n\r\nCrezi că au avut îndoieli despre direcția și motivul călătoriei lor atunci când steaua a dispărut din când în când?\r\n\r\nCe te-ar ține pe tine motivat să continui călătoria, chiar și atunci când nu știi foarte multe detalii?\r\n\r\nCum îți imaginezi că reacționau magii atunci când steaua reapărea pe cer și-i conducea spre destinație?\r\n\r\nCam în ce fel crezi că își imaginau acei magi că ar fi noul rege al cărei naștere o anunța steaua?\r\n\r\nCum crezi că își imaginau magii că sunt părinții noului rege?\r\n\r\nCam ce anume crezi că și-au spus unii altora magii atunci când au aflat că noul rege nu s-a născut la palatul lui Irod… și când au realizat că Irod nici măcar nu știa nimic despre asta?\r\n\r\nCrezi că au avut vreo îndoială despre reușita călătoriei lor în acel moment?\r\n\r\nCe crezi că au povestit când s-au întors în țara lor? Ce lucruri crezi că li s-au parut importante de menționat?",
         "credit": ""
       },
       {
