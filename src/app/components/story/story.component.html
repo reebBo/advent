@@ -17,7 +17,8 @@
     </div>
     <div class="audio ml-0">
         <audio controls *ngIf="story.voice" controls class="w-100 h-50">
-            <source src="assets/{{story.mediaFile}}" type="audio/mpeg">
+            <source src="assets/{{story.mediaFile}}" type="audio/mp3">
+            Your browser does not support the audio element.
         </audio>
     </div>
     <div *ngIf="story.voiceContact" class="lecture float-right">
