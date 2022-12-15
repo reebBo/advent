@@ -29,7 +29,7 @@ export class FooterComponent implements OnInit {
   formValue = localStorage.getItem('form-data');
 
   ngOnInit(): void {
-    // localStorage.clear();
+    localStorage.clear();
     // if (!this.formValue) {
     // this.showModal();
     // }
