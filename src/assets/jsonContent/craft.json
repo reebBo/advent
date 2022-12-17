@@ -437,6 +437,27 @@
       {
         "id": "19",
         "images": [
+          "images/street-advent/baking.png"
+        ],
+        "title": "Un altfel de Advent - Adventul de acasă",
+        "text": "Familia este ca un organism viu. Fiecare membru contribuie în felul său unic și special.\r\nCu diferite abilități, gusturi diferite, idei diferite.\r\nPersonalități unice care împreună formează o unitate frumoasă.\r\nȘi n-am vrea să lipsească niciunul, așa-i?\r\n\r\nLuați-vă timp să gătiți ceva împreună astăzi.\r\n\r\nCreați împreună amintiri de neuitat! Bucurați-vă de prezența celorlalți! ",
+        "credit": ""
+      },
+      {
+        "id": "20",
+        "images": [
+          "images/street-advent/heart3D1.png",
+          "images/street-advent/heart3D2.png",
+          "images/street-advent/heart3D3.png",
+          "images/street-advent/heart3D4.png"
+        ],
+        "title": "Inimioare 3D",
+        "text": "Ai nevoie de hârtie colorată, creion, foarfece, capsator.\r\nÎn funcție de cât de mare dorești să fie inimioara/inimioarele, fă una sau mai mi multe inimioare pe hârtie, apoi decupează-le.\r\nUrmătorii pași sunt foarte ușor de urmărit în pozele de mai jos.",
+        "credit": "https://www.redtedart.com/3d-paper-hearts/"
+      },
+      {
+        "id": "21",
+        "images": [
           "images/street-advent/wisemen.png"
         ],
         "title": "Un altfel de Advent - O altfel de poveste",
@@ -445,48 +466,30 @@
         "credit": ""
       },
       {
-        "id": "20",
-        "images": [
-          "images/street-advent/street_advent.jpg"
-        ],
-        "title": " ",
-        "text": "",
-        "credit": " "
-      },
-      {
-        "id": "21",
-        "images": [
-          "images/street-advent/street_advent.jpg"
-        ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
-        "credit": ""
-      },
-      {
         "id": "22",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/gift.png"
         ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "title": "Adventul din stradă",
+        "text": "Am amintit des despre Adventul din stradă.\r\nPentru că nimic nu se compară cu bucuria pe care o experimentăm, fiecare dintre noi, atunci când vedem reacția celor cărora le dăruim.\r\nSupriza și bucuria chipului care primește un micuț cadou pregătit cu dragoste ne încălzesc inimile.\r\n\r\nAșadar, sperăm că ni te-ai alăturat provocării 'Adventul din stradă'.\r\nNu e prea târziu să o faci acum.\r\n\r\nMai jos sunt câteva idei (pe unele doar le reamintim) care te-ar putea inspira.\r\n- îngerașul: pregătește câteva pachețele și ia-le cu tine în rucsac. Fă o plimbare de seară cu familia și dăruiește pachetelele oamenilor nevoiași pe care îi vezi.\r\n- mergi la un spital și oferă câteva cadouri micuțe bolnavilor. Dacă e posibil, cântați-le și un colind. Se vor bucura cu siguranță.\r\n- Într-una din zile, ia jucăriile pe care vrei să le dăruiești altora, și mergi într-un sat din apropiere și oferă-le copiilor care se joacă pe drum.\r\nJucăriile tale vechi pot fi un cadou frumos pentru alții.\r\n-  fă un ceai fierbinte și oferă un termos de ceai unei persoane de pe stradă.",
         "credit": ""
       },
       {
         "id": "23",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/caroling.png"
         ],
         "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
-        "credit": ""
+        "text": "Colindă, colindă\r\nPrecum știi, nu peste tot în lume se merge cu colindul. În anumite culturi, este considerat nepotrivit să bați la ușa cuiva de Crăciun, fie chiar și numai pentru a-i cânta un colind. Așadar, du-te cu colindul, nu pierde ocazia!\r\nÎn partea de jos a paginii, poți descărca un fișier de colinde, dacă ai nevoie.",
+        "credit": "pdf/Colinde.pdf"
       },
       {
         "id": "24",
         "images": [
-          "images/street-advent/street_advent.jpg"
+          "images/street-advent/kindness.png"
         ],
-        "title": "Un altfel de Advent",
-        "text": "asdasda asdasda asdasdasd asdasdas c",
+        "title": "Un altfel de Advent - Dragoste mare prin gesturi mici",
+        "text": "Pune azi un zîmbet pe chipul cuiva drag printr-un gest mărunt. De exemplu:\r\n- dă-i o îmbrățișare, fără vreun alt motiv aparent\r\n- Oferă-te să îl/o ajuți la ceea ce are de făcut\r\n- spune un lucru frumos/ o apreciere\r\n- fă-i un ceai/ciocolată caldă\r\n- fă-i un card/lasă-i o notă prin care să-i spui cât de mult îl/o prețuiești",
         "credit": ""
       }
     ]
