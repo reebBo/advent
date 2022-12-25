@@ -21,9 +21,9 @@
     <div class="modal-content">
       <div class="modal-header mx-auto">
       </div>
-      <div class="modal-body">
+      <div *ngIf="(day<25&&month===12); else notAdvent" class="modal-body">
         <h5>
-          Concursul nostru de la rubrica <br> 'UN ALTFEL DE ADVENT'  <br> merge mai departe! <br>
+          Concursul nostru de la rubrica <br> 'UN ALTFEL DE ADVENT' <br> merge mai departe! <br>
           Dacă nu ai participat încă, mai este timp. <br>
           Te așteptăm!
         </h5>
@@ -92,9 +92,36 @@
 
           </form>
         </div>
-
-
       </div>
+      <ng-template #notAdvent>
+        <div class="modal-body">
+          <div>
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          </div>
+          <div class="row p-3 text-light">
+            <h4>Câștigătorii concursului din cadrul rubricii UN ALTFEL DE ADVENT vor fi anunțați săptămâna viitoare.
+            </h4>
+            <h4>Vă mulțumim pentru participare!</h4>
+          </div>
+          <div>
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+            <img class="img-fluid w-25" src="assets/images/pitici-no-bg.png" alt="pitici">
+          </div>
+          <div class="row p-3 text-light">
+            <h1>Sărbători Fericite!</h1>
+          </div>
+        </div>
+        <div class="form-group m-2">
+          <button type="button" (click)="onReset()" class="btn btn-sm float-right btn-submit text-white w-100">
+           OK
+          </button>
+        </div>
+      </ng-template>
     </div>
   </div>
 </div>

@@ -18,9 +18,9 @@ export class CalendarComponent implements OnInit {
   month = this.today.getMonth() + 1;// +1 because getMonth() returns position starting from 0
 
   ngOnInit(): void {
-    if (this.day == 25 && this.month == 12) {
-      this.router.navigateByUrl('/christmas-day');
-    }
+    // if (this.day == 25 && this.month == 12) {
+    //   this.router.navigateByUrl('/christmas-day');
+    // }
   }
 
 

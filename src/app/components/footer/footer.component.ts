@@ -28,10 +28,11 @@ export class FooterComponent implements OnInit {
   constructor(private formBuilder: FormBuilder, private contactService: ContactService) { }
   formValue = localStorage.getItem('form-data');
 
+
   ngOnInit(): void {
     localStorage.clear();
     // if (!this.formValue) {
-    // this.showModal();
+     this.showModal();
     // }
     this.registerForm = this.formBuilder.group(
       {
