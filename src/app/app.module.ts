@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
@@ -21,6 +21,7 @@ import { CraftComponent } from './components/craft/craft.component';
 import { SongComponent } from './components/song/song.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContestComponent } from './components/contest/contest.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -37,16 +38,20 @@ import { ContestComponent } from './components/contest/contest.component';
     ReplacePipe,
     NavbarComponent,
     ContestComponent,
+    
   ],
   imports: [
+    CommonModule,
     BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     CollapseModule.forRoot(),
     ModalModule.forRoot(),
-    TooltipModule.forRoot()
+    TooltipModule.forRoot(),
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

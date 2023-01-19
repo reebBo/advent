@@ -1,0 +1,44 @@
+<p>register-form works!</p>
+<h5> Dacă nu te-ai înscris la concurs încă, o poți face aici:</h5>
+<!-- <h3 class="mb-3">Am pregătit un concurs! Nu-l rata! <br> <span>ÎNSCRIE-TE ACUM!!!</span> </h3> -->
+<div class="register-form">
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Numele și Prenumele tău</label>
+      <input type="text" formControlName="full_name" class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f.full_name.errors }" />
+      <div *ngIf="submitted && f.full_name.errors" class="invalid-feedback">
+        <div *ngIf="f.full_name.errors.required">Completează Numele și Prenumele </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="text" formControlName="email" class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+      <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+        <div *ngIf="f.email.errors.required">Completează emailul</div>
+        <div *ngIf="f.email.errors.email">Emailul nu este valid</div>
+      </div>
+    </div>
+
+    <div class="form-group form-check">
+      <input type="checkbox" formControlName="acceptTerms" class="form-check-input"
+        [ngClass]="{ 'is-invalid': submitted && f.acceptTerms.errors }" />
+      <label for="acceptTerms" class="form-check-label">Sunt de acord cu salvarea și prelucrarea datelor mele.
+      </label>
+      <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">
+        Acceptarea termenilor este necesară. Nu vom împărtăși informațiile tale cu alte persoane sau organizații
+        fără permisiunea ta.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-sm btn-submit text-white">Vreau să particip</button>
+      <button type="button" (click)="onReset()" class="btn btn-sm btn-cancel float-right text-white">
+        Nu particip
+      </button>
+    </div>
+
+  </form>
+</div>

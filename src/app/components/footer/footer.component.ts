@@ -1,7 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup } from '@angular/forms';
 import { ModalDirective } from 'ngx-bootstrap/modal';
-import { ContactService } from 'src/app/services/contact.service';
 
 @Component({
   selector: 'app-footer',
@@ -12,7 +11,7 @@ export class FooterComponent implements OnInit {
   @ViewChild('autoShownModal', { static: false }) autoShownModal?: ModalDirective;
   isModalShown = false;
   // -----------
-  registerForm!: FormGroup;
+  form!: FormGroup;
   submitted = false;
   // -----------
   today = new Date();
@@ -25,80 +24,36 @@ export class FooterComponent implements OnInit {
   month = this.today.getMonth() + 1;
 
   // -----------  
-  constructor(private formBuilder: FormBuilder, private contactService: ContactService) { }
-  formValue = localStorage.getItem('form-data');
+  constructor(private formBuilder: FormBuilder) { }
+  // formValue = localStorage.getItem('form-data');
 
 
   ngOnInit(): void {
-    localStorage.clear();
-    // if (!this.formValue) {
-     this.showModal();
-    // }
-    this.registerForm = this.formBuilder.group(
-      {
-        full_name: ['', Validators.required],
-        email: ['', [Validators.required, Validators.email]],
-        acceptTerms: [false, Validators.requiredTrue]
-      });
+    // localStorage.clear();
+
+    // this.form = this.formBuilder.group(
+    //   {
+    //     full_name: ['', Validators.required],
+    //     email: ['', [Validators.required, Validators.email]],
+    //     acceptTerms: [false, Validators.requiredTrue]
+    //   });
     let difference = +this.decemberFirst - +this.today;
     this.noOfDaysToAdvent = Math.ceil(difference / this.millisecondsDay);
   }
 
-  // convenience getter for easy access to form fields
-  get f(): { [key: string]: AbstractControl } {
-    return this.registerForm.controls;
-  }
-
-  onSubmit() {
-    this.submitted = true;
-    // stop here if form is invalid
-    if (this.registerForm.invalid) {
-      return;
-    }
-    let user = {
-      name: this.registerForm.value.full_name, email: this.registerForm.value.email,
-    }
-    this.contactService.postMessage(user)
-      .subscribe(() => {
-        localStorage.setItem('form-data', JSON.stringify([this.registerForm.value.full_name, this.registerForm.value.email]));
-
-        location.href = 'https://mailthis.to/confirm';
-        this.hideModal();
-      }
-        , error => {
-          console.warn(error.responseText)
-          console.log({ error })
-        }
-      )
-    // database
-    // return this.httpClient.get('https://reeb.dk/users.php', { params: user })
-    //   .pipe(
-    //     map(a => alert('hghgy '+JSON.stringify(a)))
-    //   )
-    //   .subscribe(resp => {
-    //     console.log("hello", resp);
-    //     this.hideModal();
-    //   });
-
-  }
 
 
-  onReset(): void {
-    this.submitted = false;
-    this.registerForm.reset();
-    this.hideModal()
-  }
-
-  showModal(): void {
-    this.isModalShown = true;
-  }
-
-  hideModal(): void {
-    this.autoShownModal?.hide();
-  }
-
-  onHidden(): void {
-    this.isModalShown = false;
-  }
+  // database
+  // return this.httpClient.get('https://reeb.dk/users.php', { params: user })
+  //   .pipe(
+  //     map(a => alert('hghgy '+JSON.stringify(a)))
+  //   )
+  //   .subscribe(resp => {
+  //     console.log("hello", resp);
+  //     this.hideModal();
+  //   });
 
 }
+
+
+
