@@ -17,11 +17,7 @@ export class CalendarComponent implements OnInit {
   day = this.today.getDate();
   month = this.today.getMonth() + 1;// +1 because getMonth() returns position starting from 0
 
-  ngOnInit(): void {
-    // if (this.day == 25 && this.month == 12) {
-    //   this.router.navigateByUrl('/christmas-day');
-    // }
-  }
+  ngOnInit(): void {}
 
 
   //make days clickable only on specific days, based on date.
@@ -32,20 +28,20 @@ export class CalendarComponent implements OnInit {
     
 
     // display today and previous  
-    if ((id <= selectedDay && this.month == 12) || currentYear == 2021) {
+    // if ((id <= selectedDay && this.month == 12) || currentYear == 2021) {
       this.sharedS.updateId(id);// make id available in day component to filter content based on it
       this.router.navigateByUrl('/day');
-    }
-    else if (this.month < 12) {
-      alert(
-        ` 😁 Ești curios să vezi despre ce e vorba, nu-i așa? 😁 Merită să revii pe data de 1 DECEMBRIE, te asigur! 😁 Până atunci, poți răsfoi conținutul anului trecut, selectând butonul 2021.`
-      );
-    }
-    else {
-      alert(
-        `  😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru ziua următoare, te asigur! 😁 Pana atunci, poti consulta continutul anului trecut, selectand butonul 2021.`
-      );
-    }
+    // }
+    // else if (this.month < 12) {
+    //   alert(
+    //     ` 😁 Ești curios să vezi despre ce e vorba, nu-i așa? 😁 Merită să revii pe data de 1 DECEMBRIE, te asigur! 😁 Până atunci, poți răsfoi conținutul anului trecut, selectând butonul 2021.`
+    //   );
+    // }
+    // else {
+    //   alert(
+    //     `  😁 Aștepți cu nerăbdare să vezi ce urmează, nu-i așa? 😁 Am pregătit ceva drăguț pentru ziua următoare, te asigur! 😁 Pana atunci, poti consulta continutul anului trecut, selectand butonul 2021.`
+    //   );
+    // }
   }
 
 
