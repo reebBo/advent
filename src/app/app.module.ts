@@ -12,7 +12,6 @@ import { CountdownComponent } from './components/countdown/countdown.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { ModalModule } from 'ngx-bootstrap/modal';
-import { ChristmasDayComponent } from './components/christmas-day/christmas-day.component';
 import { MotherCornerComponent } from './components/mother-corner/mother-corner.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ReplacePipe } from './pipes/replace.pipe';
@@ -30,7 +29,6 @@ import { CommonModule } from '@angular/common';
     DayComponent,
     StoryComponent,
     CountdownComponent,
-    ChristmasDayComponent,
     CraftComponent,
     SongComponent,
     MotherCornerComponent,
