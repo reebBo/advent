@@ -6,6 +6,29 @@
 ## ng add ngx-bootstrap  --component modals
 
 ======================================================
+## This version of CLI is only compatible with Angular versions ^15.0.0 but Angular version 12.1.13 was found instead.
+to upgrade angular:
+after trying every trick in the book, from ng update, to npm uninstall and install, to --legacy-peer-dep,
+what really finaly helped is:
+- remove node_modules
+- remove package-lock.json
+- run the following commands (dependencies in package.json are automatically updated):
+npm i -g npm-check-updates
+ncu -u
+npm install
+
+npm i bootstrap@4.6.0
+ "build": {
+    "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "src/styles.scss"
+            ],
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
+         }
+======================================================
 
 ## TO USE TOOLTIPS FROM  ngx-bootstrap (after adding ngx-bootstrap to project)
 # https://www.npmjs.com/package/ngx-bootstrap
