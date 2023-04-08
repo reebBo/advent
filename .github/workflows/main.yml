@@ -30,3 +30,7 @@ jobs:
         with:
           artifacts: "dist/angular-githubaction/*"
           token: ${{ secrets.TOKEN }}
+
+          package-lock.json
+
+          node_modules/
