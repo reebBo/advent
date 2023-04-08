@@ -1,0 +1,394 @@
+{
+   "2021": {
+      "songs": [
+         {
+            "id": "1",
+            "image": "images/song-images/song1.png",
+            "mediaFile": "music/songs/Dragi_copii.mp3",
+            "text": "Dragi copii, veniți toți La Isus, fetițe şi băieți, veniți\r\nPruncului nou născut Să ne închinam smerit\r\n\r\nAleluia din clopoței, Aleluia cu îngerii\r\nAleluia, colinzi pe drum, Iar e Crăciun\r\n\r\nNoapte e, şi-n iesle Păstoraşi în paie pe Isus zăresc\r\nMaria lin cântă Pruncului Isus aşa:\r\n\r\nAleluia din clopoței, Aleluia cu îngerii\r\nAleluia, colinzi pe drum, Iar e Crăciun\r\n\r\nDragi copii, să venim în seara când cade primul fulg de nea\r\nHaideti la ieslea Sa, Să-i dăm lui Isus inima",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "2",
+            "image": "images/song-images/song2.png",
+            "mediaFile": "music/songs/Iata_cum_veni.mp3",
+            "text": "Iată cum veni la noi Domnul Isus,\r\nPruncul Sfânt venit de sus.\r\n\r\nCum Fiul lui Dumnezeu s-a coborât,\r\nCa să ne salveze de iad.\r\n\r\nEl s-a născut la miezul nopţii,\r\nAducând cu El lumina.\r\n\r\nEl a venit ca zorii zilei,\r\nÎntunericul risipind.\r\n\r\nPăstoraşii L-au căutat şi L-au găsit,\r\nŞi la iesle I s-au închinat.\r\n\r\nŞi de-atunci cine pe El L-a căutat,\r\nAșa de ușor L-a găsit.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "3",
+            "image": "images/song-images/song3.png",
+            "mediaFile": "music/songs/Emanuel.mp3",
+            "text": "Emanuel, Numele Tău\r\nÎnseamnă că Dumnezeu cu noi va fi mereu.\r\n\r\nNume sfânt şi minunat,\r\nEmanuel venit din cerul sfânt.\r\n\r\nEmanuel Tu ai rămas cu mine pas cu pas,\r\nUn Dumnezeu prezent\r\n\r\nNume sfânt, Emanuel,\r\nRămâi cu noi unit în legământ!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "4",
+            "image": "images/song-images/song4.png",
+            "mediaFile": "music/songs/O_cum_Il_laud.mp3",
+            "text": "O, cum Îl laud pe Domnul,\r\nO, cât mă bucur în Dumnezeu,\r\nEl la mine s-a uitat, m-a binecuvântat!\r\n\r\nDomnul Cel Sfânt S-a îndurat\r\nde cei ce L-au onorat\r\nÎndurarea Lui n-are apus, El ne dă tot ce a promis.\r\n\r\nCât de puternic e-al Său braț,\r\ncei mândri sunt îndepărtați\r\nPe cei umili El ‘nalță, pe flămânzi satură.\r\n\r\nDomnul Cel Sfânt nu a uitat\r\nCe El ne-a făgăduit\r\nUn Salvator El ne-a promis, și iată, ni L-a trimis.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "5",
+            "image": "images/song-images/song5.png",
+            "mediaFile": "music/songs/Noi_muntii_ehei.mp3",
+            "text": "Noi, munții, e-hei!\r\nNoi, dealuri, iu-hu!\r\nNoi, câmpii, hi-hi!\r\nNoi, copaci, ho-ho!\r\n\r\nVom cânta, ha-ha!\r\nVom striga, iu-hu!\r\nBine ai venit, Prunc din cerul sfânt!\r\n\r\nNoi, munții, e-hei!\r\nNoi, dealuri, iu-hu!\r\nNoi, câmpii, hi-hi!\r\nNoi, copaci, ho-ho!\r\nVom cânta așa: Aleluia, ha!\r\nS-a născut Isus, Mielul alb venit de sus.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "6",
+            "image": "images/song-images/song6.png",
+            "mediaFile": "music/songs/CezarAugust.mp3",
+            "text": "Cezar August când a fost împarat,\r\nA spus: poporul să fie numărat\r\nȘi fiecare la locul lui natal\r\nSă se înscrie într-un tabel.\r\n\r\nIosif, pornind din Nazaret\r\nSpre casa regelui David\r\nÎn Betleem cu Maria\r\nS-a dus să facă înscrierea.\r\n\r\nToate de Domnul s-au rânduit,\r\nProfețiile împlinind\r\nEl a promis că Betleem va fi\r\nUnde Pastorul va veni.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "7",
+            "image": "images/song-images/song7.png",
+            "mediaFile": "music/songs/IsusSaNascutIntroNoapte.mp3",
+            "text": "Isus S-a născut într-o noapte\r\nȘi o seară ajunul serbăm\r\nDarul însă primit de Crăciun\r\nTot mai cald în noi azi îl simțim\r\nCrăciunul e doar începutul\r\nDragostei lui Isus în noi\r\nDar darul primit de la Domnul\r\nTot mai cald peste ani îl simtim.\r\n\r\nO, ce ne învață Crăciunul?\r\nNe învață ca să ne iubim\r\nO, ce ne învață Crăciunul?\r\nZilnic dragoste să dăruim\r\nȘi când daruri dai seara aceasta\r\nNu uita că Domnul ar dori\r\nDragoste să dai totdeauna\r\nOriunde și în orișice zi.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "8",
+            "image": "images/song-images/song8.png",
+            "mediaFile": "music/songs/LuminiLaFerestre.mp3",
+            "text": "Lumini la ferestre și pomi de Crăciun\r\nCe veselă este inima!\r\nSunt stele pe cer și steluțe pe drum\r\nIsus s-a născut în viața mea.\r\n\r\nTra la-la-la. la-la-la!\r\nTra la-la-la, la-la!\r\nVeselă e sărbătoarea\r\nDomnul Isus ne dă veselia\r\nDoar Isus.\r\n\r\nLumini la ferestre și pomi de Crăciun\r\nCrăciun pentru lumea întreagă\r\nIsus să se nască ar vrea și acum\r\nÎn inima care e tristă.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "9",
+            "image": "images/song-images/song9.png",
+            "mediaFile": "music/songs/AuziAuzi.mp3",
+            "text": "Auzi! Auzi! Auzi! Auzi! Auzi! Auzi!\r\nAuzi! Auzi! Auzi vestea bună!\r\nUn Prunc s-a născut, Pruncul Sfânt\r\nDar din cer coborât\r\nPruncul cel făgăduit, astăzi s-a născut.\r\n\r\nAuzi! Auzi! Auzi! Auzi! Ce au spus proorocii din vechime!\r\nCei cu păr cărunt, demult, demult, nașterea prevestind\r\nPruncul cel făgăduit astăzi s-a născut.\r\n\r\nIsaia în cuvinte ‘nainte cu secole\r\nA spus că un Copil la noi vine\r\nDin ceruri: Copil minune.\r\n\r\nAuzi! Auzi! Auzi! Auzi! Auzi! Auzi!\r\nAuzi! Auzi! Auzi vestea bună!\r\nUn Prunc s-a născut, Pruncul Sfânt\r\nDar din cer coborât, Pruncul cel făgăduit,\r\nAstăzi s-a născut.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "10",
+            "image": "images/song-images/song2.png",
+            "mediaFile": "music/songs/CaciUnCopil.mp3",
+            "text": "Căci un Copil ni S-a născut\r\nAzi un Fiu ni S-a dat\r\nȘi domnia va fi pe umerii Lui\r\nȘi-L vor numi: Sfetnic, Împărat,\r\nMinunat și Domn al Păcii,\r\nPărinte-al veșniciilor,\r\nPrinț al prinților în veac. ",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "11",
+            "image": "images/song-images/song11.png",
+            "mediaFile": "music/songs/DemultDemult.mp3",
+            "text": "Demult demult în Betleem\r\nAșa-n Biblie citim,\r\nMaria un Prunc a născut,\r\nFiul Celui Prea‘Nalt.\r\n\r\nS-a Născut Domnul Isus\r\nSalvatorul promis\r\nȘi mare sărbătoare e\r\nPentru cine crede\r\n\r\nIar îngerii cântând în cor\r\nAu spus vestea tuturor\r\nCă Pruncul în iesle născut\r\nE Mântuitorul Sfant.\r\n\r\nDemult, demult în Betleem,\r\nAșa-n Biblie citim\r\nÎn iesle Isus s-a născut,\r\nFiul Cel iubit.\r\n\r\nS-a Născut Domnul Isus\r\nSalvatorul promis\r\nȘi mare sărbătoare e\r\nPentru cine crede.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "12",
+            "image": "images/song-images/song5.png",
+            "mediaFile": "music/songs/EraPeLaNserat.mp3",
+            "text": "Era pe la-nserat, când din văzduhul ‘nalt\r\nÎntâiul fulg de nea a coborât\r\nApoi stele de-argint, fereastra acoperind\r\nMi-au scris așa: “Crăciunul a sosit!”\r\n\r\nAleluia! Aleluia! Aleluia! Aleluia!\r\n\r\nE seara de ajun și nins e tot acum\r\nIar de la case se ridică fum\r\nSe-aud colindători din noapte până-n zori\r\nȘi clopote răsună-n depărtări.\r\n\r\nDe pe-ntregul pământ, colinde se aud\r\nCelui născut din cer spun: Bun venit!\r\nEl ne-a adus în dar mântuirea prin har\r\nMereu refrenu-acesta vom cânta\r\n\r\nȘi, iată nu demult, la inim-a bătut\r\nDomnul Isus, și-atunci eu L-am primit\r\nO, ceas de neuitat, atunci eu am aflat\r\nCe-nseamnă un Crăciun adevărat.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "13",
+            "image": "images/song-images/song13.png",
+            "mediaFile": "music/songs/EuSuntCerul.mp3",
+            "text": "Eu sunt cerul fără nori\r\nSeara asta am așteptat adeseori\r\nFiul lui Dumnezeu de aici s-a coborât\r\nÎntre oameni să se nască pe pământ\r\n\r\nNoi suntem stelele\r\nSeara asta am așteptat de secole\r\nPeste Betleemul mic ca să strălucim\r\nȘi în raze Pruncul Sfânt să-nvelim\r\n\r\nEu sunt luna pe cer\r\nSeara asta voi luci foarte cu zel\r\nBetleemul adormit eu am să-l privesc\r\nNașterea Pruncului Sfânt să urmăresc.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "14",
+            "image": "images/song-images/song14.png",
+            "mediaFile": "music/songs/GlorieLuiDumnezeu.mp3",
+            "text": "Gloooooorie lui Dumnezeu să-I dăm!\r\nGloooooorie lui Dumnezeu să Îi dăm!\r\n\r\nEl ne-a dat pe Fiul Său\r\nPe Mântuitorul Meu\r\nPe Cel ce e minunat\r\nSă ne fie Împărat.\r\n\r\nEl ne-a dat pe Fiul Său\r\nPe Mântuitorul Meu\r\nPe Cel ce e minunat\r\nSă ne fie Împărat.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "15",
+            "image": "images/song-images/song15.png",
+            "mediaFile": "music/songs/HaiMiAuSpusEi.mp3",
+            "text": "Hai mi-au spus ei, pa-ram-pam-pam-pam\r\nSă vezi un Prunc Rege, pa-ram-pam-pam-pam\r\nSă-I dăm daruri scumpe, pa-ram-pam-pam-pam\r\nCa unui Prinț mare!\r\nPa-ram-pam-pam-pam, rap-pam-pam-pam, ram-pam-pam-pam\r\nCând intrăm, vezi, să-L onorezi”.\r\n\r\nPruncule, am spus, pa-ram-pam-pam-pam\r\nEu sunt băiat sărac, pa-ram-pam-pam-pam\r\nN-am nici un dar să-Ți fac, pa-ram-pam-pam-pam\r\nN-aș îndrăzni deloc…\r\nPa-ram-pam-pam-pam, ram-pam-pam-pam, ram-pam-pam-pam,\r\nDar n-ai vrea să-Ți cânt, pa-ram-pam-pam-pam\r\nDin al meu dram?\r\n\r\nMaria a zis “da”; pa-ram-pam-pam-pam\r\nBoi, miei tactul băteau, pa-ram-pam-pam-pam\r\nȘi eu cântam la dram, pa-ram-pam-pam-pam\r\nCât de bine puteam,\r\nPa-ram-pam-pam-pam, ram-pam-pam-pam, ram-pam-pam-pam,\r\nIsus a zâmbit, pa-ram-pam-pam-pam\r\nLa al meu dram.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "16",
+            "image": "images/song-images/song16.png",
+            "mediaFile": "music/songs/nu_va_temeti.mp3",
+            "text": "Nu vă temeți căci vă aduc veste bună,\r\nToți îngerii în cer cântă\r\n\r\nAstăzi în cetatea lui David s-a născut\r\nMesia, cel proorocit.\r\n\r\nÎngerii se-adună în același cânt\r\nÎl laudă pe Dumnezeu toți strigând:\r\n\r\nSlavă lui Dumnezeu în cerul preaînalt,\r\nȘi pace să fie pe întregul pământ.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "17",
+            "image": "images/song-images/song7.png",
+            "mediaFile": "music/songs/OCeFrumoasaNoapte.mp3",
+            "text": "O ce frumoasă noapte!\r\nO, ce minunată noapte!\r\nCerul, pământul a atins în splendoare,\r\n\r\nO, ce frumoasă noapte!\r\nO, ce minunată noapte!\r\nNoaptea de Crăciun e o minune.\r\n\r\nTatăl ne-a trimis\r\nPe Fiul, Mesia promis\r\nCine crede-n Fiul Său\r\nAre viață-n Dumnezeu.\r\n\r\nO ce frumoasă noapte!\r\nO, ce minunată noapte!\r\nUniversul întreg\r\nRăsună în cântec\r\n\r\nO, cât de bună veste!\r\nO, ce frumoasă noapte!\r\nO, ce minunată noapte!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "18",
+            "image": "images/song-images/song18.png",
+            "mediaFile": "music/songs/SeNasteAziLaBetleem.mp3",
+            "text": "Se naște azi la Betleem, la Betleem\r\nÎn grajd smerit, un Împărat\r\nAleluia! Aleluia!\r\n\r\nSe naște azi în viața mea, în viata mea\r\nPruncul Isus, bucuria\r\nAlelui! Aleluia!\r\n\r\nAi loc pentru pruncul Isus, pruncul Isus?\r\nAi tu loc în inima ta?\r\nAleluia! Aleluia!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "19",
+            "image": "images/song-images/song19.png",
+            "mediaFile": "music/songs/SeNasteAzi1Rege.mp3",
+            "text": "Se naște azi un Rege, un Rege, un Rege\r\nSe naște azi un Rege din cel mai ales rang.\r\nPământul și cerul, cu drag, îi ies cu cânt în prag\r\nVino, și tu, ca să Îl vezi pe Pruncul născut azi.\r\n\r\nOare cât e de mare, de mare, de mare?\r\nOare cât e de mare, palatul de Rege?\r\nO, nu, Regele Împărat nu se naște-n palat,\r\nCi într-un loc sărac, smerit, acolo a venit.\r\n\r\nOare patu-i din aur, din aur, din aur?\r\nOare patul Regelui din aur e facut?\r\nO, nu! Regele azi născut, nu are niciun pat\r\nÎn iesle pe fân e culcat, Prințul din cer venit.\r\n\r\nDar oriunde se naște, se naște, se naște\r\nPruncul Isus aduce numai bucurie\r\nȘi dacă inima ta vrea să fie ieslea Sa\r\nDacă-I faci loc Pruncului Sfânt, atunci ești fericit.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "20",
+            "image": "images/song-images/song6.png",
+            "mediaFile": "music/songs/TeBucuraMaria.mp3",
+            "text": "Te bucură, Maria,\r\nCăci ți s-a făcut mult har\r\nTe bucură, Maria\r\nCăci Domnu-îi dă în dar,\r\nO, pe Fiul Cel mai scump!\r\n\r\nPlecăciune, Maria\r\nDomnul este cu tine\r\nBinecuvântat de cer\r\nEste al tău nume\r\nO, plecăciune Maria!\r\n\r\nFiul tău va fi mare\r\nVa fi plin de Duhul Sfant\r\nSi Domnul Îi va da\r\nDomnia lui David\r\nO, va fi Împărat pe pământ!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "21",
+            "image": "images/song-images/song21.png",
+            "mediaFile": "music/songs/3pastori.mp3",
+            "text": "Trei păstori au auzit\r\nNoaptea îngerii cântând:\r\nGlorie-n cerul înalt\r\nȘi pace pe pământ.\r\n\r\nAleluia! Aleluia! Aleluia! Pacea Sa!\r\n\r\nTrei magi o stea au zărit\r\nȘi-au pornit din răsărit\r\nPruncul Sfânt să îl vadă,\r\nDaruri să-I aducă.\r\n\r\nÎntr-un staul s-a născut\r\nSalvatorul mic și Sfânt\r\nBucurii să aducă\r\nÎn orișice casă.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "22",
+            "image": "images/song-images/song22.png",
+            "mediaFile": "music/songs/TuEsti1steluta.mp3",
+            "text": "Tu eşti o steluţă mică\r\nDar ce mare-i misiunea ta!\r\nO steluţă speciala,\r\nDar lumina ta va lumina...\r\n\r\nTot pământul ca să vadă,\r\nDrumul către Salvatorul Sfânt.\r\n\r\nO steluţă specială,\r\nPentru cer şi pentru pământ!\r\n\r\nTu eşti o steluţă chiar din cerul Sfânt!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "23",
+            "image": "images/song-images/song23.png",
+            "mediaFile": "music/songs/UndeEPruncul.mp3",
+            "text": "Unde e Pruncul, ce va fi Sfântul,\r\nBunul Păstor al iudeilor?\r\nCălătorind, drum nesfârșit\r\nDin răsărit noi acum am sosit.\r\n\r\nSteaua Lui mare, strălucitoare\r\nNe-a spus că-n lume\r\nO sărbătoare din ceruri a sosit\r\n\r\nUnde e Pruncul, ce va fi Sfântul?\r\nBunul Păstor, Lui să ne închinăm\r\nNoi suntem magii și-n răsărit\r\nNașterea Lui pe ceruri am văzut.\r\n\r\nAur și smirnă, Ah! din inimă,\r\nTămâie să-I dăm și pe genunchi\r\nLui să ne închinăm.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "24",
+            "image": "images/song-images/song24.png",
+            "mediaFile": "music/songs/CraciunulAVenit.mp3",
+            "text": "Crăciunul a venit\r\nS-a născut în staul Pruncul Sfânt\r\n\r\nDomnul meu Isus, de ziua Ta\r\nÎți dau în dar inima mea!\r\nÎți dau în dar inima mea!\r\n\r\nS-a născut Isus\r\nSalvatorul Cel promis\r\n\r\nÎntr-un staul cu mielușei\r\nA venit Domnul pentru noi,\r\nA venit Domnul pentru noi.\r\n\r\nS-a născut Isus,\r\nSalvatorul bun nespus\r\n\r\nS-a născut într-un staul smerit\r\nSă facă omul fericit\r\nSă facă omul fericit ",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         }
+      ]
+   },
+   "2022": {
+      "songs": [
+         {
+            "id": "1",
+            "image": "images/song-images/song1.png",
+            "mediaFile": "music/songs/Dragi_copii.mp3",
+            "text": "Dragi copii, veniți toți La Isus, fetițe şi băieți, veniți\r\nPruncului nou născut Să ne închinam smerit\r\n\r\nAleluia din clopoței, Aleluia cu îngerii\r\nAleluia, colinzi pe drum, Iar e Crăciun\r\n\r\nNoapte e, şi-n iesle Păstoraşi în paie pe Isus zăresc\r\nMaria lin cântă Pruncului Isus aşa:\r\n\r\nAleluia din clopoței, Aleluia cu îngerii\r\nAleluia, colinzi pe drum, Iar e Crăciun\r\n\r\nDragi copii, să venim în seara când cade primul fulg de nea\r\nHaideti la ieslea Sa, Să-i dăm lui Isus inima",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "2",
+            "image": "images/song-images/song2.png",
+            "mediaFile": "music/songs/Iata_cum_veni.mp3",
+            "text": "Iată cum veni la noi Domnul Isus,\r\nPruncul Sfânt venit de sus.\r\n\r\nCum Fiul lui Dumnezeu s-a coborât,\r\nCa să ne salveze de iad.\r\n\r\nEl s-a născut la miezul nopţii,\r\nAducând cu El lumina.\r\n\r\nEl a venit ca zorii zilei,\r\nÎntunericul risipind.\r\n\r\nPăstoraşii L-au căutat şi L-au găsit,\r\nŞi la iesle I s-au închinat.\r\n\r\nŞi de-atunci cine pe El L-a căutat,\r\nAșa de ușor L-a găsit.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "3",
+            "image": "images/song-images/song3.png",
+            "mediaFile": "music/songs/Emanuel.mp3",
+            "text": "Emanuel, Numele Tău\r\nÎnseamnă că Dumnezeu cu noi va fi mereu.\r\n\r\nNume sfânt şi minunat,\r\nEmanuel venit din cerul sfânt.\r\n\r\nEmanuel Tu ai rămas cu mine pas cu pas,\r\nUn Dumnezeu prezent\r\n\r\nNume sfânt, Emanuel,\r\nRămâi cu noi unit în legământ!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "4",
+            "image": "images/song-images/song4.png",
+            "mediaFile": "music/songs/O_cum_Il_laud.mp3",
+            "text": "O, cum Îl laud pe Domnul,\r\nO, cât mă bucur în Dumnezeu,\r\nEl la mine s-a uitat, m-a binecuvântat!\r\n\r\nDomnul Cel Sfânt S-a îndurat\r\nde cei ce L-au onorat\r\nÎndurarea Lui n-are apus, El ne dă tot ce a promis.\r\n\r\nCât de puternic e-al Său braț,\r\ncei mândri sunt îndepărtați\r\nPe cei umili El ‘nalță, pe flămânzi satură.\r\n\r\nDomnul Cel Sfânt nu a uitat\r\nCe El ne-a făgăduit\r\nUn Salvator El ne-a promis, și iată, ni L-a trimis.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "5",
+            "image": "images/song-images/song5.png",
+            "mediaFile": "music/songs/Noi_muntii_ehei.mp3",
+            "text": "Noi, munții, e-hei!\r\nNoi, dealuri, iu-hu!\r\nNoi, câmpii, hi-hi!\r\nNoi, copaci, ho-ho!\r\n\r\nVom cânta, ha-ha!\r\nVom striga, iu-hu!\r\nBine ai venit, Prunc din cerul sfânt!\r\n\r\nNoi, munții, e-hei!\r\nNoi, dealuri, iu-hu!\r\nNoi, câmpii, hi-hi!\r\nNoi, copaci, ho-ho!\r\nVom cânta așa: Aleluia, ha!\r\nS-a născut Isus, Mielul alb venit de sus.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "6",
+            "image": "images/song-images/song6.png",
+            "mediaFile": "music/songs/CezarAugust.mp3",
+            "text": "Cezar August când a fost împarat,\r\nA spus: poporul să fie numărat\r\nȘi fiecare la locul lui natal\r\nSă se înscrie într-un tabel.\r\n\r\nIosif, pornind din Nazaret\r\nSpre casa regelui David\r\nÎn Betleem cu Maria\r\nS-a dus să facă înscrierea.\r\n\r\nToate de Domnul s-au rânduit,\r\nProfețiile împlinind\r\nEl a promis că Betleem va fi\r\nUnde Pastorul va veni.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "7",
+            "image": "images/song-images/song7.png",
+            "mediaFile": "music/songs/IsusSaNascutIntroNoapte.mp3",
+            "text": "Isus S-a născut într-o noapte\r\nȘi o seară ajunul serbăm\r\nDarul însă primit de Crăciun\r\nTot mai cald în noi azi îl simțim\r\nCrăciunul e doar începutul\r\nDragostei lui Isus în noi\r\nDar darul primit de la Domnul\r\nTot mai cald peste ani îl simtim.\r\n\r\nO, ce ne învață Crăciunul?\r\nNe învață ca să ne iubim\r\nO, ce ne învață Crăciunul?\r\nZilnic dragoste să dăruim\r\nȘi când daruri dai seara aceasta\r\nNu uita că Domnul ar dori\r\nDragoste să dai totdeauna\r\nOriunde și în orișice zi.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "8",
+            "image": "images/song-images/song8.png",
+            "mediaFile": "music/songs/LuminiLaFerestre.mp3",
+            "text": "Lumini la ferestre și pomi de Crăciun\r\nCe veselă este inima!\r\nSunt stele pe cer și steluțe pe drum\r\nIsus s-a născut în viața mea.\r\n\r\nTra la-la-la. la-la-la!\r\nTra la-la-la, la-la!\r\nVeselă e sărbătoarea\r\nDomnul Isus ne dă veselia\r\nDoar Isus.\r\n\r\nLumini la ferestre și pomi de Crăciun\r\nCrăciun pentru lumea întreagă\r\nIsus să se nască ar vrea și acum\r\nÎn inima care e tristă.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "9",
+            "image": "images/song-images/song9.png",
+            "mediaFile": "music/songs/AuziAuzi.mp3",
+            "text": "Auzi! Auzi! Auzi! Auzi! Auzi! Auzi!\r\nAuzi! Auzi! Auzi vestea bună!\r\nUn Prunc s-a născut, Pruncul Sfânt\r\nDar din cer coborât\r\nPruncul cel făgăduit, astăzi s-a născut.\r\n\r\nAuzi! Auzi! Auzi! Auzi! Ce au spus proorocii din vechime!\r\nCei cu păr cărunt, demult, demult, nașterea prevestind\r\nPruncul cel făgăduit astăzi s-a născut.\r\n\r\nIsaia în cuvinte ‘nainte cu secole\r\nA spus că un Copil la noi vine\r\nDin ceruri: Copil minune.\r\n\r\nAuzi! Auzi! Auzi! Auzi! Auzi! Auzi!\r\nAuzi! Auzi! Auzi vestea bună!\r\nUn Prunc s-a născut, Pruncul Sfânt\r\nDar din cer coborât, Pruncul cel făgăduit,\r\nAstăzi s-a născut.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "10",
+            "image": "images/song-images/song2.png",
+            "mediaFile": "music/songs/CaciUnCopil.mp3",
+            "text": "Căci un Copil ni S-a născut\r\nAzi un Fiu ni S-a dat\r\nȘi domnia va fi pe umerii Lui\r\nȘi-L vor numi: Sfetnic, Împărat,\r\nMinunat și Domn al Păcii,\r\nPărinte-al veșniciilor,\r\nPrinț al prinților în veac. ",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "11",
+            "image": "images/song-images/song11.png",
+            "mediaFile": "music/songs/DemultDemult.mp3",
+            "text": "Demult demult în Betleem\r\nAșa-n Biblie citim,\r\nMaria un Prunc a născut,\r\nFiul Celui Prea‘Nalt.\r\n\r\nS-a Născut Domnul Isus\r\nSalvatorul promis\r\nȘi mare sărbătoare e\r\nPentru cine crede\r\n\r\nIar îngerii cântând în cor\r\nAu spus vestea tuturor\r\nCă Pruncul în iesle născut\r\nE Mântuitorul Sfant.\r\n\r\nDemult, demult în Betleem,\r\nAșa-n Biblie citim\r\nÎn iesle Isus s-a născut,\r\nFiul Cel iubit.\r\n\r\nS-a Născut Domnul Isus\r\nSalvatorul promis\r\nȘi mare sărbătoare e\r\nPentru cine crede.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "12",
+            "image": "images/song-images/song5.png",
+            "mediaFile": "music/songs/EraPeLaNserat.mp3",
+            "text": "Era pe la-nserat, când din văzduhul ‘nalt\r\nÎntâiul fulg de nea a coborât\r\nApoi stele de-argint, fereastra acoperind\r\nMi-au scris așa: “Crăciunul a sosit!”\r\n\r\nAleluia! Aleluia! Aleluia! Aleluia!\r\n\r\nE seara de ajun și nins e tot acum\r\nIar de la case se ridică fum\r\nSe-aud colindători din noapte până-n zori\r\nȘi clopote răsună-n depărtări.\r\n\r\nDe pe-ntregul pământ, colinde se aud\r\nCelui născut din cer spun: Bun venit!\r\nEl ne-a adus în dar mântuirea prin har\r\nMereu refrenu-acesta vom cânta\r\n\r\nȘi, iată nu demult, la inim-a bătut\r\nDomnul Isus, și-atunci eu L-am primit\r\nO, ceas de neuitat, atunci eu am aflat\r\nCe-nseamnă un Crăciun adevărat.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "13",
+            "image": "images/song-images/song13.png",
+            "mediaFile": "music/songs/EuSuntCerul.mp3",
+            "text": "Eu sunt cerul fără nori\r\nSeara asta am așteptat adeseori\r\nFiul lui Dumnezeu de aici s-a coborât\r\nÎntre oameni să se nască pe pământ\r\n\r\nNoi suntem stelele\r\nSeara asta am așteptat de secole\r\nPeste Betleemul mic ca să strălucim\r\nȘi în raze Pruncul Sfânt să-nvelim\r\n\r\nEu sunt luna pe cer\r\nSeara asta voi luci foarte cu zel\r\nBetleemul adormit eu am să-l privesc\r\nNașterea Pruncului Sfânt să urmăresc.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "14",
+            "image": "images/song-images/song14.png",
+            "mediaFile": "music/songs/GlorieLuiDumnezeu.mp3",
+            "text": "Gloooooorie lui Dumnezeu să-I dăm!\r\nGloooooorie lui Dumnezeu să Îi dăm!\r\n\r\nEl ne-a dat pe Fiul Său\r\nPe Mântuitorul Meu\r\nPe Cel ce e minunat\r\nSă ne fie Împărat.\r\n\r\nEl ne-a dat pe Fiul Său\r\nPe Mântuitorul Meu\r\nPe Cel ce e minunat\r\nSă ne fie Împărat.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "15",
+            "image": "images/song-images/song15.png",
+            "mediaFile": "music/songs/HaiMiAuSpusEi.mp3",
+            "text": "Hai mi-au spus ei, pa-ram-pam-pam-pam\r\nSă vezi un Prunc Rege, pa-ram-pam-pam-pam\r\nSă-I dăm daruri scumpe, pa-ram-pam-pam-pam\r\nCa unui Prinț mare!\r\nPa-ram-pam-pam-pam, rap-pam-pam-pam, ram-pam-pam-pam\r\nCând intrăm, vezi, să-L onorezi”.\r\n\r\nPruncule, am spus, pa-ram-pam-pam-pam\r\nEu sunt băiat sărac, pa-ram-pam-pam-pam\r\nN-am nici un dar să-Ți fac, pa-ram-pam-pam-pam\r\nN-aș îndrăzni deloc…\r\nPa-ram-pam-pam-pam, ram-pam-pam-pam, ram-pam-pam-pam,\r\nDar n-ai vrea să-Ți cânt, pa-ram-pam-pam-pam\r\nDin al meu dram?\r\n\r\nMaria a zis “da”; pa-ram-pam-pam-pam\r\nBoi, miei tactul băteau, pa-ram-pam-pam-pam\r\nȘi eu cântam la dram, pa-ram-pam-pam-pam\r\nCât de bine puteam,\r\nPa-ram-pam-pam-pam, ram-pam-pam-pam, ram-pam-pam-pam,\r\nIsus a zâmbit, pa-ram-pam-pam-pam\r\nLa al meu dram.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "16",
+            "image": "images/song-images/song16.png",
+            "mediaFile": "music/songs/nu_va_temeti.mp3",
+            "text": "Nu vă temeți căci vă aduc veste bună,\r\nToți îngerii în cer cântă\r\n\r\nAstăzi în cetatea lui David s-a născut\r\nMesia, cel proorocit.\r\n\r\nÎngerii se-adună în același cânt\r\nÎl laudă pe Dumnezeu toți strigând:\r\n\r\nSlavă lui Dumnezeu în cerul preaînalt,\r\nȘi pace să fie pe întregul pământ.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "17",
+            "image": "images/song-images/song7.png",
+            "mediaFile": "music/songs/OCeFrumoasaNoapte.mp3",
+            "text": "O ce frumoasă noapte!\r\nO, ce minunată noapte!\r\nCerul, pământul a atins în splendoare,\r\n\r\nO, ce frumoasă noapte!\r\nO, ce minunată noapte!\r\nNoaptea de Crăciun e o minune.\r\n\r\nTatăl ne-a trimis\r\nPe Fiul, Mesia promis\r\nCine crede-n Fiul Său\r\nAre viață-n Dumnezeu.\r\n\r\nO ce frumoasă noapte!\r\nO, ce minunată noapte!\r\nUniversul întreg\r\nRăsună în cântec\r\n\r\nO, cât de bună veste!\r\nO, ce frumoasă noapte!\r\nO, ce minunată noapte!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "18",
+            "image": "images/song-images/song18.png",
+            "mediaFile": "music/songs/SeNasteAziLaBetleem.mp3",
+            "text": "Se naște azi la Betleem, la Betleem\r\nÎn grajd smerit, un Împărat\r\nAleluia! Aleluia!\r\n\r\nSe naște azi în viața mea, în viata mea\r\nPruncul Isus, bucuria\r\nAlelui! Aleluia!\r\n\r\nAi loc pentru pruncul Isus, pruncul Isus?\r\nAi tu loc în inima ta?\r\nAleluia! Aleluia!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "19",
+            "image": "images/song-images/song19.png",
+            "mediaFile": "music/songs/SeNasteAzi1Rege.mp3",
+            "text": "Se naște azi un Rege, un Rege, un Rege\r\nSe naște azi un Rege din cel mai ales rang.\r\nPământul și cerul, cu drag, îi ies cu cânt în prag\r\nVino, și tu, ca să Îl vezi pe Pruncul născut azi.\r\n\r\nOare cât e de mare, de mare, de mare?\r\nOare cât e de mare, palatul de Rege?\r\nO, nu, Regele Împărat nu se naște-n palat,\r\nCi într-un loc sărac, smerit, acolo a venit.\r\n\r\nOare patu-i din aur, din aur, din aur?\r\nOare patul Regelui din aur e facut?\r\nO, nu! Regele azi născut, nu are niciun pat\r\nÎn iesle pe fân e culcat, Prințul din cer venit.\r\n\r\nDar oriunde se naște, se naște, se naște\r\nPruncul Isus aduce numai bucurie\r\nȘi dacă inima ta vrea să fie ieslea Sa\r\nDacă-I faci loc Pruncului Sfânt, atunci ești fericit.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "20",
+            "image": "images/song-images/song6.png",
+            "mediaFile": "music/songs/TeBucuraMaria.mp3",
+            "text": "Te bucură, Maria,\r\nCăci ți s-a făcut mult har\r\nTe bucură, Maria\r\nCăci Domnu-îi dă în dar,\r\nO, pe Fiul Cel mai scump!\r\n\r\nPlecăciune, Maria\r\nDomnul este cu tine\r\nBinecuvântat de cer\r\nEste al tău nume\r\nO, plecăciune Maria!\r\n\r\nFiul tău va fi mare\r\nVa fi plin de Duhul Sfant\r\nSi Domnul Îi va da\r\nDomnia lui David\r\nO, va fi Împărat pe pământ!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "21",
+            "image": "images/song-images/song21.png",
+            "mediaFile": "music/songs/3pastori.mp3",
+            "text": "Trei păstori au auzit\r\nNoaptea îngerii cântând:\r\nGlorie-n cerul înalt\r\nȘi pace pe pământ.\r\n\r\nAleluia! Aleluia! Aleluia! Pacea Sa!\r\n\r\nTrei magi o stea au zărit\r\nȘi-au pornit din răsărit\r\nPruncul Sfânt să îl vadă,\r\nDaruri să-I aducă.\r\n\r\nÎntr-un staul s-a născut\r\nSalvatorul mic și Sfânt\r\nBucurii să aducă\r\nÎn orișice casă.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "22",
+            "image": "images/song-images/song22.png",
+            "mediaFile": "music/songs/TuEsti1steluta.mp3",
+            "text": "Tu eşti o steluţă mică\r\nDar ce mare-i misiunea ta!\r\nO steluţă speciala,\r\nDar lumina ta va lumina...\r\n\r\nTot pământul ca să vadă,\r\nDrumul către Salvatorul Sfânt.\r\n\r\nO steluţă specială,\r\nPentru cer şi pentru pământ!\r\n\r\nTu eşti o steluţă chiar din cerul Sfânt!",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "23",
+            "image": "images/song-images/song23.png",
+            "mediaFile": "music/songs/UndeEPruncul.mp3",
+            "text": "Unde e Pruncul, ce va fi Sfântul,\r\nBunul Păstor al iudeilor?\r\nCălătorind, drum nesfârșit\r\nDin răsărit noi acum am sosit.\r\n\r\nSteaua Lui mare, strălucitoare\r\nNe-a spus că-n lume\r\nO sărbătoare din ceruri a sosit\r\n\r\nUnde e Pruncul, ce va fi Sfântul?\r\nBunul Păstor, Lui să ne închinăm\r\nNoi suntem magii și-n răsărit\r\nNașterea Lui pe ceruri am văzut.\r\n\r\nAur și smirnă, Ah! din inimă,\r\nTămâie să-I dăm și pe genunchi\r\nLui să ne închinăm.",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         },
+         {
+            "id": "24",
+            "image": "images/song-images/song24.png",
+            "mediaFile": "music/songs/CraciunulAVenit.mp3",
+            "text": "Crăciunul a venit\r\nS-a născut în staul Pruncul Sfânt\r\n\r\nDomnul meu Isus, de ziua Ta\r\nÎți dau în dar inima mea!\r\nÎți dau în dar inima mea!\r\n\r\nS-a născut Isus\r\nSalvatorul Cel promis\r\n\r\nÎntr-un staul cu mielușei\r\nA venit Domnul pentru noi,\r\nA venit Domnul pentru noi.\r\n\r\nS-a născut Isus,\r\nSalvatorul bun nespus\r\n\r\nS-a născut într-un staul smerit\r\nSă facă omul fericit\r\nSă facă omul fericit ",
+            "textCredit": "Genovieva Sfatcu Beattie",
+            "interpretare": "Corul Sion din Iași"
+         }
+      ]
+   }
+}
